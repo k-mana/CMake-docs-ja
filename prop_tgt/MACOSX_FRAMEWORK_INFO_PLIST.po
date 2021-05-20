@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:2
+msgid "MACOSX_FRAMEWORK_INFO_PLIST"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:4
+msgid "Specify a custom ``Info.plist`` template for a macOS and iOS Framework."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:6
+msgid ""
+"A library target with :prop_tgt:`FRAMEWORK` enabled will be built as a "
+"framework on macOS.  By default its ``Info.plist`` file is created by "
+"configuring a template called ``MacOSXFrameworkInfo.plist.in`` located in"
+" the :variable:`CMAKE_MODULE_PATH`.  This property specifies an "
+"alternative template file name which may be a full path."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:12
+msgid ""
+"The following target properties may be set to specify content to be "
+"configured into the file:"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:15
+msgid "``MACOSX_FRAMEWORK_BUNDLE_VERSION``"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:16
+msgid "Sets ``CFBundleVersion``."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:17
+msgid "``MACOSX_FRAMEWORK_ICON_FILE``"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:18
+msgid "Sets ``CFBundleIconFile``."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:19
+msgid "``MACOSX_FRAMEWORK_IDENTIFIER``"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:20
+msgid "Sets ``CFBundleIdentifier``."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:22
+msgid "``MACOSX_FRAMEWORK_SHORT_VERSION_STRING``"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:22
+msgid "Sets ``CFBundleShortVersionString``."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/MACOSX_FRAMEWORK_INFO_PLIST.rst:24
+msgid ""
+"CMake variables of the same name may be set to affect all targets in a "
+"directory that do not have each specific property set.  If a custom "
+"``Info.plist`` is specified by this property it may of course hard-code "
+"all the settings instead of using the target properties."
+msgstr ""
+

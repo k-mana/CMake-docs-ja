@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/CUDA_RESOLVE_DEVICE_SYMBOLS.rst:2
+msgid "CUDA_RESOLVE_DEVICE_SYMBOLS"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RESOLVE_DEVICE_SYMBOLS.rst:6
+msgid ""
+"CUDA only: Enables device linking for the specific library target where "
+"required."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RESOLVE_DEVICE_SYMBOLS.rst:9
+msgid ""
+"If set, this will tell the required compilers to enable device linking on"
+" the library target. Device linking is an additional link step required "
+"by some CUDA compilers when :prop_tgt:`CUDA_SEPARABLE_COMPILATION` is "
+"enabled. Normally device linking is deferred until a shared library or "
+"executable is generated, allowing for multiple static libraries to "
+"resolve device symbols at the same time when they are used by a shared "
+"library or executable."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RESOLVE_DEVICE_SYMBOLS.rst:17
+msgid ""
+"By default static library targets have this property is disabled, while "
+"shared, module, and executable targets have this property enabled."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RESOLVE_DEVICE_SYMBOLS.rst:20
+msgid "Note that device linking is not supported for :ref:`Object Libraries`."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RESOLVE_DEVICE_SYMBOLS.rst:23
+msgid "For instance:"
+msgstr ""
+

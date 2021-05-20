@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/enable_language.rst:2
+msgid "enable_language"
+msgstr ""
+
+#: ../../CMake/Help/command/enable_language.rst:3
+msgid "Enable a language (CXX/C/OBJC/OBJCXX/Fortran/etc)"
+msgstr ""
+
+#: ../../CMake/Help/command/enable_language.rst:9
+msgid ""
+"Enables support for the named language in CMake.  This is the same as the"
+" :command:`project` command but does not create any of the extra "
+"variables that are created by the project command.  Example languages are"
+" ``CXX``, ``C``, ``CUDA``, ``OBJC``, ``OBJCXX``, ``Fortran``, ``ISPC``, "
+"and ``ASM``."
+msgstr ""
+
+#: ../../CMake/Help/command/enable_language.rst:15
+msgid "Added ``CUDA`` support."
+msgstr ""
+
+#: ../../CMake/Help/command/enable_language.rst:18
+msgid "Added ``OBJC`` and ``OBJCXX`` support."
+msgstr ""
+
+#: ../../CMake/Help/command/enable_language.rst:21
+msgid "Added ``ISPC`` support."
+msgstr ""
+
+#: ../../CMake/Help/command/enable_language.rst:24
+msgid ""
+"If enabling ``ASM``, enable it last so that CMake can check whether "
+"compilers for other languages like ``C`` work for assembly too."
+msgstr ""
+
+#: ../../CMake/Help/command/enable_language.rst:27
+msgid ""
+"This command must be called in file scope, not in a function call. "
+"Furthermore, it must be called in the highest directory common to all "
+"targets using the named language directly for compiling sources or "
+"indirectly through link dependencies.  It is simplest to enable all "
+"needed languages in the top-level directory of a project."
+msgstr ""
+
+#: ../../CMake/Help/command/enable_language.rst:33
+msgid ""
+"The ``OPTIONAL`` keyword is a placeholder for future implementation and "
+"does not currently work. Instead you can use the :module:`CheckLanguage` "
+"module to verify support before enabling."
+msgstr ""
+

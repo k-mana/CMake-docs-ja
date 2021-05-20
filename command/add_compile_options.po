@@ -1,0 +1,100 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/add_compile_options.rst:2
+msgid "add_compile_options"
+msgstr ""
+
+#: ../../CMake/Help/command/add_compile_options.rst:4
+msgid "Add options to the compilation of source files."
+msgstr ""
+
+#: ../../CMake/Help/command/add_compile_options.rst:10
+msgid ""
+"Adds options to the :prop_dir:`COMPILE_OPTIONS` directory property. These"
+" options are used when compiling targets from the current directory and "
+"below."
+msgstr ""
+
+#: ../../CMake/Help/command/add_compile_options.rst:15
+msgid "Arguments"
+msgstr ""
+
+#: ../../CMake/Help/command/add_compile_options.rst:17
+msgid ""
+"Arguments to ``add_compile_options`` may use \"generator expressions\" "
+"with the syntax ``$<...>``.  See the :manual:`cmake-generator-"
+"expressions(7)` manual for available expressions.  See the :manual"
+":`cmake-buildsystem(7)` manual for more on defining buildsystem "
+"properties."
+msgstr ""
+
+#: ../../CMake/Help/command/OPTIONS_SHELL.txt:1
+msgid ""
+"The final set of compile or link options used for a target is constructed"
+" by accumulating options from the current target and the usage "
+"requirements of its dependencies.  The set of options is de-duplicated to"
+" avoid repetition."
+msgstr ""
+
+#: ../../CMake/Help/command/OPTIONS_SHELL.txt:5
+msgid ""
+"While beneficial for individual options, the de-duplication step can "
+"break up option groups.  For example, ``-D A -D B`` becomes ``-D A B``.  "
+"One may specify a group of options using shell-like quoting along with a "
+"``SHELL:`` prefix.  The ``SHELL:`` prefix is dropped, and the rest of the"
+" option string is parsed using the :command:`separate_arguments` "
+"``UNIX_COMMAND`` mode. For example, ``\"SHELL:-D A\" \"SHELL:-D B\"`` "
+"becomes ``-D A -D B``."
+msgstr ""
+
+#: ../../CMake/Help/command/add_compile_options.rst:25
+msgid "Example"
+msgstr ""
+
+#: ../../CMake/Help/command/add_compile_options.rst:27
+msgid ""
+"Since different compilers support different options, a typical use of "
+"this command is in a compiler-specific conditional clause:"
+msgstr ""
+
+#: ../../CMake/Help/command/add_compile_options.rst:41
+msgid "See Also"
+msgstr ""
+
+#: ../../CMake/Help/command/add_compile_options.rst:43
+msgid ""
+"This command can be used to add any options. However, for adding "
+"preprocessor definitions and include directories it is recommended to use"
+" the more specific commands :command:`add_compile_definitions` and "
+":command:`include_directories`."
+msgstr ""
+
+#: ../../CMake/Help/command/add_compile_options.rst:48
+msgid ""
+"The command :command:`target_compile_options` adds target-specific "
+"options."
+msgstr ""
+
+#: ../../CMake/Help/command/add_compile_options.rst:50
+msgid ""
+"The source file property :prop_sf:`COMPILE_OPTIONS` adds options to one "
+"source file."
+msgstr ""
+

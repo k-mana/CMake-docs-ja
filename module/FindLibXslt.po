@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindLibXslt.cmake:6
+msgid "FindLibXslt"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:8
+msgid ""
+"Find the XSL Transformations, Extensible Stylesheet Language "
+"Transformations (XSLT) library (LibXslt)"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:12
+msgid "IMPORTED Targets"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:16
+msgid "The following :prop_tgt:`IMPORTED` targets may be defined:"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:18
+msgid "``LibXslt::LibXslt``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:19
+msgid "If the libxslt library has been found"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:20
+msgid "``LibXslt::LibExslt``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:21
+msgid "If the libexslt library has been found"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:23
+msgid "``LibXslt::xsltproc``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:23
+msgid "If the xsltproc command-line executable has been found"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:26
+msgid "Result variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:28
+msgid "This module will set the following variables in your project:"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:30
+msgid ""
+"LIBXSLT_FOUND - system has LibXslt LIBXSLT_INCLUDE_DIR - the LibXslt "
+"include directory LIBXSLT_LIBRARIES - Link these to LibXslt "
+"LIBXSLT_DEFINITIONS - Compiler switches required for using LibXslt "
+"LIBXSLT_VERSION_STRING - version of LibXslt found (since CMake 2.8.8)"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:36
+msgid ""
+"Additionally, the following two variables are set (but not required for "
+"using xslt):"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:40
+msgid "``LIBXSLT_EXSLT_INCLUDE_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:40
+msgid "The include directory for exslt."
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:42
+msgid "``LIBXSLT_EXSLT_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:43
+msgid "Link to these if you need to link against the exslt library."
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:134
+msgid "``LIBXSLT_XSLTPROC_EXECUTABLE``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXslt.cmake:45
+msgid "Contains the full path to the xsltproc executable if found."
+msgstr ""
+

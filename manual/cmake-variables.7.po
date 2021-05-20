@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:4
+msgid "cmake-variables(7)"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:7
+msgid "Contents"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:10
+msgid ""
+"This page documents variables that are provided by CMake or have meaning "
+"to CMake when set by project code."
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:13
+msgid ""
+"For general information on variables, see the :ref:`Variables <CMake "
+"Language Variables>` section in the cmake-language manual."
+msgstr ""
+
+#: ../../CMake/Help/manual/ID_RESERVE.txt:3
+msgid "CMake reserves identifiers that:"
+msgstr ""
+
+#: ../../CMake/Help/manual/ID_RESERVE.txt:5
+msgid "begin with ``CMAKE_`` (upper-, lower-, or mixed-case), or"
+msgstr ""
+
+#: ../../CMake/Help/manual/ID_RESERVE.txt:6
+msgid "begin with ``_CMAKE_`` (upper-, lower-, or mixed-case), or"
+msgstr ""
+
+#: ../../CMake/Help/manual/ID_RESERVE.txt:7
+msgid ""
+"begin with ``_`` followed by the name of any :manual:`CMake Command "
+"<cmake-commands(7)>`."
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:20
+msgid "Variables that Provide Information"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:151
+msgid "Variables that Change Behavior"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:273
+msgid "Variables that Describe the System"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:326
+msgid "Variables that Control the Build"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:496
+msgid "Variables for Languages"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:583
+msgid "Variables for CTest"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:663
+msgid "Variables for CPack"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:678
+msgid "Variable Expansion Operators"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:687
+msgid "Internal Variables"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-variables.7.rst:689
+msgid ""
+"CMake has many internal variables.  Most of them are undocumented. Some "
+"of them, however, were at some point described as normal variables, and "
+"therefore may be encountered in legacy code. They are subject to change, "
+"and not recommended for use in project code."
+msgstr ""
+

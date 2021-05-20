@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindDCMTK.cmake:6
+msgid "FindDCMTK"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:8
+msgid "Find DICOM ToolKit (DCMTK) libraries and applications"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:10
+msgid "The module defines the following variables::"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:18
+msgid "Compatibility"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:20
+msgid ""
+"This module is able to find a version of DCMTK that does or does not "
+"export a *DCMTKConfig.cmake* file. It applies a two step process:"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:23
+msgid ""
+"Step 1:  Attempt to find DCMTK version providing a *DCMTKConfig.cmake* "
+"file."
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:24
+msgid ""
+"Step 2:  If step 1 failed, rely on *FindDCMTK.cmake* to set `DCMTK_*` "
+"variables details below."
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:27
+msgid ""
+"`Recent DCMTK "
+"<http://git.dcmtk.org/web?p=dcmtk.git;a=commit;h=662ae187c493c6b9a73dd5e3875372cebd0c11fe>`_"
+" provides a *DCMTKConfig.cmake* :manual:`package configuration file "
+"<cmake-packages(7)>`. To exclusively use the package configuration file "
+"(recommended when possible), pass the `NO_MODULE` option to "
+":command:`find_package`. For example, `find_package(DCMTK NO_MODULE)`. "
+"This requires official DCMTK snapshot *3.6.1_20140617* or newer."
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:36
+msgid ""
+"Until all clients update to the more recent DCMTK, build systems will "
+"need to support different versions of DCMTK."
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:39
+msgid ""
+"On any given system, the following combinations of DCMTK versions could "
+"be considered:"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:43
+msgid "SYSTEM DCMTK"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:43
+msgid "LOCAL DCMTK"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:43
+msgid "Supported ?"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:45
+msgid "Case A"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:45
+#: ../../CMake/Modules/FindDCMTK.cmake:47
+#: ../../CMake/Modules/FindDCMTK.cmake:49
+#: ../../CMake/Modules/FindDCMTK.cmake:51
+msgid "NA"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:45
+#: ../../CMake/Modules/FindDCMTK.cmake:49
+#: ../../CMake/Modules/FindDCMTK.cmake:53
+#: ../../CMake/Modules/FindDCMTK.cmake:55
+#: ../../CMake/Modules/FindDCMTK.cmake:57
+msgid "[ ] DCMTKConfig"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:45
+#: ../../CMake/Modules/FindDCMTK.cmake:47
+#: ../../CMake/Modules/FindDCMTK.cmake:49
+#: ../../CMake/Modules/FindDCMTK.cmake:51
+#: ../../CMake/Modules/FindDCMTK.cmake:57
+#: ../../CMake/Modules/FindDCMTK.cmake:59
+msgid "YES"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:47
+msgid "Case B"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:47
+#: ../../CMake/Modules/FindDCMTK.cmake:51
+#: ../../CMake/Modules/FindDCMTK.cmake:55
+#: ../../CMake/Modules/FindDCMTK.cmake:57
+#: ../../CMake/Modules/FindDCMTK.cmake:59
+msgid "[X] DCMTKConfig"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:49
+msgid "Case C"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:51
+msgid "Case D"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:53
+msgid "Case E"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:53
+msgid "YES (*)"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:55
+msgid "Case F"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:55
+msgid "NO"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:57
+msgid "Case G"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:59
+msgid "Case H"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:62
+msgid "(*) See Troubleshooting section."
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:64
+msgid "Legend:"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:66
+msgid "NA ...............: Means that no System or Local DCMTK is available"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:68
+msgid ""
+"[ ] DCMTKConfig ..: Means that the version of DCMTK does NOT export a "
+"DCMTKConfig.cmake file."
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:70
+msgid ""
+"[X] DCMTKConfig ..: Means that the version of DCMTK exports a "
+"DCMTKConfig.cmake file."
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:74
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:76
+msgid "What to do if my project finds a different version of DCMTK?"
+msgstr ""
+
+#: ../../CMake/Modules/FindDCMTK.cmake:78
+msgid ""
+"Remove DCMTK entry from the CMake cache per :command:`find_package` "
+"documentation."
+msgstr ""
+

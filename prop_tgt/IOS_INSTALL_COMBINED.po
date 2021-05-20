@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/IOS_INSTALL_COMBINED.rst:2
+msgid "IOS_INSTALL_COMBINED"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/IOS_INSTALL_COMBINED.rst:6
+msgid "Build a combined (device and simulator) target when installing."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/IOS_INSTALL_COMBINED.rst:8
+msgid ""
+"When this property is set to set to false (which is the default) then it "
+"will either be built with the device SDK or the simulator SDK depending "
+"on the SDK set. But if this property is set to true then the target will "
+"at install time also be built for the corresponding SDK and combined into"
+" one library."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/IOS_INSTALL_COMBINED.rst:15
+msgid ""
+"If a selected architecture is available for both: device SDK and "
+"simulator SDK it will be built for the SDK selected by "
+":variable:`CMAKE_OSX_SYSROOT` and removed from the corresponding SDK."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/IOS_INSTALL_COMBINED.rst:19
+msgid "This feature requires at least Xcode version 6."
+msgstr ""
+

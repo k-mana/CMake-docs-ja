@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:6
+msgid "FindwxWidgets"
+msgstr ""
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:8
+msgid "Find a wxWidgets (a.k.a., wxWindows) installation."
+msgstr ""
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:10
+msgid ""
+"This module finds if wxWidgets is installed and selects a default "
+"configuration to use.  wxWidgets is a modular library.  To specify the "
+"modules that you will use, you need to name them as components to the "
+"package:"
+msgstr ""
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:15
+msgid ""
+"find_package(wxWidgets COMPONENTS core base ... OPTIONAL_COMPONENTS net "
+"...)"
+msgstr ""
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:17
+msgid ""
+"Support for :command:`find_package` version argument; ``webview`` "
+"component."
+msgstr ""
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:20
+msgid "``OPTIONAL_COMPONENTS`` support."
+msgstr ""
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:23
+msgid ""
+"There are two search branches: a windows style and a unix style.  For "
+"windows, the following variables are searched for and set to defaults in "
+"case of multiple choices.  Change them if the defaults are not desired "
+"(i.e., these are the only variables you should change to select a "
+"configuration):"
+msgstr ""
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:44
+msgid ""
+"For unix style it uses the wx-config utility.  You can select between "
+"debug/release, unicode/ansi, universal/non-universal, and static/shared "
+"in the QtDialog or ccmake interfaces by turning ON/OFF the following "
+"variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:58
+msgid ""
+"There is also a wxWidgets_CONFIG_OPTIONS variable for all other options "
+"that need to be passed to the wx-config utility.  For example, to use the"
+" base toolkit found in the /usr/local path, set the variable (before "
+"calling the FIND_PACKAGE command) as such:"
+msgstr ""
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:69
+msgid ""
+"The following are set after the configuration is done for both windows "
+"and unix style:"
+msgstr ""
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:91
+msgid ""
+"The following environment variables can be used as hints: ``WX_CONFIG``, "
+"``WXRC_CMD``."
+msgstr ""
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:96
+msgid "Sample usage:"
+msgstr ""
+
+#: ../../CMake/Modules/FindwxWidgets.cmake:110
+msgid "If wxWidgets is required (i.e., not an optional part):"
+msgstr ""
+

@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:2 Studio
+msgid "Visual Studio 15 2017"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:6 Studio
+msgid "Generates Visual Studio 15 (VS 2017) project files."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:9 Studio
+msgid "Project Types"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:11 Studio
+msgid ""
+"Only Visual C++ and C# projects may be generated.  Other types of "
+"projects (JavaScript, Powershell, Python, etc.) are not supported."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:15 Studio
+msgid "Instance Selection"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:17 Studio
+msgid ""
+"VS 2017 supports multiple installations on the same machine. The "
+":variable:`CMAKE_GENERATOR_INSTANCE` variable may be set as a cache entry"
+" containing the absolute path to a Visual Studio instance. If the value "
+"is not specified explicitly by the user or a toolchain file, CMake "
+"queries the Visual Studio Installer to locate VS instances, chooses one, "
+"and sets the variable as a cache entry to hold the value persistently."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:25 Studio
+msgid ""
+"When CMake first chooses an instance, if the ``VS150COMNTOOLS`` "
+"environment variable is set and points to the ``Common7/Tools`` directory"
+" within one of the instances, that instance will be used.  Otherwise, if "
+"more than one instance is installed we do not define which one is chosen "
+"by default."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:33 Studio
+msgid "Platform Selection"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:35 Studio
+msgid "The default target platform name (architecture) is ``Win32``."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:37 Studio
+msgid ""
+"The :variable:`CMAKE_GENERATOR_PLATFORM` variable may be set, perhaps via"
+" the :manual:`cmake(1)` ``-A`` option, to specify a target platform name "
+"(architecture).  For example:"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:41 Studio
+msgid "``cmake -G \"Visual Studio 15 2017\" -A Win32``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:42 Studio
+msgid "``cmake -G \"Visual Studio 15 2017\" -A x64``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:43 Studio
+msgid "``cmake -G \"Visual Studio 15 2017\" -A ARM``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:44 Studio
+msgid "``cmake -G \"Visual Studio 15 2017\" -A ARM64``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:46 Studio
+msgid ""
+"For compatibility with CMake versions prior to 3.1, one may specify a "
+"target platform name optionally at the end of the generator name. This is"
+" supported only for:"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:51 Studio
+msgid "``Visual Studio 15 2017 Win64``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:51 Studio
+msgid "Specify target platform ``x64``."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:54 Studio
+msgid "``Visual Studio 15 2017 ARM``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:54 Studio
+msgid "Specify target platform ``ARM``."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:57 Studio
+msgid "Toolset Selection"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 15 2017.rst:59 Studio
+msgid ""
+"The ``v141`` toolset that comes with Visual Studio 15 2017 is selected by"
+" default.  The :variable:`CMAKE_GENERATOR_TOOLSET` option may be set, "
+"perhaps via the :manual:`cmake(1)` ``-T`` option, to specify another "
+"toolset."
+msgstr ""
+
+#: ../../CMake/Help/generator/VS_TOOLSET_HOST_ARCH.txt:1
+msgid ""
+"For each toolset that comes with this version of Visual Studio, there are"
+" variants that are themselves compiled for 32-bit (``x86``) and 64-bit "
+"(``x64``) hosts (independent of the architecture they target). "
+"|VS_TOOLSET_HOST_ARCH_DEFAULT| One may explicitly request use of either "
+"the 32-bit or 64-bit host tools by adding either ``host=x86`` or "
+"``host=x64`` to the toolset specification. See the "
+":variable:`CMAKE_GENERATOR_TOOLSET` variable for details."
+msgstr ""
+
+#: ../../CMake/Help/generator/VS_TOOLSET_HOST_ARCH.txt:10
+msgid "Added suport for ``host=x86`` option."
+msgstr ""
+

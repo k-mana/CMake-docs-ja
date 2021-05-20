@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/exec_program.rst:2
+msgid "exec_program"
+msgstr ""
+
+#: ../../CMake/Help/command/exec_program.rst:6
+msgid "Use the :command:`execute_process` command instead."
+msgstr ""
+
+#: ../../CMake/Help/command/exec_program.rst:8
+msgid "Run an executable program during the processing of the CMakeList.txt file."
+msgstr ""
+
+#: ../../CMake/Help/command/exec_program.rst:18
+msgid ""
+"The executable is run in the optionally specified directory.  The "
+"executable can include arguments if it is double quoted, but it is better"
+" to use the optional ``ARGS`` argument to specify arguments to the "
+"program.  This is because cmake will then be able to escape spaces in the"
+" executable path.  An optional argument ``OUTPUT_VARIABLE`` specifies a "
+"variable in which to store the output.  To capture the return value of "
+"the execution, provide a ``RETURN_VALUE``.  If ``OUTPUT_VARIABLE`` is "
+"specified, then no output will go to the stdout/stderr of the console "
+"running cmake."
+msgstr ""
+

@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_sf/SKIP_UNITY_BUILD_INCLUSION.rst:2
+msgid "SKIP_UNITY_BUILD_INCLUSION"
+msgstr ""
+
+#: ../../CMake/Help/prop_sf/SKIP_UNITY_BUILD_INCLUSION.rst:6
+msgid ""
+"Setting this property to true ensures the source file will be skipped by "
+"unity builds when its associated target has its :prop_tgt:`UNITY_BUILD` "
+"property set to true.  The source file will instead be compiled on its "
+"own in the same way as it would with unity builds disabled."
+msgstr ""
+
+#: ../../CMake/Help/prop_sf/SKIP_UNITY_BUILD_INCLUSION.rst:11
+msgid ""
+"This property helps with \"ODR (One definition rule)\" problems where "
+"combining a particular source file with others might lead to build errors"
+" or other unintended side effects."
+msgstr ""
+

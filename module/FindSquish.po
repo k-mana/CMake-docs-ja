@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindSquish.cmake:6
+msgid "FindSquish"
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:8
+msgid "-- Typical Use"
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:12
+msgid "This module can be used to find Squish."
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:41
+msgid ""
+"It provides the function squish_add_test() for adding a squish test to "
+"cmake using Squish >= 4.x:"
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:50
+msgid ""
+"In previous CMake versions, this function was named "
+"``squish_v4_add_test``."
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:53
+msgid "The arguments have the following meaning:"
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:55
+msgid "``cmakeTestName``"
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:56
+msgid "this will be used as the first argument for add_test()"
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:58
+msgid "``AUT targetName``"
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:58
+msgid ""
+"the name of the cmake target which will be used as AUT, i.e. the "
+"executable which will be tested."
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:63
+msgid "``SUITE suiteName``"
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:61
+msgid ""
+"this is either the full path to the squish suite, or just the last "
+"directory of the suite, i.e. the suite name. In this case the "
+"CMakeLists.txt which calls squish_add_test() must be located in the "
+"parent directory of the suite directory."
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:66
+msgid "``TEST squishTestName``"
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:66
+msgid ""
+"the name of the squish test, i.e. the name of the subdirectory of the "
+"test inside the suite directory."
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:68
+msgid "``SETTINGSGROUP group``"
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:69
+msgid "deprecated, this argument will be ignored."
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:70
+msgid "``PRE_COMMAND command``"
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:71
+msgid ""
+"if specified, the given command will be executed before starting the "
+"squish test."
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:75
+msgid "``POST_COMMAND command``"
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:73
+msgid "same as PRE_COMMAND, but after the squish test has been executed."
+msgstr ""
+
+#: ../../CMake/Modules/FindSquish.cmake:93
+msgid ""
+"For users of Squish version 3.x the macro squish_v3_add_test() is "
+"provided:"
+msgstr ""
+

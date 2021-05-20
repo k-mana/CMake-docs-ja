@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/ctest_memcheck.rst:2
+msgid "ctest_memcheck"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_memcheck.rst:4
+msgid "Perform the :ref:`CTest MemCheck Step` as a :ref:`Dashboard Client`."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_memcheck.rst:29
+msgid ""
+"Run tests with a dynamic analysis tool and store results in "
+"``MemCheck.xml`` for submission with the :command:`ctest_submit` command."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_memcheck.rst:33
+msgid "Most options are the same as those for the :command:`ctest_test` command."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_memcheck.rst:35
+msgid "The options unique to this command are:"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_memcheck.rst:39
+msgid "``DEFECT_COUNT <defect-count-var>``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_memcheck.rst:40
+msgid "Store in the ``<defect-count-var>`` the number of defects found."
+msgstr ""
+

@@ -1,0 +1,178 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/ctest_submit.rst:2
+msgid "ctest_submit"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:4
+msgid "Perform the :ref:`CTest Submit Step` as a :ref:`Dashboard Client`."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:19
+msgid ""
+"Submit results to a dashboard server. By default all available parts are "
+"submitted."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:22
+msgid "The options are:"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:38
+msgid "``PARTS <part>...``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:25
+msgid "Specify a subset of parts to submit.  Valid part names are::"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:42
+msgid "``FILES <file>...``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:41
+msgid ""
+"Specify an explicit list of specific files to be submitted. Each "
+"individual file must exist at the time of the call."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:48
+msgid "``SUBMIT_URL <url>``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:47
+msgid ""
+"The ``http`` or ``https`` URL of the dashboard server to send the "
+"submission to.  If not given, the :variable:`CTEST_SUBMIT_URL` variable "
+"is used."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:54
+msgid "``BUILD_ID <result-var>``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:53
+msgid ""
+"Store in the ``<result-var>`` variable the ID assigned to this build by "
+"CDash."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:68
+msgid "``HTTPHEADER <HTTP-header>``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:59
+msgid ""
+"Specify HTTP header to be included in the request to CDash during "
+"submission. For example, CDash can be configured to only accept "
+"submissions from authenticated clients. In this case, you should provide "
+"a bearer token in your header:"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:68
+msgid "This suboption can be repeated several times for multiple headers."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:71
+msgid "``RETRY_COUNT <count>``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:71
+msgid "Specify how many times to retry a timed-out submission."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:75
+msgid "``RETRY_DELAY <delay>``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:74
+msgid ""
+"Specify how long (in seconds) to wait after a timed-out submission before"
+" attempting to re-submit."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:79
+msgid "``RETURN_VALUE <result-var>``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:78
+msgid ""
+"Store in the ``<result-var>`` variable ``0`` for success and non-zero on "
+"failure."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:85
+msgid "``CAPTURE_CMAKE_ERROR <result-var>``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:84
+msgid ""
+"Store in the ``<result-var>`` variable -1 if there are any errors running"
+" the command and prevent ctest from returning non-zero if an error "
+"occurs."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:91
+msgid "``QUIET``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:90
+msgid ""
+"Suppress all non-error messages that would have otherwise been printed to"
+" the console."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:94
+msgid "Submit to CDash Upload API"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:109
+msgid ""
+"This second signature is used to upload files to CDash via the CDash file"
+" upload API. The API first sends a request to upload to CDash along with "
+"a content hash of the file. If CDash does not already have the file, then"
+" it is uploaded. Along with the file, a CDash type string is specified to"
+" tell CDash which handler to use to process the data."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:115
+msgid "This signature interprets options in the same way as the first one."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:117
+msgid "Added the ``RETRY_COUNT``, ``RETRY_DELAY``, ``QUIET`` options."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:120
+msgid "Added the ``HTTPHEADER`` option."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:123
+msgid "Added the ``RETURN_VALUE`` option."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:126
+msgid "Added the ``SUBMIT_URL`` option."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_submit.rst:129
+msgid "Added the ``BUILD_ID`` option."
+msgstr ""
+

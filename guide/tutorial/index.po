@@ -1,0 +1,1089 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/guide/tutorial/index.rst:2
+msgid "CMake Tutorial"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:5
+msgid "Contents"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:9
+msgid "Introduction"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:11
+msgid ""
+"The CMake tutorial provides a step-by-step guide that covers common build"
+" system issues that CMake helps address. Seeing how various topics all "
+"work together in an example project can be very helpful. The tutorial "
+"documentation and source code for examples can be found in the "
+"``Help/guide/tutorial`` directory of the CMake source code tree. Each "
+"step has its own subdirectory containing code that may be used as a "
+"starting point. The tutorial examples are progressive so that each step "
+"provides the complete solution for the previous step."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:21
+msgid "A Basic Starting Point (Step 1)"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:23
+msgid ""
+"The most basic project is an executable built from source code files. For"
+" simple projects, a three line ``CMakeLists.txt`` file is all that is "
+"required. This will be the starting point for our tutorial. Create a "
+"``CMakeLists.txt`` file in the ``Step1`` directory that looks like:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:39
+msgid ""
+"Note that this example uses lower case commands in the ``CMakeLists.txt``"
+" file. Upper, lower, and mixed case commands are supported by CMake. The "
+"source code for ``tutorial.cxx`` is provided in the ``Step1`` directory "
+"and can be used to compute the square root of a number."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:45
+msgid "Adding a Version Number and Configured Header File"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:47
+msgid ""
+"The first feature we will add is to provide our executable and project "
+"with a version number. While we could do this exclusively in the source "
+"code, using ``CMakeLists.txt`` provides more flexibility."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:51
+msgid ""
+"First, modify the ``CMakeLists.txt`` file to use the :command:`project` "
+"command to set the project name and version number."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:58
+msgid ""
+"Then, configure a header file to pass the version number to the source "
+"code:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:66
+msgid ""
+"Since the configured file will be written into the binary tree, we must "
+"add that directory to the list of paths to search for include files. Add "
+"the following lines to the end of the ``CMakeLists.txt`` file:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:74
+msgid ""
+"Using your favorite editor, create ``TutorialConfig.h.in`` in the source "
+"directory with the following contents:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:80
+msgid ""
+"When CMake configures this header file the values for "
+"``@Tutorial_VERSION_MAJOR@`` and ``@Tutorial_VERSION_MINOR@`` will be "
+"replaced."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:84
+msgid ""
+"Next modify ``tutorial.cxx`` to include the configured header file, "
+"``TutorialConfig.h``."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:87
+msgid ""
+"Finally, let's print out the executable name and version number by "
+"updating ``tutorial.cxx`` as follows:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:96
+msgid "Specify the C++ Standard"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:98
+msgid ""
+"Next let's add some C++11 features to our project by replacing ``atof`` "
+"with ``std::stod`` in ``tutorial.cxx``.  At the same time, remove "
+"``#include <cstdlib>``."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:107
+msgid ""
+"We will need to explicitly state in the CMake code that it should use the"
+" correct flags. The easiest way to enable support for a specific C++ "
+"standard in CMake is by using the :variable:`CMAKE_CXX_STANDARD` "
+"variable. For this tutorial, set the :variable:`CMAKE_CXX_STANDARD` "
+"variable in the ``CMakeLists.txt`` file to 11 and "
+":variable:`CMAKE_CXX_STANDARD_REQUIRED` to True. Make sure to add the "
+"``CMAKE_CXX_STANDARD`` declarations above the call to ``add_executable``."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:120
+msgid "Build and Test"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:122
+msgid ""
+"Run the :manual:`cmake <cmake(1)>` executable or the :manual:`cmake-gui "
+"<cmake-gui(1)>` to configure the project and then build it with your "
+"chosen build tool."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:126
+msgid ""
+"For example, from the command line we could navigate to the "
+"``Help/guide/tutorial`` directory of the CMake source code tree and "
+"create a build directory:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:134
+msgid ""
+"Next, navigate to the build directory and run CMake to configure the "
+"project and generate a native build system:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:142
+msgid "Then call that build system to actually compile/link the project:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:148
+msgid "Finally, try to use the newly built ``Tutorial`` with these commands:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:157
+msgid "Adding a Library (Step 2)"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:159
+msgid ""
+"Now we will add a library to our project. This library will contain our "
+"own implementation for computing the square root of a number. The "
+"executable can then use this library instead of the standard square root "
+"function provided by the compiler."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:164
+msgid ""
+"For this tutorial we will put the library into a subdirectory called "
+"``MathFunctions``. This directory already contains a header file, "
+"``MathFunctions.h``, and a source file ``mysqrt.cxx``. The source file "
+"has one function called ``mysqrt`` that provides similar functionality to"
+" the compiler's ``sqrt`` function."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:170
+msgid ""
+"Add the following one line ``CMakeLists.txt`` file to the "
+"``MathFunctions`` directory:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:176
+msgid ""
+"To make use of the new library we will add an :command:`add_subdirectory`"
+" call in the top-level ``CMakeLists.txt`` file so that the library will "
+"get built. We add the new library to the executable, and add "
+"``MathFunctions`` as an include directory so that the ``mysqrt.h`` header"
+" file can be found. The last few lines of the top-level "
+"``CMakeLists.txt`` file should now look like:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:199
+msgid ""
+"Now let us make the MathFunctions library optional. While for the "
+"tutorial there really isn't any need to do so, for larger projects this "
+"is a common occurrence. The first step is to add an option to the top-"
+"level ``CMakeLists.txt`` file."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:209
+msgid ""
+"This option will be displayed in the :manual:`cmake-gui <cmake-gui(1)>` "
+"and :manual:`ccmake <ccmake(1)>` with a default value of ON that can be "
+"changed by the user. This setting will be stored in the cache so that the"
+" user does not need to set the value each time they run CMake on a build "
+"directory."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:215
+msgid ""
+"The next change is to make building and linking the MathFunctions library"
+" conditional. To do this we change the end of the top-level "
+"``CMakeLists.txt`` file to look like the following:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:223
+msgid ""
+"Note the use of the variable ``EXTRA_LIBS`` to collect up any optional "
+"libraries to later be linked into the executable. The variable "
+"``EXTRA_INCLUDES`` is used similarly for optional header files. This is a"
+" classic approach when dealing with many optional components, we will "
+"cover the modern approach in the next step."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:229
+msgid ""
+"The corresponding changes to the source code are fairly straightforward. "
+"First, in ``tutorial.cxx``, include the ``MathFunctions.h`` header if we "
+"need it:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:238
+msgid ""
+"Then, in the same file, make ``USE_MYMATH`` control which square root "
+"function is used:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:246
+msgid ""
+"Since the source code now requires ``USE_MYMATH`` we can add it to "
+"``TutorialConfig.h.in`` with the following line:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:253
+msgid ""
+"**Exercise**: Why is it important that we configure "
+"``TutorialConfig.h.in`` after the option for ``USE_MYMATH``? What would "
+"happen if we inverted the two?"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:256
+msgid ""
+"Run the :manual:`cmake  <cmake(1)>` executable or the :manual:`cmake-gui "
+"<cmake-gui(1)>` to configure the project and then build it with your "
+"chosen build tool. Then run the built Tutorial executable."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:260
+msgid ""
+"Now let's update the value of ``USE_MYMATH``. The easiest way is to use "
+"the :manual:`cmake-gui <cmake-gui(1)>` or  :manual:`ccmake <ccmake(1)>` "
+"if you're in the terminal. Or, alternatively, if you want to change the "
+"option from the command-line, try:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:269
+msgid "Rebuild and run the tutorial again."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:271
+msgid "Which function gives better results, sqrt or mysqrt?"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:274
+msgid "Adding Usage Requirements for Library (Step 3)"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:276
+msgid ""
+"Usage requirements allow for far better control over a library or "
+"executable's link and include line while also giving more control over "
+"the transitive property of targets inside CMake. The primary commands "
+"that leverage usage requirements are:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:281
+msgid ":command:`target_compile_definitions`"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:282
+msgid ":command:`target_compile_options`"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:283
+msgid ":command:`target_include_directories`"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:284
+msgid ":command:`target_link_libraries`"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:286
+msgid ""
+"Let's refactor our code from `Adding a Library (Step 2)`_ to use the "
+"modern CMake approach of usage requirements. We first state that anybody "
+"linking to MathFunctions needs to include the current source directory, "
+"while MathFunctions itself doesn't. So this can become an ``INTERFACE`` "
+"usage requirement."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:292
+msgid ""
+"Remember ``INTERFACE`` means things that consumers require but the "
+"producer doesn't. Add the following lines to the end of "
+"``MathFunctions/CMakeLists.txt``:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:300
+msgid ""
+"Now that we've specified usage requirements for MathFunctions we can "
+"safely remove our uses of the ``EXTRA_INCLUDES`` variable from the top-"
+"level ``CMakeLists.txt``, here:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:309
+msgid "And here:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:315
+msgid ""
+"Once this is done, run the :manual:`cmake  <cmake(1)>` executable or the "
+":manual:`cmake-gui <cmake-gui(1)>` to configure the project and then "
+"build it with your chosen build tool or by using ``cmake --build .`` from"
+" the build directory."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:321
+msgid "Installing and Testing (Step 4)"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:323
+msgid "Now we can start adding install rules and testing support to our project."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:326
+msgid "Install Rules"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:328
+msgid ""
+"The install rules are fairly simple: for MathFunctions we want to install"
+" the library and header file and for the application we want to install "
+"the executable and configured header."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:332
+msgid "So to the end of ``MathFunctions/CMakeLists.txt`` we add:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:338
+msgid "And to the end of the top-level ``CMakeLists.txt`` we add:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:345
+msgid ""
+"That is all that is needed to create a basic local install of the "
+"tutorial."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:347
+msgid ""
+"Now run the :manual:`cmake  <cmake(1)>` executable or the :manual:`cmake-"
+"gui <cmake-gui(1)>` to configure the project and then build it with your "
+"chosen build tool."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:351
+msgid ""
+"Then run the install step by using the ``install`` option of the "
+":manual:`cmake  <cmake(1)>` command (introduced in 3.15, older versions "
+"of CMake must use ``make install``) from the command line. For multi-"
+"configuration tools, don't forget to use the ``--config`` argument to "
+"specify the configuration. If using an IDE, simply build the ``INSTALL`` "
+"target. This step will install the appropriate header files, libraries, "
+"and executables. For example:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:363
+msgid ""
+"The CMake variable :variable:`CMAKE_INSTALL_PREFIX` is used to determine "
+"the root of where the files will be installed. If using the ``cmake "
+"--install`` command, the installation prefix can be overridden via the "
+"``--prefix`` argument. For example:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:372
+msgid ""
+"Navigate to the install directory and verify that the installed Tutorial "
+"runs."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:375
+msgid "Testing Support"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:377
+msgid ""
+"Next let's test our application. At the end of the top-level "
+"``CMakeLists.txt`` file we can enable testing and then add a number of "
+"basic tests to verify that the application is working correctly."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:385
+msgid ""
+"The first test simply verifies that the application runs, does not "
+"segfault or otherwise crash, and has a zero return value. This is the "
+"basic form of a CTest test."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:389
+msgid ""
+"The next test makes use of the :prop_test:`PASS_REGULAR_EXPRESSION` test "
+"property to verify that the output of the test contains certain strings. "
+"In this case, verifying that the usage message is printed when an "
+"incorrect number of arguments are provided."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:394
+msgid ""
+"Lastly, we have a function called ``do_test`` that runs the application "
+"and verifies that the computed square root is correct for given input. "
+"For each invocation of ``do_test``, another test is added to the project "
+"with a name, input, and expected results based on the passed arguments."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:399
+msgid ""
+"Rebuild the application and then cd to the binary directory and run the "
+":manual:`ctest <ctest(1)>` executable: ``ctest -N`` and ``ctest -VV``. "
+"For multi-config generators (e.g. Visual Studio), the configuration type "
+"must be specified. To run tests in Debug mode, for example, use ``ctest "
+"-C Debug -VV`` from the build directory (not the Debug subdirectory!). "
+"Alternatively, build the ``RUN_TESTS`` target from the IDE."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:407
+msgid "Adding System Introspection (Step 5)"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:409
+msgid ""
+"Let us consider adding some code to our project that depends on features "
+"the target platform may not have. For this example, we will add some code"
+" that depends on whether or not the target platform has the ``log`` and "
+"``exp`` functions. Of course almost every platform has these functions "
+"but for this tutorial assume that they are not common."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:415
+msgid ""
+"If the platform has ``log`` and ``exp`` then we will use them to compute "
+"the square root in the ``mysqrt`` function. We first test for the "
+"availability of these functions using the :module:`CheckSymbolExists` "
+"module in ``MathFunctions/CMakeLists.txt``. On some platforms, we will "
+"need to link to the m library. If ``log`` and ``exp`` are not initially "
+"found, require the m library and try again."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:427
+msgid ""
+"If available, use :command:`target_compile_definitions` to specify "
+"``HAVE_LOG`` and ``HAVE_EXP`` as ``PRIVATE`` compile definitions."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:435
+msgid ""
+"If ``log`` and ``exp`` are available on the system, then we will use them"
+" to compute the square root in the ``mysqrt`` function. Add the following"
+" code to the ``mysqrt`` function in ``MathFunctions/mysqrt.cxx`` (don't "
+"forget the ``#endif`` before returning the result!):"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:445
+msgid "We will also need to modify ``mysqrt.cxx`` to include ``cmath``."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:451
+msgid ""
+"Run the :manual:`cmake  <cmake(1)>` executable or the :manual:`cmake-gui "
+"<cmake-gui(1)>` to configure the project and then build it with your "
+"chosen build tool and run the Tutorial executable."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:455
+msgid "Which function gives better results now, sqrt or mysqrt?"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:458
+msgid "Adding a Custom Command and Generated File (Step 6)"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:460
+msgid ""
+"Suppose, for the purpose of this tutorial, we decide that we never want "
+"to use the platform ``log`` and ``exp`` functions and instead would like "
+"to generate a table of precomputed values to use in the ``mysqrt`` "
+"function. In this section, we will create the table as part of the build "
+"process, and then compile that table into our application."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:466
+msgid ""
+"First, let's remove the check for the ``log`` and ``exp`` functions in "
+"``MathFunctions/CMakeLists.txt``. Then remove the check for ``HAVE_LOG`` "
+"and ``HAVE_EXP`` from ``mysqrt.cxx``. At the same time, we can remove "
+":code:`#include <cmath>`."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:471
+msgid ""
+"In the ``MathFunctions`` subdirectory, a new source file named "
+"``MakeTable.cxx`` has been provided to generate the table."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:474
+msgid ""
+"After reviewing the file, we can see that the table is produced as valid "
+"C++ code and that the output filename is passed in as an argument."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:477
+msgid ""
+"The next step is to add the appropriate commands to the "
+"``MathFunctions/CMakeLists.txt`` file to build the MakeTable executable "
+"and then run it as part of the build process. A few commands are needed "
+"to accomplish this."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:482
+msgid ""
+"First, at the top of ``MathFunctions/CMakeLists.txt``, the executable for"
+" ``MakeTable`` is added as any other executable would be added."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:490
+msgid ""
+"Then we add a custom command that specifies how to produce ``Table.h`` by"
+" running MakeTable."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:498
+msgid ""
+"Next we have to let CMake know that ``mysqrt.cxx`` depends on the "
+"generated file ``Table.h``. This is done by adding the generated "
+"``Table.h`` to the list of sources for the library MathFunctions."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:507
+msgid ""
+"We also have to add the current binary directory to the list of include "
+"directories so that ``Table.h`` can be found and included by "
+"``mysqrt.cxx``."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:515
+msgid ""
+"Now let's use the generated table. First, modify ``mysqrt.cxx`` to "
+"include ``Table.h``. Next, we can rewrite the mysqrt function to use the "
+"table:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:522
+msgid ""
+"Run the :manual:`cmake  <cmake(1)>` executable or the :manual:`cmake-gui "
+"<cmake-gui(1)>` to configure the project and then build it with your "
+"chosen build tool."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:526
+msgid ""
+"When this project is built it will first build the ``MakeTable`` "
+"executable. It will then run ``MakeTable`` to produce ``Table.h``. "
+"Finally, it will compile ``mysqrt.cxx`` which includes ``Table.h`` to "
+"produce the MathFunctions library."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:531
+msgid "Run the Tutorial executable and verify that it is using the table."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:534
+msgid "Building an Installer (Step 7)"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:536
+msgid ""
+"Next suppose that we want to distribute our project to other people so "
+"that they can use it. We want to provide both binary and source "
+"distributions on a variety of platforms. This is a little different from "
+"the install we did previously in `Installing and Testing (Step 4)`_ , "
+"where we were installing the binaries that we had built from the source "
+"code. In this example we will be building installation packages that "
+"support binary installations and package management features. To "
+"accomplish this we will use CPack to create platform specific installers."
+" Specifically we need to add a few lines to the bottom of our top-level "
+"``CMakeLists.txt`` file."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:550
+msgid ""
+"That is all there is to it. We start by including "
+":module:`InstallRequiredSystemLibraries`. This module will include any "
+"runtime libraries that are needed by the project for the current "
+"platform. Next we set some CPack variables to where we have stored the "
+"license and version information for this project. The version information"
+" was set earlier in this tutorial and the ``license.txt`` has been "
+"included in the top-level source directory for this step."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:558
+msgid ""
+"Finally we include the :module:`CPack module <CPack>` which will use "
+"these variables and some other properties of the current system to setup "
+"an installer."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:562
+msgid ""
+"The next step is to build the project in the usual manner and then run "
+"the :manual:`cpack <cpack(1)>` executable. To build a binary "
+"distribution, from the binary directory run:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:570
+msgid ""
+"To specify the generator, use the ``-G`` option. For multi-config builds,"
+" use ``-C`` to specify the configuration. For example:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:577
+msgid "To create a source distribution you would type:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:583
+msgid ""
+"Alternatively, run ``make package`` or right click the ``Package`` target"
+" and ``Build Project`` from an IDE."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:586
+msgid ""
+"Run the installer found in the binary directory. Then run the installed "
+"executable and verify that it works."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:590
+msgid "Adding Support for a Dashboard (Step 8)"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:592
+msgid ""
+"Adding support for submitting our test results to a dashboard is simple. "
+"We already defined a number of tests for our project in `Testing "
+"Support`_. Now we just have to run those tests and submit them to a "
+"dashboard. To include support for dashboards we include the "
+":module:`CTest` module in our top-level ``CMakeLists.txt``."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:598
+msgid "Replace:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:605
+msgid "With:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:612
+msgid ""
+"The :module:`CTest` module will automatically call ``enable_testing()``, "
+"so we can remove it from our CMake files."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:615
+msgid ""
+"We will also need to create a ``CTestConfig.cmake`` file in the top-level"
+" directory where we can specify the name of the project and where to "
+"submit the dashboard."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:622
+msgid ""
+"The :manual:`ctest <ctest(1)>` executable will read in this file when it "
+"runs. To create a simple dashboard you can run the :manual:`cmake "
+"<cmake(1)>` executable or the :manual:`cmake-gui <cmake-gui(1)>` to "
+"configure the project, but do not build it yet. Instead, change directory"
+" to the binary tree, and then run:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:628
+msgid "ctest [-VV] -D Experimental"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:630
+msgid ""
+"Remember, for multi-config generators (e.g. Visual Studio), the "
+"configuration type must be specified::"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:635
+msgid "Or, from an IDE, build the ``Experimental`` target."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:637
+msgid ""
+"The :manual:`ctest <ctest(1)>` executable will build and test the project"
+" and submit the results to Kitware's public dashboard: "
+"https://my.cdash.org/index.php?project=CMakeTutorial."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:642
+msgid "Mixing Static and Shared (Step 9)"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:644
+msgid ""
+"In this section we will show how the :variable:`BUILD_SHARED_LIBS` "
+"variable can be used to control the default behavior of "
+":command:`add_library`, and allow control over how libraries without an "
+"explicit type (``STATIC``, ``SHARED``, ``MODULE`` or ``OBJECT``) are "
+"built."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:649
+msgid ""
+"To accomplish this we need to add :variable:`BUILD_SHARED_LIBS` to the "
+"top-level ``CMakeLists.txt``. We use the :command:`option` command as it "
+"allows users to optionally select if the value should be ON or OFF."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:653
+msgid ""
+"Next we are going to refactor MathFunctions to become a real library that"
+" encapsulates using ``mysqrt`` or ``sqrt``, instead of requiring the "
+"calling code to do this logic. This will also mean that ``USE_MYMATH`` "
+"will not control building MathFunctions, but instead will control the "
+"behavior of this library."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:658
+msgid ""
+"The first step is to update the starting section of the top-level "
+"``CMakeLists.txt`` to look like:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:665
+msgid ""
+"Now that we have made MathFunctions always be used, we will need to "
+"update the logic of that library. So, in ``MathFunctions/CMakeLists.txt``"
+" we need to create a SqrtLibrary that will conditionally be built and "
+"installed when ``USE_MYMATH`` is enabled. Now, since this is a tutorial, "
+"we are going to explicitly require that SqrtLibrary is built statically."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:671
+msgid "The end result is that ``MathFunctions/CMakeLists.txt`` should look like:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:677
+msgid ""
+"Next, update ``MathFunctions/mysqrt.cxx`` to use the ``mathfunctions`` "
+"and ``detail`` namespaces:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:683
+msgid ""
+"We also need to make some changes in ``tutorial.cxx``, so that it no "
+"longer uses ``USE_MYMATH``:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:686
+msgid "Always include ``MathFunctions.h``"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:687
+msgid "Always use ``mathfunctions::sqrt``"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:688
+msgid "Don't include cmath"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:690
+msgid ""
+"Finally, update ``MathFunctions/MathFunctions.h`` to use dll export "
+"defines:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:695
+msgid ""
+"At this point, if you build everything, you may notice that linking fails"
+" as we are combining a static library without position independent code "
+"with a library that has position independent code. The solution to this "
+"is to explicitly set the :prop_tgt:`POSITION_INDEPENDENT_CODE` target "
+"property of SqrtLibrary to be True no matter the build type."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:705
+msgid ""
+"**Exercise**: We modified ``MathFunctions.h`` to use dll export defines. "
+"Using CMake documentation can you find a helper module to simplify this?"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:710
+msgid "Adding Generator Expressions (Step 10)"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:712
+msgid ""
+":manual:`Generator expressions <cmake-generator-expressions(7)>` are "
+"evaluated during build system generation to produce information specific "
+"to each build configuration."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:716
+msgid ""
+":manual:`Generator expressions <cmake-generator-expressions(7)>` are "
+"allowed in the context of many target properties, such as "
+":prop_tgt:`LINK_LIBRARIES`, :prop_tgt:`INCLUDE_DIRECTORIES`, "
+":prop_tgt:`COMPILE_DEFINITIONS` and others. They may also be used when "
+"using commands to populate those properties, such as "
+":command:`target_link_libraries`, :command:`target_include_directories`, "
+":command:`target_compile_definitions` and others."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:723
+msgid ""
+":manual:`Generator expressions <cmake-generator-expressions(7)>`  may be "
+"used to enable conditional linking, conditional definitions used when "
+"compiling, conditional include directories and more. The conditions may "
+"be based on the build configuration, target properties, platform "
+"information or any other queryable information."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:729
+msgid ""
+"There are different types of :manual:`generator expressions <cmake-"
+"generator-expressions(7)>` including Logical, Informational, and Output "
+"expressions."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:733
+msgid ""
+"Logical expressions are used to create conditional output. The basic "
+"expressions are the 0 and 1 expressions. A ``$<0:...>`` results in the "
+"empty string, and ``<1:...>`` results in the content of \"...\".  They "
+"can also be nested."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:738
+msgid ""
+"A common usage of :manual:`generator expressions <cmake-generator-"
+"expressions(7)>` is to conditionally add compiler flags, such as those "
+"for language levels or warnings. A nice pattern is to associate this "
+"information to an ``INTERFACE`` target allowing this information to "
+"propagate. Let's start by constructing an ``INTERFACE`` target and "
+"specifying the required C++ standard level of ``11`` instead of using "
+":variable:`CMAKE_CXX_STANDARD`."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:746
+msgid "So the following code:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:753
+msgid "Would be replaced with:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:761
+msgid ""
+"Next we add the desired compiler warning flags that we want for our "
+"project. As warning flags vary based on the compiler we use the "
+"``COMPILE_LANG_AND_ID`` generator expression to control which flags to "
+"apply given a language and a set of compiler ids as seen below:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:771
+msgid ""
+"Looking at this we see that the warning flags are encapsulated inside a "
+"``BUILD_INTERFACE`` condition. This is done so that consumers of our "
+"installed project will not inherit our warning flags."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:776
+msgid ""
+"**Exercise**: Modify ``MathFunctions/CMakeLists.txt`` so that all targets"
+" have a :command:`target_link_libraries` call to "
+"``tutorial_compiler_flags``."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:781
+msgid "Adding Export Configuration (Step 11)"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:783
+msgid ""
+"During `Installing and Testing (Step 4)`_ of the tutorial we added the "
+"ability for CMake to install the library and headers of the project. "
+"During `Building an Installer (Step 7)`_ we added the ability to package "
+"up this information so it could be distributed to other people."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:788
+msgid ""
+"The next step is to add the necessary information so that other CMake "
+"projects can use our project, be it from a build directory, a local "
+"install or when packaged."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:792
+msgid ""
+"The first step is to update our :command:`install(TARGETS)` commands to "
+"not only specify a ``DESTINATION`` but also an ``EXPORT``. The ``EXPORT``"
+" keyword generates and installs a CMake file containing code to import "
+"all targets listed in the install command from the installation tree. So "
+"let's go ahead and explicitly ``EXPORT`` the MathFunctions library by "
+"updating the ``install`` command in ``MathFunctions/CMakeLists.txt`` to "
+"look like:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:803
+msgid ""
+"Now that we have MathFunctions being exported, we also need to explicitly"
+" install the generated ``MathFunctionsTargets.cmake`` file. This is done "
+"by adding the following to the bottom of the top-level "
+"``CMakeLists.txt``:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:812
+msgid ""
+"At this point you should try and run CMake. If everything is setup "
+"properly you will see that CMake will generate an error that looks like:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:824
+msgid ""
+"What CMake is trying to say is that during generating the export "
+"information it will export a path that is intrinsically tied to the "
+"current machine and will not be valid on other machines. The solution to "
+"this is to update the MathFunctions :command:`target_include_directories`"
+" to understand that it needs different ``INTERFACE`` locations when being"
+" used from within the build directory and from an install / package. This"
+" means converting the :command:`target_include_directories` call for "
+"MathFunctions to look like:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:837
+msgid ""
+"Once this has been updated, we can re-run CMake and verify that it "
+"doesn't warn anymore."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:840
+msgid ""
+"At this point, we have CMake properly packaging the target information "
+"that is required but we will still need to generate a "
+"``MathFunctionsConfig.cmake`` so that the CMake :command:`find_package` "
+"command can find our project. So let's go ahead and add a new file to the"
+" top-level of the project called ``Config.cmake.in`` with the following "
+"contents:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:848
+msgid ""
+"Then, to properly configure and install that file, add the following to "
+"the bottom of the top-level ``CMakeLists.txt``:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:856
+msgid ""
+"At this point, we have generated a relocatable CMake Configuration for "
+"our project that can be used after the project has been installed or "
+"packaged. If we want our project to also be used from a build directory "
+"we only have to add the following to the bottom of the top level "
+"``CMakeLists.txt``:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:865
+msgid ""
+"With this export call we now generate a ``Targets.cmake``, allowing the "
+"configured ``MathFunctionsConfig.cmake`` in the build directory to be "
+"used by other projects, without needing it to be installed."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:870
+msgid "Packaging Debug and Release (Step 12)"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:872
+msgid ""
+"**Note:** This example is valid for single-configuration generators and "
+"will not work for multi-configuration generators (e.g. Visual Studio)."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:875
+msgid ""
+"By default, CMake's model is that a build directory only contains a "
+"single configuration, be it Debug, Release, MinSizeRel, or "
+"RelWithDebInfo. It is possible, however, to setup CPack to bundle "
+"multiple build directories and construct a package that contains multiple"
+" configurations of the same project."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:880
+msgid ""
+"First, we want to ensure that the debug and release builds use different "
+"names for the executables and libraries that will be installed. Let's use"
+" `d` as the postfix for the debug executable and libraries."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:884
+msgid ""
+"Set :variable:`CMAKE_DEBUG_POSTFIX` near the beginning of the top-level "
+"``CMakeLists.txt`` file:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:892
+msgid "And the :prop_tgt:`DEBUG_POSTFIX` property on the tutorial executable:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:899
+msgid ""
+"Let's also add version numbering to the MathFunctions library. In "
+"``MathFunctions/CMakeLists.txt``, set the :prop_tgt:`VERSION` and "
+":prop_tgt:`SOVERSION` properties:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:908
+msgid ""
+"From the ``Step12`` directory, create ``debug`` and ``release`` "
+"subbdirectories. The layout will look like:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:917
+msgid ""
+"Now we need to setup debug and release builds. We can use "
+":variable:`CMAKE_BUILD_TYPE` to set the configuration type:"
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:929
+msgid ""
+"Now that both the debug and release builds are complete, we can use a "
+"custom configuration file to package both builds into a single release. "
+"In the ``Step12`` directory, create a file called "
+"``MultiCPackConfig.cmake``. In this file, first include the default "
+"configuration file that was created by the :manual:`cmake  <cmake(1)>` "
+"executable."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:935
+msgid ""
+"Next, use the ``CPACK_INSTALL_CMAKE_PROJECTS`` variable to specify which "
+"projects to install. In this case, we want to install both debug and "
+"release."
+msgstr ""
+
+#: ../../CMake/Help/guide/tutorial/index.rst:941
+msgid ""
+"From the ``Step12`` directory, run :manual:`cpack <cpack(1)>` specifying "
+"our custom configuration file with the ``config`` option:"
+msgstr ""
+

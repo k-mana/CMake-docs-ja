@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindLibXml2.cmake:6
+msgid "FindLibXml2"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:8
+msgid "Find the XML processing library (libxml2)."
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:11
+msgid "IMPORTED Targets"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:15
+msgid "The following :prop_tgt:`IMPORTED` targets may be defined:"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:17
+msgid "``LibXml2::LibXml2``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:18
+msgid "libxml2 library."
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:22
+msgid "``LibXml2::xmllint``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:22
+msgid "xmllint command-line executable."
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:25
+msgid "Result variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:27
+msgid "This module will set the following variables in your project:"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:29
+msgid "``LibXml2_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:30
+msgid "true if libxml2 headers and libraries were found"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:31
+#: ../../CMake/Modules/FindLibXml2.cmake:49
+msgid "``LIBXML2_INCLUDE_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:32
+#: ../../CMake/Modules/FindLibXml2.cmake:50
+msgid "the directory containing LibXml2 headers"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:33
+msgid "``LIBXML2_INCLUDE_DIRS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:34
+msgid "list of the include directories needed to use LibXml2"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:35
+msgid "``LIBXML2_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:36
+msgid "LibXml2 libraries to be linked"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:37
+msgid "``LIBXML2_DEFINITIONS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:38
+msgid "the compiler switches required for using LibXml2"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:39
+msgid "``LIBXML2_XMLLINT_EXECUTABLE``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:40
+msgid "path to the XML checking tool xmllint coming with LibXml2"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:42
+msgid "``LIBXML2_VERSION_STRING``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:42
+msgid "the version of LibXml2 found (since CMake 2.8.8)"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:45
+msgid "Cache variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:47
+msgid "The following cache variables may also be set:"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:124
+msgid "``LIBXML2_LIBRARY``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLibXml2.cmake:52
+msgid "path to the LibXml2 library"
+msgstr ""
+

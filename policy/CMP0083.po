@@ -1,0 +1,103 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/policy/CMP0083.rst:2
+msgid "CMP0083"
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0083.rst:6
+msgid ""
+"To control generation of Position Independent Executable (``PIE``) or "
+"not, some flags are required at link time."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0083.rst:9
+msgid ""
+"CMake 3.13 and lower did not add these link flags when "
+":prop_tgt:`POSITION_INDEPENDENT_CODE` is set."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0083.rst:12
+msgid ""
+"The ``OLD`` behavior for this policy is to not manage ``PIE`` link flags."
+" The ``NEW`` behavior is to add link flags if "
+":prop_tgt:`POSITION_INDEPENDENT_CODE` is set:"
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0083.rst:16
+msgid ""
+"Set to ``TRUE``: flags to produce a position independent executable are "
+"passed to the linker step. For example ``-pie`` for ``GCC``."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0083.rst:18
+msgid ""
+"Set to ``FALSE``: flags not to produce a position independent executable "
+"are passed to the linker step. For example ``-no-pie`` for ``GCC``."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0083.rst:20
+msgid "Not set: no flags are passed to the linker step."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0083.rst:22
+msgid ""
+"Since a given linker may not support ``PIE`` flags in all environments in"
+" which it is used, it is the project's responsibility to use the "
+":module:`CheckPIESupported` module to check for support to ensure that "
+"the :prop_tgt:`POSITION_INDEPENDENT_CODE` target property for executables"
+" will be honored at link time."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0083.rst:28
+msgid ""
+"This policy was introduced in CMake version 3.14. Use the "
+":command:`cmake_policy` command to set it to ``OLD`` or ``NEW`` "
+"explicitly. Unlike most policies, CMake version |release| does not warn "
+"when this policy is not set and simply uses ``OLD`` behavior."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0083.rst:35
+msgid ""
+"Android platform has a special handling of ``PIE`` so it is not required "
+"to use the :module:`CheckPIESupported` module to ensure flags are passed "
+"to the linker."
+msgstr ""
+
+#: ../../CMake/Help/policy/DEPRECATED.txt:2
+msgid ""
+"The ``OLD`` behavior of a policy is :manual:`deprecated by definition "
+"<cmake-policies(7)>` and may be removed in a future version of CMake."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0083.rst:42
+msgid "Examples"
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0083.rst:44
+msgid "Behave like CMake 3.13 and do not apply any ``PIE`` flags at link stage."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0083.rst:56
+msgid ""
+"Use the :module:`CheckPIESupported` module to detect whether ``PIE`` is "
+"supported by the current linker and environment.  Apply ``PIE`` flags "
+"only if the linker supports them."
+msgstr ""
+

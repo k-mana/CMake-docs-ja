@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/INTERFACE_SOURCES.rst:2
+msgid "INTERFACE_SOURCES"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/INTERFACE_SOURCES.rst:6
+msgid "List of interface sources to compile into consuming targets."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/INTERFACE_SOURCES.rst:8
+msgid ""
+"Targets may populate this property to publish the sources for consuming "
+"targets to compile.  The :command:`target_sources` command populates this"
+" property with values given to the ``PUBLIC`` and ``INTERFACE`` keywords."
+"  Projects may also get and set the property directly."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/INTERFACE_SOURCES.rst:13
+msgid ""
+"When target dependencies are specified using "
+":command:`target_link_libraries`, CMake will read this property from all "
+"target dependencies to determine the sources of the consumer."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/INTERFACE_SOURCES.rst:17
+msgid ""
+"Contents of ``INTERFACE_SOURCES`` may use \"generator expressions\" with "
+"the syntax ``$<...>``.  See the :manual:`cmake-generator-expressions(7)` "
+"manual for available expressions.  See the :manual:`cmake-buildsystem(7)`"
+" manual for more on defining buildsystem properties."
+msgstr ""
+

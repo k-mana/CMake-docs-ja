@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_inst/CPACK_WIX_ACL.rst:2
+msgid "CPACK_WIX_ACL"
+msgstr ""
+
+#: ../../CMake/Help/prop_inst/CPACK_WIX_ACL.rst:6
+msgid ""
+"Specifies access permissions for files or directories installed by a WiX "
+"installer."
+msgstr ""
+
+#: ../../CMake/Help/prop_inst/CPACK_WIX_ACL.rst:9
+msgid ""
+"The property can contain multiple list entries, each of which has to "
+"match the following format."
+msgstr ""
+
+#: ../../CMake/Help/prop_inst/CPACK_WIX_ACL.rst:16
+msgid ""
+"``<user>`` and ``<domain>`` specify the windows user and domain for which"
+" the ``<Permission>`` element should be generated."
+msgstr ""
+
+#: ../../CMake/Help/prop_inst/CPACK_WIX_ACL.rst:19
+msgid "``<permission>`` is any of the YesNoType attributes listed here::"
+msgstr ""
+
+#: ../../CMake/Help/prop_inst/CPACK_WIX_ACL.rst:23
+msgid ""
+"The property is currently only supported by the :cpack_gen:`CPack WIX "
+"Generator`."
+msgstr ""
+

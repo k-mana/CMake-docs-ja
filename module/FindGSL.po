@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindGSL.cmake:6
+msgid "FindGSL"
+msgstr ""
+
+#: ../../CMake/Modules/FindGSL.cmake:10
+msgid "Find the native GNU Scientific Library (GSL) includes and libraries."
+msgstr ""
+
+#: ../../CMake/Modules/FindGSL.cmake:12
+msgid ""
+"The GNU Scientific Library (GSL) is a numerical library for C and C++ "
+"programmers. It is free software under the GNU General Public License."
+msgstr ""
+
+#: ../../CMake/Modules/FindGSL.cmake:17
+msgid "Imported Targets"
+msgstr ""
+
+#: ../../CMake/Modules/FindGSL.cmake:19
+msgid ""
+"If GSL is found, this module defines the following :prop_tgt:`IMPORTED` "
+"targets::"
+msgstr ""
+
+#: ../../CMake/Modules/FindGSL.cmake:26
+msgid "Result Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindGSL.cmake:28
+msgid "This module will set the following variables in your project::"
+msgstr ""
+
+#: ../../CMake/Modules/FindGSL.cmake:36
+msgid "Hints"
+msgstr ""
+
+#: ../../CMake/Modules/FindGSL.cmake:38
+msgid "Set ``GSL_ROOT_DIR`` to a directory that contains a GSL installation."
+msgstr ""
+
+#: ../../CMake/Modules/FindGSL.cmake:40
+msgid ""
+"This script expects to find libraries at ``$GSL_ROOT_DIR/lib`` and the "
+"GSL headers at ``$GSL_ROOT_DIR/include/gsl``.  The library directory may "
+"optionally provide Release and Debug folders. If available, the libraries"
+" named ``gsld``, ``gslblasd`` or ``cblasd`` are recognized as debug "
+"libraries. For Unix-like systems, this script will use "
+"``$GSL_ROOT_DIR/bin/gsl-config`` (if found) to aid in the discovery of "
+"GSL."
+msgstr ""
+
+#: ../../CMake/Modules/FindGSL.cmake:48
+msgid "Cache Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindGSL.cmake:50
+msgid ""
+"This module may set the following variables depending on platform and "
+"type of GSL installation discovered.  These variables may optionally be "
+"set to help this module find the correct files::"
+msgstr ""
+

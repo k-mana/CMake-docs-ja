@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS.rst:2
+msgid "CMAKE_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS.rst:6
+msgid ""
+"Default permissions for directories created implicitly during "
+"installation of files by :command:`install` and :command:`file(INSTALL)`."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS.rst:9
+msgid ""
+"If ``make install`` is invoked and directories are implicitly created "
+"they get permissions set by "
+":variable:`CMAKE_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS` variable or "
+"platform specific default permissions if the variable is not set."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS.rst:13
+msgid ""
+"Implicitly created directories are created if they are not explicitly "
+"installed by :command:`install` command but are needed to install a file "
+"on a certain path. Example of such locations are directories created due "
+"to the setting of :variable:`CMAKE_INSTALL_PREFIX`."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS.rst:18
+msgid ""
+"Expected content of the "
+":variable:`CMAKE_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS` variable is a "
+"list of permissions that can be used by :command:`install` command "
+"`PERMISSIONS` section."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_INSTALL_DEFAULT_DIRECTORY_PERMISSIONS.rst:22
+msgid "Example usage:"
+msgstr ""
+

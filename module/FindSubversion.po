@@ -1,0 +1,66 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindSubversion.cmake:6
+msgid "FindSubversion"
+msgstr ""
+
+#: ../../CMake/Modules/FindSubversion.cmake:8
+msgid "Extract information from a subversion working copy"
+msgstr ""
+
+#: ../../CMake/Modules/FindSubversion.cmake:10
+msgid "The module defines the following variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindSubversion.cmake:21
+msgid ""
+"The minimum required version of Subversion can be specified using the "
+"standard syntax, e.g. ``find_package(Subversion 1.4)``."
+msgstr ""
+
+#: ../../CMake/Modules/FindSubversion.cmake:24
+msgid "If the command line client executable is found two macros are defined:"
+msgstr ""
+
+#: ../../CMake/Modules/FindSubversion.cmake:31
+msgid ""
+"``Subversion_WC_INFO`` extracts information of a subversion working copy "
+"at a given location.  This macro defines the following variables if "
+"running Subversion's ``info`` command on ``<dir>`` succeeds; otherwise a "
+"``SEND_ERROR`` message is generated."
+msgstr ""
+
+#: ../../CMake/Modules/FindSubversion.cmake:36
+msgid ""
+"The error can be ignored by providing the ``IGNORE_SVN_FAILURE`` option, "
+"which causes these variables to remain undefined."
+msgstr ""
+
+#: ../../CMake/Modules/FindSubversion.cmake:51
+msgid ""
+"``Subversion_WC_LOG`` retrieves the log message of the base revision of a"
+" subversion working copy at a given location.  This macro defines the "
+"variable:"
+msgstr ""
+
+#: ../../CMake/Modules/FindSubversion.cmake:58
+msgid "Example usage:"
+msgstr ""
+

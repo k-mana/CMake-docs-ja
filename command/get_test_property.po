@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/get_test_property.rst:2
+msgid "get_test_property"
+msgstr ""
+
+#: ../../CMake/Help/command/get_test_property.rst:4
+msgid "Get a property of the test."
+msgstr ""
+
+#: ../../CMake/Help/command/get_test_property.rst:10
+msgid ""
+"Get a property from the test.  The value of the property is stored in the"
+" variable ``VAR``.  If the test property is not found, the behavior "
+"depends on whether it has been defined to be an ``INHERITED`` property or"
+" not (see :command:`define_property`).  Non-inherited properties will set"
+" ``VAR`` to \"NOTFOUND\", whereas inherited properties will search the "
+"relevant parent scope as described for the :command:`define_property` "
+"command and if still unable to find the property, ``VAR`` will be set to "
+"an empty string."
+msgstr ""
+
+#: ../../CMake/Help/command/get_test_property.rst:19
+msgid ""
+"For a list of standard properties you can type ``cmake --help-property-"
+"list``."
+msgstr ""
+
+#: ../../CMake/Help/command/get_test_property.rst:21
+msgid "See also the more general :command:`get_property` command."
+msgstr ""
+

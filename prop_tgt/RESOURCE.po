@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/RESOURCE.rst:2
+msgid "RESOURCE"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/RESOURCE.rst:4
+msgid "Specify resource files in a :prop_tgt:`FRAMEWORK` or :prop_tgt:`BUNDLE`."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/RESOURCE.rst:6
+msgid ""
+"Target marked with the :prop_tgt:`FRAMEWORK` or :prop_tgt:`BUNDLE` "
+"property generate framework or application bundle (both macOS and iOS is "
+"supported) or normal shared libraries on other platforms. This property "
+"may be set to a list of files to be placed in the corresponding directory"
+" (eg. ``Resources`` directory for macOS) inside the bundle. On non-Apple "
+"platforms these files may be installed using the ``RESOURCE`` option to "
+"the :command:`install(TARGETS)` command."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/RESOURCE.rst:14
+msgid "Following example of Application Bundle:"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/RESOURCE.rst:34
+msgid "will produce flat structure for iOS systems::"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/RESOURCE.rst:42
+msgid "For macOS systems it will produce following directory structure::"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/RESOURCE.rst:53
+msgid "For Linux, such CMake script produce following files::"
+msgstr ""
+

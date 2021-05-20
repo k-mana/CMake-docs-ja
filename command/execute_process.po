@@ -1,0 +1,278 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/execute_process.rst:2
+msgid "execute_process"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:4
+msgid "Execute one or more child processes."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:29
+msgid "Runs the given sequence of one or more commands."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:31
+msgid ""
+"Commands are executed concurrently as a pipeline, with the standard "
+"output of each process piped to the standard input of the next. A single "
+"standard error pipe is used for all processes."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:35
+msgid "Options:"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:48
+msgid "``COMMAND``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:38
+msgid "A child process command line."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:40
+msgid ""
+"CMake executes the child process using operating system APIs directly. "
+"All arguments are passed VERBATIM to the child process. No intermediate "
+"shell is used, so shell operators such as ``>`` are treated as normal "
+"arguments. (Use the ``INPUT_*``, ``OUTPUT_*``, and ``ERROR_*`` options to"
+" redirect stdin, stdout, and stderr.)"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:47
+msgid ""
+"If a sequential execution of multiple commands is required, use multiple "
+":command:`execute_process` calls with a single ``COMMAND`` argument."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:52
+msgid "``WORKING_DIRECTORY``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:51
+msgid ""
+"The named directory will be set as the current working directory of the "
+"child processes."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:57
+msgid "``TIMEOUT``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:55
+msgid ""
+"After the specified number of seconds (fractions allowed), all unfinished"
+" child processes will be terminated, and the ``RESULT_VARIABLE`` will be "
+"set to a string mentioning the \"timeout\"."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:62
+msgid "``RESULT_VARIABLE``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:60
+msgid ""
+"The variable will be set to contain the result of last child process. "
+"This will be an integer return code from the last child or a string "
+"describing an error condition."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:70
+msgid "``RESULTS_VARIABLE <variable>``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:67
+msgid ""
+"The variable will be set to contain the result of all processes as a :ref"
+":`semicolon-separated list <CMake Language Lists>`, in order of the given"
+" ``COMMAND`` arguments.  Each entry will be an integer return code from "
+"the corresponding child or a string describing an error condition."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:75
+msgid "``OUTPUT_VARIABLE``, ``ERROR_VARIABLE``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:73
+msgid ""
+"The variable named will be set with the contents of the standard output "
+"and standard error pipes, respectively.  If the same variable is named "
+"for both pipes their output will be merged in the order produced."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:84
+msgid "``INPUT_FILE, OUTPUT_FILE``, ``ERROR_FILE``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:78
+msgid ""
+"The file named will be attached to the standard input of the first "
+"process, standard output of the last process, or standard error of all "
+"processes, respectively."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:82
+msgid ""
+"If the same file is named for both output and error then it will be used "
+"for both."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:87
+msgid "``OUTPUT_QUIET``, ``ERROR_QUIET``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:87
+msgid "The standard output or standard error results will be quietly ignored."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:95
+msgid "``COMMAND_ECHO <where>``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:92
+msgid ""
+"The command being run will be echo'ed to ``<where>`` with ``<where>`` "
+"being set to one of ``STDERR``, ``STDOUT`` or ``NONE``. See the "
+":variable:`CMAKE_EXECUTE_PROCESS_COMMAND_ECHO` variable for a way to "
+"control the default behavior when this option is not present."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:120
+msgid "``ENCODING <name>``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:100
+msgid ""
+"On Windows, the encoding that is used to decode output from the process. "
+"Ignored on other platforms. Valid encoding names are:"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:106
+msgid "``NONE``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:105
+msgid ""
+"Perform no decoding.  This assumes that the process output is encoded in "
+"the same way as CMake's internal encoding (UTF-8). This is the default."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:109
+msgid "``AUTO``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:109
+msgid ""
+"Use the current active console's codepage or if that isn't available then"
+" use ANSI."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:111
+msgid "``ANSI``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:112
+msgid "Use the ANSI codepage."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:113
+msgid "``OEM``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:114
+msgid "Use the original equipment manufacturer (OEM) code page."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:120
+msgid "``UTF8`` or ``UTF-8``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:116
+msgid "Use the UTF-8 codepage."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:118
+msgid ""
+"Accept ``UTF-8`` spelling for consistency with the `UTF-8 RFC "
+"<https://www.ietf.org/rfc/rfc3629>`_ naming convention."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:131
+msgid "``ECHO_OUTPUT_VARIABLE``, ``ECHO_ERROR_VARIABLE``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:125
+msgid ""
+"The standard output or standard error will not be exclusively redirected "
+"to the configured variables."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:128
+msgid ""
+"The output will be duplicated, it will be sent into the configured "
+"variables and also on standard output or standard error."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:131
+msgid "This is analogous to the ``tee`` Unix command."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:146
+msgid "``COMMAND_ERROR_IS_FATAL <ANY|LAST>``"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:136
+msgid ""
+"The option following ``COMMAND_ERROR_IS_FATAL`` determines the behavior "
+"when an error is encountered:"
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:139
+msgid ""
+"``ANY`` If any of the commands in the list of commands fail, the "
+"``execute_process()`` command halts with an error."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:143
+msgid ""
+"``LAST`` If the last command in the list of commands fails, the "
+"``execute_process()`` command halts with an error.  Commands earlier in "
+"the list will not cause a fatal error."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:148
+msgid ""
+"If more than one ``OUTPUT_*`` or ``ERROR_*`` option is given for the same"
+" pipe the precedence is not specified. If no ``OUTPUT_*`` or ``ERROR_*`` "
+"options are given the output will be shared with the corresponding pipes "
+"of the CMake process itself."
+msgstr ""
+
+#: ../../CMake/Help/command/execute_process.rst:153
+msgid ""
+"The :command:`execute_process` command is a newer more powerful version "
+"of :command:`exec_program`, but the old command has been kept for "
+"compatibility. Both commands run while CMake is processing the project "
+"prior to build system generation.  Use :command:`add_custom_target` and "
+":command:`add_custom_command` to create custom commands that run at build"
+" time."
+msgstr ""
+

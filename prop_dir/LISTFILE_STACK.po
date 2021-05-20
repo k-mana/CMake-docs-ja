@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_dir/LISTFILE_STACK.rst:2
+msgid "LISTFILE_STACK"
+msgstr ""
+
+#: ../../CMake/Help/prop_dir/LISTFILE_STACK.rst:4
+msgid "The current stack of listfiles being processed."
+msgstr ""
+
+#: ../../CMake/Help/prop_dir/LISTFILE_STACK.rst:6
+msgid ""
+"This property is mainly useful when trying to debug errors in your CMake "
+"scripts.  It returns a list of what list files are currently being "
+"processed, in order.  So if one listfile does an :command:`include` "
+"command then that is effectively pushing the included listfile onto the "
+"stack."
+msgstr ""
+

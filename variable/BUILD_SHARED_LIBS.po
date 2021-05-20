@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/BUILD_SHARED_LIBS.rst:2
+msgid "BUILD_SHARED_LIBS"
+msgstr ""
+
+#: ../../CMake/Help/variable/BUILD_SHARED_LIBS.rst:4
+msgid ""
+"Global flag to cause :command:`add_library` to create shared libraries if"
+" on."
+msgstr ""
+
+#: ../../CMake/Help/variable/BUILD_SHARED_LIBS.rst:6
+msgid ""
+"If present and true, this will cause all libraries to be built shared "
+"unless the library was explicitly added as a static library.  This "
+"variable is often added to projects as an :command:`option` so that each "
+"user of a project can decide if they want to build the project using "
+"shared or static libraries."
+msgstr ""
+

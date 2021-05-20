@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MOC_OPTIONS.rst:2
+msgid "AUTOMOC_MOC_OPTIONS"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MOC_OPTIONS.rst:4
+msgid "Additional options for ``moc`` when using :prop_tgt:`AUTOMOC`"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MOC_OPTIONS.rst:6
+msgid ""
+"This property is only used if the :prop_tgt:`AUTOMOC` property is ``ON`` "
+"for this target.  In this case, it holds additional command line options "
+"which will be used when ``moc`` is executed during the build, i.e. it is "
+"equivalent to the optional ``OPTIONS`` argument of the "
+":module:`qt4_wrap_cpp() <FindQt4>` macro."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MOC_OPTIONS.rst:12
+msgid ""
+"This property is initialized by the value of the "
+":variable:`CMAKE_AUTOMOC_MOC_OPTIONS` variable if it is set when a target"
+" is created, or an empty string otherwise."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MOC_OPTIONS.rst:16
+msgid ""
+"See the :manual:`cmake-qt(7)` manual for more information on using CMake "
+"with Qt."
+msgstr ""
+

@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:6
+msgid "CheckLibraryExists"
+msgstr ""
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:8
+msgid "Check if the function exists."
+msgstr ""
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:26
+msgid ""
+"The following variables may be set before calling this macro to modify "
+"the way the check is run:"
+msgstr ""
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:29
+msgid "``CMAKE_REQUIRED_FLAGS``"
+msgstr ""
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:30
+msgid "string of compile command line flags."
+msgstr ""
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:31
+msgid "``CMAKE_REQUIRED_DEFINITIONS``"
+msgstr ""
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:32
+msgid "list of macros to define (-DFOO=bar)."
+msgstr ""
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:34
+msgid "``CMAKE_REQUIRED_LINK_OPTIONS``"
+msgstr ""
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:34
+msgid "list of options to pass to link command."
+msgstr ""
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:36
+msgid "``CMAKE_REQUIRED_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:37
+msgid "list of libraries to link."
+msgstr ""
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:104
+msgid "``CMAKE_REQUIRED_QUIET``"
+msgstr ""
+
+#: ../../CMake/Modules/CheckLibraryExists.cmake:39
+msgid "execute quietly without messages."
+msgstr ""
+

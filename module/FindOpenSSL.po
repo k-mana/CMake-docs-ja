@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:6
+msgid "FindOpenSSL"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:8
+msgid "Find the OpenSSL encryption library."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:10
+msgid "This module finds an installed OpenSSL library and determines its version."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:12
+msgid ""
+"When a version is requested, it can be specified as a simple value or as "
+"a range. For a detailed description of version range usage and "
+"capabilities, refer to the :command:`find_package` command."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:17
+msgid "Support for OpenSSL 3.0."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:21
+msgid "Optional COMPONENTS"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:25
+msgid ""
+"This module supports two optional COMPONENTS: ``Crypto`` and ``SSL``.  "
+"Both components have associated imported targets, as described below."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:29
+msgid "Imported Targets"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:33
+msgid "This module defines the following :prop_tgt:`IMPORTED` targets:"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:35
+msgid "``OpenSSL::SSL``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:36
+msgid "The OpenSSL ``ssl`` library, if found."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:37
+msgid "``OpenSSL::Crypto``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:38
+msgid "The OpenSSL ``crypto`` library, if found."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:47
+msgid "``OpenSSL::applink``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:42
+msgid ""
+"The OpenSSL ``applink`` components that might be need to be compiled into"
+" projects under MSVC. This target is available only if found OpenSSL "
+"version is not less than 0.9.8. By linking this target the above OpenSSL "
+"targets can be linked even if the project has different MSVC runtime "
+"configurations with the above OpenSSL targets. This target has no effect "
+"on platforms other than MSVC."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:49
+msgid ""
+"NOTE: Due to how ``INTERFACE_SOURCES`` are consumed by the consuming "
+"target, unless you certainly know what you are doing, it is always "
+"preferred to link ``OpenSSL::applink`` target as ``PRIVATE`` and to make "
+"sure that this target is linked at most once for the whole dependency "
+"graph of any library or executable:"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:59
+msgid ""
+"Otherwise you would probably encounter unexpected random problems when "
+"building and linking, as both the ISO C and the ISO C++ standard claims "
+"almost nothing about what a link process should be."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:64
+msgid "Result Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:66
+msgid "This module will set the following variables in your project:"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:69
+msgid "``OPENSSL_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:69
+msgid ""
+"System has the OpenSSL library. If no components are requested it only "
+"requires the crypto library."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:71
+msgid "``OPENSSL_INCLUDE_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:72
+msgid "The OpenSSL include directory."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:73
+msgid "``OPENSSL_CRYPTO_LIBRARY``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:74
+msgid "The OpenSSL crypto library."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:75
+msgid "``OPENSSL_CRYPTO_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:76
+msgid "The OpenSSL crypto library and its dependencies."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:77
+msgid "``OPENSSL_SSL_LIBRARY``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:78
+msgid "The OpenSSL SSL library."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:79
+msgid "``OPENSSL_SSL_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:80
+msgid "The OpenSSL SSL library and its dependencies."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:81
+msgid "``OPENSSL_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:82
+msgid "All OpenSSL libraries and their dependencies."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:83
+msgid "``OPENSSL_VERSION``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:84
+msgid "This is set to ``$major.$minor.$revision$patch`` (e.g. ``0.9.8s``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:88
+msgid "``OPENSSL_APPLINK_SOURCE``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:86
+msgid ""
+"The sources in the target ``OpenSSL::applink`` that is mentioned above. "
+"This variable shall always be undefined if found openssl version is less "
+"than 0.9.8 or if platform is not MSVC."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:91
+msgid "Hints"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:93
+msgid "Set ``OPENSSL_ROOT_DIR`` to the root directory of an OpenSSL installation."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:95
+msgid "Set ``OPENSSL_USE_STATIC_LIBS`` to ``TRUE`` to look for static libraries."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSSL.cmake:98
+msgid ""
+"Set ``OPENSSL_MSVC_STATIC_RT`` set ``TRUE`` to choose the MT version of "
+"the lib."
+msgstr ""
+

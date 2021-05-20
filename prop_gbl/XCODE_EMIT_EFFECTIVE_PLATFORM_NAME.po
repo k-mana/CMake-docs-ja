@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_gbl/XCODE_EMIT_EFFECTIVE_PLATFORM_NAME.rst:2
+msgid "XCODE_EMIT_EFFECTIVE_PLATFORM_NAME"
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/XCODE_EMIT_EFFECTIVE_PLATFORM_NAME.rst:6
+msgid ""
+"Control emission of ``EFFECTIVE_PLATFORM_NAME`` by the :generator:`Xcode`"
+" generator."
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/XCODE_EMIT_EFFECTIVE_PLATFORM_NAME.rst:9
+msgid ""
+"It is required for building the same target with multiple SDKs. A common "
+"use case is the parallel use of ``iphoneos`` and ``iphonesimulator`` "
+"SDKs."
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/XCODE_EMIT_EFFECTIVE_PLATFORM_NAME.rst:13
+msgid ""
+"Three different states possible that control when the :generator:`Xcode` "
+"generator emits the ``EFFECTIVE_PLATFORM_NAME`` variable:"
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/XCODE_EMIT_EFFECTIVE_PLATFORM_NAME.rst:16
+msgid "If set to ``ON`` it will always be emitted"
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/XCODE_EMIT_EFFECTIVE_PLATFORM_NAME.rst:17
+msgid "If set to ``OFF`` it will never be emitted"
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/XCODE_EMIT_EFFECTIVE_PLATFORM_NAME.rst:18
+msgid ""
+"If unset (the default) it will only be emitted when the project was "
+"configured for an embedded Xcode SDK like iOS, tvOS, watchOS or any of "
+"the simulators."
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/XCODE_EMIT_EFFECTIVE_PLATFORM_NAME.rst:24
+msgid ""
+"When this behavior is enable for generated Xcode projects, the "
+"``EFFECTIVE_PLATFORM_NAME`` variable will leak into :manual:`Generator "
+"expressions <cmake-generator-expressions(7)>` like ``TARGET_FILE`` and "
+"will render those mostly unusable."
+msgstr ""
+

@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:6
+msgid "CheckPIESupported"
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:10
+msgid ""
+"Check whether the linker supports Position Independent Code (PIE) or No "
+"Position Independent Code (NO_PIE) for executables. Use this to ensure "
+"that the :prop_tgt:`POSITION_INDEPENDENT_CODE` target property for "
+"executables will be honored at link time."
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:22
+msgid "Options are:"
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:24
+msgid "``OUTPUT_VARIABLE <output>``"
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:25
+msgid "Set ``<output>`` variable with details about any error."
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:27
+msgid "``LANGUAGES <lang>...``"
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:27
+msgid ""
+"Check the linkers used for each of the specified languages. Supported "
+"languages are ``C``, ``CXX``, and ``Fortran``."
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:30
+msgid ""
+"It makes no sense to use this module when :policy:`CMP0083` is set to "
+"``OLD``, so the command will return an error in this case.  See policy "
+":policy:`CMP0083` for details."
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:35
+msgid "Variables"
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:37
+msgid "For each language checked, two boolean cache variables are defined."
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:39
+msgid "``CMAKE_<lang>_LINK_PIE_SUPPORTED``"
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:40
+msgid "Set to ``YES`` if ``PIE`` is supported by the linker and ``NO`` otherwise."
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:42
+msgid "``CMAKE_<lang>_LINK_NO_PIE_SUPPORTED``"
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:42
+msgid ""
+"Set to ``YES`` if ``NO_PIE`` is supported by the linker and ``NO`` "
+"otherwise."
+msgstr ""
+
+#: ../../CMake/Modules/CheckPIESupported.cmake:45
+msgid "Examples"
+msgstr ""
+

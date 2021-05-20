@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/COMPATIBLE_INTERFACE_NUMBER_MIN.rst:2
+msgid "COMPATIBLE_INTERFACE_NUMBER_MIN"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/COMPATIBLE_INTERFACE_NUMBER_MIN.rst:4
+msgid "Properties whose maximum value from the link interface will be used."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/COMPATIBLE_INTERFACE_NUMBER_MIN.rst:6
+msgid ""
+"The ``COMPATIBLE_INTERFACE_NUMBER_MIN`` property may contain a list of "
+"properties for this target whose minimum value may be read at generate "
+"time when evaluated in the ``INTERFACE`` variant of the property of all "
+"linked dependees.  For example, if a property ``FOO`` appears in the "
+"list, then for each dependee, the ``INTERFACE_FOO`` property content in "
+"all of its dependencies will be compared with each other and with the "
+"``FOO`` property in the depender. When reading the ``FOO`` property at "
+"generate time, the minimum value will be returned.  If the property is "
+"not set, then it is ignored."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/COMPATIBLE_INTERFACE_NUMBER_MIN.rst:16
+msgid ""
+"Note that for each dependee, the set of properties specified in this "
+"property must not intersect with the set specified in any of the other "
+":ref:`Compatible Interface Properties`."
+msgstr ""
+

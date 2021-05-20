@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst:2
+msgid "AUTOGEN_ORIGIN_DEPENDS"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst:6
+msgid ""
+"Switch for forwarding origin target dependencies to the corresponding "
+"``_autogen`` target."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst:9
+msgid ""
+"Targets which have their :prop_tgt:`AUTOMOC` or :prop_tgt:`AUTOUIC` "
+"property ``ON`` have a corresponding ``_autogen`` target which generates "
+"``moc`` and ``uic`` files.  As this ``_autogen`` target is created at "
+"generate-time, it is not possible to define dependencies of it using e.g."
+"  :command:`add_dependencies`.  Instead the "
+":prop_tgt:`AUTOGEN_ORIGIN_DEPENDS` target property decides whether the "
+"origin target dependencies should be forwarded to the ``_autogen`` target"
+" or not."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst:17
+msgid ""
+"By default :prop_tgt:`AUTOGEN_ORIGIN_DEPENDS` is initialized from "
+":variable:`CMAKE_AUTOGEN_ORIGIN_DEPENDS` which is ``ON`` by default."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst:20
+msgid "In total the dependencies of the ``_autogen`` target are composed from"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst:22
+msgid ""
+"forwarded origin target dependencies (enabled by default via "
+":prop_tgt:`AUTOGEN_ORIGIN_DEPENDS`)"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst:24
+msgid ""
+"additional user defined dependencies from "
+":prop_tgt:`AUTOGEN_TARGET_DEPENDS`"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst:26
+msgid ""
+"See the :manual:`cmake-qt(7)` manual for more information on using CMake "
+"with Qt."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst:30
+msgid "Note"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst:32
+msgid ""
+"Disabling :prop_tgt:`AUTOGEN_ORIGIN_DEPENDS` is useful to avoid building "
+"of origin target dependencies when building the ``_autogen`` target only."
+" This is especially interesting when a :variable:`global autogen target "
+"<CMAKE_GLOBAL_AUTOGEN_TARGET>` is enabled."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOGEN_ORIGIN_DEPENDS.rst:37
+msgid ""
+"When the ``_autogen`` target doesn't require all the origin target's "
+"dependencies, and :prop_tgt:`AUTOGEN_ORIGIN_DEPENDS` is disabled, it "
+"might be necessary to extend :prop_tgt:`AUTOGEN_TARGET_DEPENDS` to add "
+"missing dependencies."
+msgstr ""
+

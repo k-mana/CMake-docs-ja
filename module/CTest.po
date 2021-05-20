@@ -1,0 +1,72 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/CTest.cmake:6
+msgid "CTest"
+msgstr ""
+
+#: ../../CMake/Modules/CTest.cmake:8
+msgid "Configure a project for testing with CTest/CDash"
+msgstr ""
+
+#: ../../CMake/Modules/CTest.cmake:10
+msgid ""
+"Include this module in the top CMakeLists.txt file of a project to enable"
+" testing with CTest and dashboard submissions to CDash::"
+msgstr ""
+
+#: ../../CMake/Modules/CTest.cmake:17
+msgid ""
+"The module automatically creates a ``BUILD_TESTING`` option that selects "
+"whether to enable testing support (``ON`` by default).  After including "
+"the module, use code like::"
+msgstr ""
+
+#: ../../CMake/Modules/CTest.cmake:25
+msgid "to creating tests when testing is enabled."
+msgstr ""
+
+#: ../../CMake/Modules/CTest.cmake:27
+msgid ""
+"To enable submissions to a CDash server, create a ``CTestConfig.cmake`` "
+"file at the top of the project with content such as::"
+msgstr ""
+
+#: ../../CMake/Modules/CTest.cmake:33
+msgid ""
+"(the CDash server can provide the file to a project administrator who "
+"configures ``MyProject``).  Settings in the config file are shared by "
+"both this ``CTest`` module and the :manual:`ctest(1)` command-line "
+":ref:`Dashboard Client` mode (``ctest -S``)."
+msgstr ""
+
+#: ../../CMake/Modules/CTest.cmake:38
+msgid ""
+"While building a project for submission to CDash, CTest scans the build "
+"output for errors and warnings and reports them with surrounding context "
+"from the build log.  This generic approach works for all build tools, but"
+" does not give details about the command invocation that produced a given"
+" problem.  One may get more detailed reports by setting the "
+":variable:`CTEST_USE_LAUNCHERS` variable::"
+msgstr ""
+
+#: ../../CMake/Modules/CTest.cmake:47
+msgid "in the ``CTestConfig.cmake`` file."
+msgstr ""
+

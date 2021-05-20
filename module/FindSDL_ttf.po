@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindSDL_ttf.cmake:6
+msgid "FindSDL_ttf"
+msgstr ""
+
+#: ../../CMake/Modules/FindSDL_ttf.cmake:8
+msgid "Locate SDL_ttf library"
+msgstr ""
+
+#: ../../CMake/Modules/FindSDL_ttf.cmake:10
+msgid "This module defines:"
+msgstr ""
+
+#: ../../CMake/Modules/FindSDL_ttf.cmake:21
+msgid "For backward compatibility the following variables are also set:"
+msgstr ""
+
+#: ../../CMake/Modules/FindSDL_ttf.cmake:31
+msgid ""
+"$SDLDIR is an environment variable that would correspond to the "
+"./configure --prefix=$SDLDIR used in building SDL."
+msgstr ""
+
+#: ../../CMake/Modules/FindSDL_ttf.cmake:34
+msgid ""
+"Created by Eric Wing.  This was influenced by the FindSDL.cmake module, "
+"but with modifications to recognize OS X frameworks and additional Unix "
+"paths (FreeBSD, etc)."
+msgstr ""
+

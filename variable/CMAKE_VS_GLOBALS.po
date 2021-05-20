@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_VS_GLOBALS.rst:2
+msgid "CMAKE_VS_GLOBALS"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_VS_GLOBALS.rst:6
+msgid ""
+"List of ``Key=Value`` records to be set per target as target properties "
+":prop_tgt:`VS_GLOBAL_<variable>` with ``variable=Key`` and value "
+"``Value``."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_VS_GLOBALS.rst:9
+msgid "For example:"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_VS_GLOBALS.rst:18
+msgid ""
+"will set properties ``VS_GLOBAL_DefaultLanguage`` to ``en-US`` and "
+"``VS_GLOBAL_MinimumVisualStudioVersion`` to ``14.0`` for all targets "
+"(except for ``INTERFACE`` libraries)."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_VS_GLOBALS.rst:22
+msgid ""
+"This variable is meant to be set by a :variable:`toolchain file "
+"<CMAKE_TOOLCHAIN_FILE>`."
+msgstr ""
+

@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/CTestUseLaunchers.cmake:6
+msgid "CTestUseLaunchers"
+msgstr ""
+
+#: ../../CMake/Modules/CTestUseLaunchers.cmake:8
+msgid "Set the RULE_LAUNCH_* global properties when CTEST_USE_LAUNCHERS is on."
+msgstr ""
+
+#: ../../CMake/Modules/CTestUseLaunchers.cmake:10
+msgid ""
+"CTestUseLaunchers is automatically included when you include(CTest). "
+"However, it is split out into its own module file so projects can use the"
+" CTEST_USE_LAUNCHERS functionality independently."
+msgstr ""
+
+#: ../../CMake/Modules/CTestUseLaunchers.cmake:14
+msgid ""
+"To use launchers, set CTEST_USE_LAUNCHERS to ON in a ctest -S dashboard "
+"script, and then also set it in the cache of the configured project.  "
+"Both cmake and ctest need to know the value of it for the launchers to "
+"work properly.  CMake needs to know in order to generate proper build "
+"rules, and ctest, in order to produce the proper error and warning "
+"analysis."
+msgstr ""
+
+#: ../../CMake/Modules/CTestUseLaunchers.cmake:21
+msgid ""
+"For convenience, you may set the ENV variable CTEST_USE_LAUNCHERS_DEFAULT"
+" in your ctest -S script, too.  Then, as long as your CMakeLists uses "
+"include(CTest) or include(CTestUseLaunchers), it will use the value of "
+"the ENV variable to initialize a CTEST_USE_LAUNCHERS cache variable.  "
+"This cache variable initialization only occurs if CTEST_USE_LAUNCHERS is "
+"not already defined."
+msgstr ""
+
+#: ../../CMake/Modules/CTestUseLaunchers.cmake:29
+msgid ""
+"If CTEST_USE_LAUNCHERS is on in a ctest -S script the ctest_configure "
+"command will add -DCTEST_USE_LAUNCHERS:BOOL=TRUE to the cmake command "
+"used to configure the project."
+msgstr ""
+

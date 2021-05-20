@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/VS_NO_SOLUTION_DEPLOY.rst:2
+msgid "VS_NO_SOLUTION_DEPLOY"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_NO_SOLUTION_DEPLOY.rst:6
+msgid ""
+"Specify that the target should not be marked for deployment to a Windows "
+"CE or Windows Phone device in the generated Visual Studio solution."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_NO_SOLUTION_DEPLOY.rst:9
+msgid ""
+"Be default, all EXE and shared library (DLL) targets are marked to deploy"
+" to the target device in the generated Visual Studio solution."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_NO_SOLUTION_DEPLOY.rst:12
+msgid "Generator expressions are supported."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_NO_SOLUTION_DEPLOY.rst:14
+msgid ""
+"There are reasons one might want to exclude a target / generated project "
+"from deployment:"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_NO_SOLUTION_DEPLOY.rst:17
+msgid ""
+"The library or executable may not be necessary in the primary "
+"deploy/debug scenario, and excluding from deployment saves time in the "
+"develop/download/debug cycle."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_NO_SOLUTION_DEPLOY.rst:20
+msgid ""
+"There may be insufficient space on the target device to accommodate all "
+"of the build products."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_NO_SOLUTION_DEPLOY.rst:22
+msgid ""
+"Visual Studio 2013 requires a target device IP address be entered for "
+"each target marked for deployment.  For large numbers of targets, this "
+"can be tedious. NOTE: Visual Studio *will* deploy all project "
+"dependencies of a project tagged for deployment to the IP address "
+"configured for that project even if those dependencies are not tagged for"
+" deployment."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_NO_SOLUTION_DEPLOY.rst:31
+msgid "Example 1"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_NO_SOLUTION_DEPLOY.rst:33
+msgid "This shows setting the variable for the target foo."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_NO_SOLUTION_DEPLOY.rst:41
+msgid "Example 2"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_NO_SOLUTION_DEPLOY.rst:43
+msgid "This shows setting the variable for the Release configuration only."
+msgstr ""
+

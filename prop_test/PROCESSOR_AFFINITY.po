@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_test/PROCESSOR_AFFINITY.rst:2
+msgid "PROCESSOR_AFFINITY"
+msgstr ""
+
+#: ../../CMake/Help/prop_test/PROCESSOR_AFFINITY.rst:6
+msgid ""
+"Set to a true value to ask CTest to launch the test process with CPU "
+"affinity for a fixed set of processors.  If enabled and supported for the"
+" current platform, CTest will choose a set of processors to place in the "
+"CPU affinity mask when launching the test process.  The number of "
+"processors in the set is determined by the :prop_test:`PROCESSORS` test "
+"property or the number of processors available to CTest, whichever is "
+"smaller.  The set of processors chosen will be disjoint from the "
+"processors assigned to other concurrently running tests that also have "
+"the ``PROCESSOR_AFFINITY`` property enabled."
+msgstr ""
+

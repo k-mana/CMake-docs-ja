@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/POSITION_INDEPENDENT_CODE.rst:2
+msgid "POSITION_INDEPENDENT_CODE"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/POSITION_INDEPENDENT_CODE.rst:4
+msgid "Whether to create a position-independent target"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/POSITION_INDEPENDENT_CODE.rst:6
+msgid ""
+"The ``POSITION_INDEPENDENT_CODE`` property determines whether position "
+"independent executables or shared libraries will be created.  This "
+"property is ``True`` by default for ``SHARED`` and ``MODULE`` library "
+"targets and ``False`` otherwise.  This property is initialized by the "
+"value of the :variable:`CMAKE_POSITION_INDEPENDENT_CODE` variable  if it "
+"is set when a target is created."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/POSITION_INDEPENDENT_CODE.rst:15
+msgid ""
+"For executable targets, the link step is controlled by the "
+":policy:`CMP0083` policy and the :module:`CheckPIESupported` module."
+msgstr ""
+

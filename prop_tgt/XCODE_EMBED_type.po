@@ -1,0 +1,40 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/XCODE_EMBED_type.rst:2
+msgid "XCODE_EMBED_<type>"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/XCODE_EMBED_type.rst:6
+msgid ""
+"Tell the :generator:`Xcode` generator to embed the specified list of "
+"items into the target bundle.  ``<type>`` specifies the embed build phase"
+" to use."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/XCODE_EMBED_type.rst:9
+msgid ""
+"Currently, the only supported value for ``<type>`` is ``FRAMEWORKS``. The"
+" specified items will be added to the ``Embed Frameworks`` build phase. "
+"The items can be CMake target names or paths to frameworks or libraries. "
+"See also :prop_tgt:`XCODE_EMBED_<type>_PATH`, "
+":prop_tgt:`XCODE_EMBED_FRAMEWORKS_REMOVE_HEADERS_ON_COPY` and "
+":prop_tgt:`XCODE_EMBED_FRAMEWORKS_CODE_SIGN_ON_COPY`."
+msgstr ""
+

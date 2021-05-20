@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_CROSSCOMPILING_EMULATOR.rst:2
+msgid "CMAKE_CROSSCOMPILING_EMULATOR"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_CROSSCOMPILING_EMULATOR.rst:6
+msgid ""
+"This variable is only used when :variable:`CMAKE_CROSSCOMPILING` is on. "
+"It should point to a command on the host system that can run executable "
+"built for the target system."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_CROSSCOMPILING_EMULATOR.rst:10
+msgid ""
+"If this variable contains a :ref:`semicolon-separated list <CMake "
+"Language Lists>`, then the first value is the command and remaining "
+"values are its arguments."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_CROSSCOMPILING_EMULATOR.rst:14
+msgid ""
+"The command will be used to run :command:`try_run` generated executables,"
+" which avoids manual population of the ``TryRunResults.cmake`` file."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_CROSSCOMPILING_EMULATOR.rst:17
+msgid ""
+"It is also used as the default value for the "
+":prop_tgt:`CROSSCOMPILING_EMULATOR` target property of executables."
+msgstr ""
+

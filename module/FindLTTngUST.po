@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:6
+msgid "FindLTTngUST"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:10
+msgid ""
+"Find `Linux Trace Toolkit Next Generation (LTTng-UST) "
+"<http://lttng.org/>`__ library."
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:14
+msgid "Imported target"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:16
+msgid "This module defines the following :prop_tgt:`IMPORTED` target:"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:19
+msgid "``LTTng::UST``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:19
+msgid "The LTTng-UST library, if found"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:22
+msgid "Result variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:24
+msgid "This module sets the following"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:26
+msgid "``LTTNGUST_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:27
+msgid "``TRUE`` if system has LTTng-UST"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:28
+msgid "``LTTNGUST_INCLUDE_DIRS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:29
+msgid "The LTTng-UST include directories"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:30
+msgid "``LTTNGUST_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:31
+msgid "The libraries needed to use LTTng-UST"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:32
+msgid "``LTTNGUST_VERSION_STRING``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:33
+msgid "The LTTng-UST version"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:34
+msgid "``LTTNGUST_HAS_TRACEF``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:35
+msgid "``TRUE`` if the ``tracef()`` API is available in the system's LTTng-UST"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:102
+msgid "``LTTNGUST_HAS_TRACELOG``"
+msgstr ""
+
+#: ../../CMake/Modules/FindLTTngUST.cmake:37
+msgid "``TRUE`` if the ``tracelog()`` API is available in the system's LTTng-UST"
+msgstr ""
+

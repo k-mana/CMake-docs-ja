@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/Dart.cmake:6
+msgid "Dart"
+msgstr ""
+
+#: ../../CMake/Modules/Dart.cmake:8
+msgid "Configure a project for testing with CTest or old Dart Tcl Client"
+msgstr ""
+
+#: ../../CMake/Modules/Dart.cmake:10
+msgid ""
+"This file is the backwards-compatibility version of the CTest module. It "
+"supports using the old Dart 1 Tcl client for driving dashboard "
+"submissions as well as testing with CTest.  This module should be "
+"included in the CMakeLists.txt file at the top of a project.  Typical "
+"usage:"
+msgstr ""
+
+#: ../../CMake/Modules/Dart.cmake:23
+msgid ""
+"The BUILD_TESTING option is created by the Dart module to determine "
+"whether testing support should be enabled.  The default is ON."
+msgstr ""
+

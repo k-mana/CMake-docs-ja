@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/define_property.rst:2
+msgid "define_property"
+msgstr ""
+
+#: ../../CMake/Help/command/define_property.rst:4
+msgid "Define and document custom properties."
+msgstr ""
+
+#: ../../CMake/Help/command/define_property.rst:14
+msgid ""
+"Defines one property in a scope for use with the :command:`set_property` "
+"and :command:`get_property` commands.  This is primarily useful to "
+"associate documentation with property names that may be retrieved with "
+"the :command:`get_property` command. The first argument determines the "
+"kind of scope in which the property should be used.  It must be one of "
+"the following:"
+msgstr ""
+
+#: ../../CMake/Help/command/define_property.rst:31
+msgid ""
+"Note that unlike :command:`set_property` and :command:`get_property` no "
+"actual scope needs to be given; only the kind of scope is important."
+msgstr ""
+
+#: ../../CMake/Help/command/define_property.rst:34
+msgid ""
+"The required ``PROPERTY`` option is immediately followed by the name of "
+"the property being defined."
+msgstr ""
+
+#: ../../CMake/Help/command/define_property.rst:37
+msgid ""
+"If the ``INHERITED`` option is given, then the :command:`get_property` "
+"command will chain up to the next higher scope when the requested "
+"property is not set in the scope given to the command."
+msgstr ""
+
+#: ../../CMake/Help/command/define_property.rst:41
+msgid ""
+"``DIRECTORY`` scope chains to its parent directory's scope, continuing "
+"the walk up parent directories until a directory has the property set or "
+"there are no more parents.  If still not found at the top level "
+"directory, it chains to the ``GLOBAL`` scope."
+msgstr ""
+
+#: ../../CMake/Help/command/define_property.rst:45
+msgid ""
+"``TARGET``, ``SOURCE`` and ``TEST`` properties chain to ``DIRECTORY`` "
+"scope, including further chaining up the directories, etc. as needed."
+msgstr ""
+
+#: ../../CMake/Help/command/define_property.rst:48
+msgid ""
+"Note that this scope chaining behavior only applies to calls to "
+":command:`get_property`, :command:`get_directory_property`, "
+":command:`get_target_property`, :command:`get_source_file_property` and "
+":command:`get_test_property`.  There is no inheriting behavior when "
+"*setting* properties, so using ``APPEND`` or ``APPEND_STRING`` with the "
+":command:`set_property` command will not consider inherited values when "
+"working out the contents to append to."
+msgstr ""
+
+#: ../../CMake/Help/command/define_property.rst:56
+msgid ""
+"The ``BRIEF_DOCS`` and ``FULL_DOCS`` options are followed by strings to "
+"be associated with the property as its brief and full documentation. "
+"Corresponding options to the :command:`get_property` command will "
+"retrieve the documentation."
+msgstr ""
+

@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:2 Studio
+msgid "Visual Studio 10 2010"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:4 Studio
+msgid "Generates Visual Studio 10 (VS 2010) project files."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:6 Studio
+msgid ""
+"For compatibility with CMake versions prior to 3.0, one may specify this "
+"generator using the name ``Visual Studio 10`` without the year component."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:10 Studio
+msgid "Project Types"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:12 Studio
+msgid ""
+"Only Visual C++ and C# projects may be generated.  Other types of "
+"projects (Database, Website, etc.) are not supported."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:16 Studio
+msgid "Platform Selection"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:18 Studio
+msgid "The default target platform name (architecture) is ``Win32``."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:20 Studio
+msgid ""
+"The :variable:`CMAKE_GENERATOR_PLATFORM` variable may be set, perhaps via"
+" the :manual:`cmake(1)` ``-A`` option, to specify a target platform name "
+"(architecture).  For example:"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:25 Studio
+msgid "``cmake -G \"Visual Studio 10 2010\" -A Win32``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:26 Studio
+msgid "``cmake -G \"Visual Studio 10 2010\" -A x64``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:27 Studio
+msgid "``cmake -G \"Visual Studio 10 2010\" -A Itanium``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:29 Studio
+msgid ""
+"For compatibility with CMake versions prior to 3.1, one may specify a "
+"target platform name optionally at the end of the generator name. This is"
+" supported only for:"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:34 Studio
+msgid "``Visual Studio 10 2010 Win64``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:34 Studio
+msgid "Specify target platform ``x64``."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:37 Studio
+msgid "``Visual Studio 10 2010 IA64``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:37 Studio
+msgid "Specify target platform ``Itanium``."
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:40 Studio
+msgid "Toolset Selection"
+msgstr ""
+
+#: ../../CMake/Help/generator/Visual 10 2010.rst:42 Studio
+msgid ""
+"The ``v100`` toolset that comes with Visual Studio 10 2010 is selected by"
+" default.  The :variable:`CMAKE_GENERATOR_TOOLSET` option may be set, "
+"perhaps via the :manual:`cmake(1)` ``-T`` option, to specify another "
+"toolset."
+msgstr ""
+

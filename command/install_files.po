@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/install_files.rst:2
+msgid "install_files"
+msgstr ""
+
+#: ../../CMake/Help/command/install_files.rst:6
+msgid "Use the :command:`install(FILES)` command instead."
+msgstr ""
+
+#: ../../CMake/Help/command/install_files.rst:8
+msgid ""
+"This command has been superceded by the :command:`install` command.  It "
+"is provided for compatibility with older CMake code.  The ``FILES`` form "
+"is directly replaced by the ``FILES`` form of the :command:`install` "
+"command.  The regexp form can be expressed more clearly using the "
+"``GLOB`` form of the :command:`file` command."
+msgstr ""
+
+#: ../../CMake/Help/command/install_files.rst:18
+msgid ""
+"Create rules to install the listed files with the given extension into "
+"the given directory.  Only files existing in the current source tree or "
+"its corresponding location in the binary tree may be listed.  If a file "
+"specified already has an extension, that extension will be removed first."
+"  This is useful for providing lists of source files such as foo.cxx when"
+" you want the corresponding foo.h to be installed. A typical extension is"
+" ``.h``."
+msgstr ""
+
+#: ../../CMake/Help/command/install_files.rst:30
+msgid ""
+"Any files in the current source directory that match the regular "
+"expression will be installed."
+msgstr ""
+
+#: ../../CMake/Help/command/install_files.rst:37
+msgid ""
+"Any files listed after the ``FILES`` keyword will be installed explicitly"
+" from the names given.  Full paths are allowed in this form."
+msgstr ""
+
+#: ../../CMake/Help/command/install_files.rst:40
+msgid ""
+"The directory ``<dir>`` is relative to the installation prefix, which is "
+"stored in the variable :variable:`CMAKE_INSTALL_PREFIX`."
+msgstr ""
+

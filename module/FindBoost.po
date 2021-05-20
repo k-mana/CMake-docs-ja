@@ -1,0 +1,676 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindBoost.cmake:6
+msgid "FindBoost"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:8
+msgid "Find Boost include dirs and libraries"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:10
+msgid "Use this module by invoking :command:`find_package` with the form:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:23
+msgid ""
+"This module finds headers and requested component libraries OR a CMake "
+"package configuration file provided by a \"Boost CMake\" build.  For the "
+"latter case skip to the :ref:`Boost CMake` section below."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:27
+msgid "``bzip2`` and ``zlib`` components (Windows only)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:30
+msgid "The ``OPTIONAL_COMPONENTS`` option."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:33
+msgid "``stacktrace_*`` components."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:36
+msgid "``bzip2`` and ``zlib`` components on all platforms."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:40
+msgid "Result Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:42
+msgid "This module defines the following variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:45
+msgid "``Boost_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:45
+msgid "True if headers and requested libraries were found."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:48
+msgid "``Boost_INCLUDE_DIRS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:48
+msgid "Boost include directories."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:51
+msgid "``Boost_LIBRARY_DIRS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:51
+msgid "Link directories for Boost libraries."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:54
+msgid "``Boost_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:54
+msgid "Boost component libraries to be linked."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:57
+msgid "``Boost_<COMPONENT>_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:57
+msgid ""
+"True if component ``<COMPONENT>`` was found (``<COMPONENT>`` name is "
+"upper-case)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:61
+msgid "``Boost_<COMPONENT>_LIBRARY``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:60
+msgid ""
+"Libraries to link for component ``<COMPONENT>`` (may include "
+":command:`target_link_libraries` debug/optimized keywords)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:64
+msgid "``Boost_VERSION_MACRO``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:64
+msgid "``BOOST_VERSION`` value from ``boost/version.hpp``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:67
+msgid "``Boost_VERSION_STRING``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:67
+msgid "Boost version number in ``X.Y.Z`` format."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:75
+msgid "``Boost_VERSION``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:70
+msgid ""
+"Boost version number in ``X.Y.Z`` format (same as "
+"``Boost_VERSION_STRING``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:72
+msgid ""
+"In previous CMake versions, this variable used the raw version string "
+"from the Boost header (same as ``Boost_VERSION_MACRO``). See policy "
+":policy:`CMP0093`."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:78
+msgid "``Boost_LIB_VERSION``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:78
+msgid "Version string appended to library filenames."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:81
+msgid "``Boost_VERSION_MAJOR``, ``Boost_MAJOR_VERSION``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:81
+msgid "Boost major version number (``X`` in ``X.Y.Z``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:84
+msgid "``Boost_VERSION_MINOR``, ``Boost_MINOR_VERSION``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:84
+msgid "Boost minor version number (``Y`` in ``X.Y.Z``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:87
+msgid "``Boost_VERSION_PATCH``, ``Boost_SUBMINOR_VERSION``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:87
+msgid "Boost subminor version number (``Z`` in ``X.Y.Z``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:90
+msgid "``Boost_VERSION_COUNT``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:90
+msgid "Amount of version components (3)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:95
+msgid "``Boost_LIB_DIAGNOSTIC_DEFINITIONS`` (Windows-specific)"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:93
+msgid ""
+"Pass to :command:`add_definitions` to have diagnostic information about "
+"Boost's automatic linking displayed during compilation"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:97
+msgid "The ``Boost_VERSION_<PART>`` variables."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:101
+msgid "Cache variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:103
+msgid "Search results are saved persistently in CMake cache entries:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:106
+msgid "``Boost_INCLUDE_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:106
+msgid "Directory containing Boost headers."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:109
+msgid "``Boost_LIBRARY_DIR_RELEASE``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:109
+msgid "Directory containing release Boost libraries."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:112
+msgid "``Boost_LIBRARY_DIR_DEBUG``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:112
+msgid "Directory containing debug Boost libraries."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:115
+msgid "``Boost_<COMPONENT>_LIBRARY_DEBUG``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:115
+msgid "Component ``<COMPONENT>`` library debug variant."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:118
+msgid "``Boost_<COMPONENT>_LIBRARY_RELEASE``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:118
+msgid "Component ``<COMPONENT>`` library release variant."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:120
+msgid ""
+"Per-configuration variables ``Boost_LIBRARY_DIR_RELEASE`` and "
+"``Boost_LIBRARY_DIR_DEBUG``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:125
+msgid "Hints"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:127
+msgid "This module reads hints about search locations from variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:130
+msgid "``BOOST_ROOT``, ``BOOSTROOT``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:130
+msgid "Preferred installation prefix."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:133
+msgid "``BOOST_INCLUDEDIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:133
+msgid "Preferred include directory e.g. ``<prefix>/include``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:136
+msgid "``BOOST_LIBRARYDIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:136
+msgid "Preferred library directory e.g. ``<prefix>/lib``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:140
+msgid "``Boost_NO_SYSTEM_PATHS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:139
+msgid ""
+"Set to ``ON`` to disable searching in locations not specified by these "
+"hint variables. Default is ``OFF``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:144
+msgid "``Boost_ADDITIONAL_VERSIONS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:143
+msgid ""
+"List of Boost versions not known to this module. (Boost install locations"
+" may contain the version)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:146
+msgid ""
+"Users may set these hints or results as ``CACHE`` entries.  Projects "
+"should not read these entries directly but instead use the above result "
+"variables.  Note that some hint names start in upper-case ``BOOST``.  One"
+" may specify these as environment variables if they are not specified as "
+"CMake variables or cache entries."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:152
+msgid ""
+"This module first searches for the Boost header files using the above "
+"hint variables (excluding ``BOOST_LIBRARYDIR``) and saves the result in "
+"``Boost_INCLUDE_DIR``.  Then it searches for requested component "
+"libraries using the above hints (excluding ``BOOST_INCLUDEDIR`` and "
+"``Boost_ADDITIONAL_VERSIONS``), \"lib\" directories near "
+"``Boost_INCLUDE_DIR``, and the library name configuration settings below."
+"  It saves the library directories in ``Boost_LIBRARY_DIR_DEBUG`` and "
+"``Boost_LIBRARY_DIR_RELEASE`` and individual library locations in "
+"``Boost_<COMPONENT>_LIBRARY_DEBUG`` and "
+"``Boost_<COMPONENT>_LIBRARY_RELEASE``. When one changes settings used by "
+"previous searches in the same build tree (excluding environment "
+"variables) this module discards previous search results affected by the "
+"changes and searches again."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:166
+msgid "Imported Targets"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:170
+msgid "This module defines the following :prop_tgt:`IMPORTED` targets:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:173
+msgid "``Boost::boost``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:173
+msgid "Target for header-only dependencies. (Boost include directory)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:177
+msgid "``Boost::headers``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:176
+msgid "Alias for ``Boost::boost``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:181
+msgid "``Boost::<component>``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:180
+msgid ""
+"Target for specific component dependency (shared or static library); "
+"``<component>`` name is lower-case."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:185
+msgid "``Boost::diagnostic_definitions``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:184
+msgid ""
+"Interface target to enable diagnostic information about Boost's automatic"
+" linking during compilation (adds ``-DBOOST_LIB_DIAGNOSTIC``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:189
+msgid "``Boost::disable_autolinking``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:188
+msgid ""
+"Interface target to disable automatic linking with MSVC (adds "
+"``-DBOOST_ALL_NO_LIB``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:193
+msgid "``Boost::dynamic_linking``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:192
+msgid ""
+"Interface target to enable dynamic linking linking with MSVC (adds "
+"``-DBOOST_ALL_DYN_LINK``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:195
+msgid ""
+"Implicit dependencies such as ``Boost::filesystem`` requiring "
+"``Boost::system`` will be automatically detected and satisfied, even if "
+"system is not specified when using :command:`find_package` and if "
+"``Boost::system`` is not added to :command:`target_link_libraries`.  If "
+"using ``Boost::thread``, then ``Threads::Threads`` will also be added "
+"automatically."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:201
+msgid ""
+"It is important to note that the imported targets behave differently than"
+" variables created by this module: multiple calls to "
+":command:`find_package(Boost)` in the same directory or sub-directories "
+"with different options (e.g. static or shared) will not override the "
+"values of the targets created by the first call."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:208
+msgid "Other Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:210
+msgid ""
+"Boost libraries come in many variants encoded in their file name. Users "
+"or projects may tell this module which variant to find by setting "
+"variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:218
+msgid "``Boost_USE_DEBUG_LIBS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:217
+msgid ""
+"Set to ``ON`` or ``OFF`` to specify whether to search and use the debug "
+"libraries.  Default is ``ON``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:224
+msgid "``Boost_USE_RELEASE_LIBS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:223
+msgid ""
+"Set to ``ON`` or ``OFF`` to specify whether to search and use the release"
+" libraries.  Default is ``ON``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:228
+msgid "``Boost_USE_MULTITHREADED``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:227
+msgid ""
+"Set to OFF to use the non-multithreaded libraries (\"mt\" tag). Default "
+"is ``ON``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:231
+msgid "``Boost_USE_STATIC_LIBS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:231
+msgid "Set to ON to force the use of the static libraries.  Default is ``OFF``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:235
+msgid "``Boost_USE_STATIC_RUNTIME``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:234
+msgid ""
+"Set to ``ON`` or ``OFF`` to specify whether to use libraries linked "
+"statically to the C++ runtime (\"s\" tag).  Default is platform "
+"dependent."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:239
+msgid "``Boost_USE_DEBUG_RUNTIME``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:238
+msgid ""
+"Set to ``ON`` or ``OFF`` to specify whether to use libraries linked to "
+"the MS debug C++ runtime (\"g\" tag).  Default is ``ON``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:243
+msgid "``Boost_USE_DEBUG_PYTHON``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:242
+msgid ""
+"Set to ``ON`` to use libraries compiled with a debug Python build (\"y\" "
+"tag).  Default is ``OFF``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:247
+msgid "``Boost_USE_STLPORT``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:246
+msgid ""
+"Set to ``ON`` to use libraries compiled with STLPort (\"p\" tag). Default"
+" is ``OFF``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:251
+msgid "``Boost_USE_STLPORT_DEPRECATED_NATIVE_IOSTREAMS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:250
+msgid ""
+"Set to ON to use libraries compiled with STLPort deprecated \"native "
+"iostreams\" (\"n\" tag).  Default is ``OFF``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:259
+msgid "``Boost_COMPILER``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:254
+msgid ""
+"Set to the compiler-specific library suffix (e.g. ``-gcc43``).  Default "
+"is auto-computed for the C++ compiler in use."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:257
+msgid ""
+"A list may be used if multiple compatible suffixes should be tested for, "
+"in decreasing order of preference."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:266
+msgid "``Boost_LIB_PREFIX``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:264
+msgid ""
+"Set to the platform-specific library name prefix (e.g. ``lib``) used by "
+"Boost static libs.  This is needed only on platforms where CMake does not"
+" know the prefix by default."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:272
+msgid "``Boost_ARCHITECTURE``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:271
+msgid ""
+"Set to the architecture-specific library suffix (e.g. ``-x64``). Default "
+"is auto-computed for the C++ compiler in use."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:276
+msgid "``Boost_THREADAPI``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:275
+msgid ""
+"Suffix for ``thread`` component library name, such as ``pthread`` or "
+"``win32``.  Names with and without this suffix will both be tried."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:280
+msgid "``Boost_NAMESPACE``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:279
+msgid ""
+"Alternate namespace used to build boost with e.g. if set to ``myboost``, "
+"will search for ``myboost_thread`` instead of ``boost_thread``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:282
+msgid "Other variables one may set to control this module are:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:286
+msgid "``Boost_DEBUG``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:285
+msgid ""
+"Set to ``ON`` to enable debug output from ``FindBoost``. Please enable "
+"this before filing any bug report."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:293
+msgid "``Boost_REALPATH``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:289
+msgid ""
+"Set to ``ON`` to resolve symlinks for discovered libraries to assist with"
+" packaging.  For example, the \"system\" component library may be "
+"resolved to ``/usr/lib/libboost_system.so.1.67.0`` instead of "
+"``/usr/lib/libboost_system.so``.  This does not affect linking and should"
+" not be enabled unless the user needs this information."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:297
+msgid "``Boost_LIBRARY_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:296
+msgid ""
+"Default value for ``Boost_LIBRARY_DIR_RELEASE`` and "
+"``Boost_LIBRARY_DIR_DEBUG``."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:303
+msgid "``Boost_NO_WARN_NEW_VERSIONS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:302
+msgid ""
+"Set to ``ON`` to suppress the warning about unknown dependencies for new "
+"Boost versions."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:305
+msgid ""
+"On Visual Studio and Borland compilers Boost headers request automatic "
+"linking to corresponding libraries.  This requires matching libraries to "
+"be linked explicitly or available in the link library search path. In "
+"this case setting ``Boost_USE_STATIC_LIBS`` to ``OFF`` may not achieve "
+"dynamic linking.  Boost automatic linking typically requests static "
+"libraries with a few exceptions (such as ``Boost.Python``).  Use:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:316
+msgid "to ask Boost to report information about automatic linking requests."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:319
+msgid "Examples"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:321
+msgid "Find Boost headers only:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:331
+msgid "Find Boost libraries and use imported targets:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:341
+msgid "Find Boost Python 3.6 libraries and use imported targets:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:350
+msgid "Find Boost headers and some *static* (release only) libraries:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:369
+msgid "Boost CMake"
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:371
+msgid ""
+"If Boost was built using the boost-cmake project or from Boost 1.70.0 on "
+"it provides a package configuration file for use with find_package's "
+"config mode. This module looks for the package configuration file called "
+"``BoostConfig.cmake`` or ``boost-config.cmake`` and stores the result in "
+"``CACHE`` entry ``Boost_DIR``.  If found, the package configuration file "
+"is loaded and this module returns with no further action.  See "
+"documentation of the Boost CMake package configuration for details on "
+"what it provides."
+msgstr ""
+
+#: ../../CMake/Modules/FindBoost.cmake:379
+msgid ""
+"Set ``Boost_NO_BOOST_CMAKE`` to ``ON``, to disable the search for boost-"
+"cmake."
+msgstr ""
+

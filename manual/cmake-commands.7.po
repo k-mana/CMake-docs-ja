@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/manual/cmake-commands.7.rst:4
+msgid "cmake-commands(7)"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-commands.7.rst:7
+msgid "Contents"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-commands.7.rst:11
+msgid "Scripting Commands"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-commands.7.rst:13
+msgid "These commands are always available."
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-commands.7.rst:68
+msgid "Project Commands"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-commands.7.rst:70
+msgid "These commands are available only in CMake projects."
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-commands.7.rst:125
+msgid "CTest Commands"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-commands.7.rst:127
+msgid "These commands are available only in CTest scripts."
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-commands.7.rst:147
+msgid "Deprecated Commands"
+msgstr ""
+
+#: ../../CMake/Help/manual/cmake-commands.7.rst:149
+msgid ""
+"These commands are deprecated and are only made available to maintain "
+"backward compatibility.  The documentation of each command states the "
+"CMake version in which it was deprecated.  Do not use these commands in "
+"new code."
+msgstr ""
+

@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:6
+msgid "GenerateExportHeader"
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:8
+msgid "Function for generation of export macros for libraries"
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:10
+msgid "This module provides the function ``GENERATE_EXPORT_HEADER()``."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:12
+msgid ""
+"Added support for C projects.  Previous versions supported C++ project "
+"only."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:15
+msgid ""
+"The ``GENERATE_EXPORT_HEADER`` function can be used to generate a file "
+"suitable for preprocessor inclusion which contains EXPORT macros to be "
+"used in library classes::"
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:33
+msgid ""
+"The target properties :prop_tgt:`CXX_VISIBILITY_PRESET "
+"<<LANG>_VISIBILITY_PRESET>` and :prop_tgt:`VISIBILITY_INLINES_HIDDEN` can"
+" be used to add the appropriate compile flags for targets.  See the "
+"documentation of those target properties, and the convenience variables "
+":variable:`CMAKE_CXX_VISIBILITY_PRESET <CMAKE_<LANG>_VISIBILITY_PRESET>` "
+"and :variable:`CMAKE_VISIBILITY_INLINES_HIDDEN`."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:40
+msgid ""
+"By default ``GENERATE_EXPORT_HEADER()`` generates macro names in a file "
+"name determined by the name of the library.  This means that in the "
+"simplest case, users of ``GenerateExportHeader`` will be equivalent to:"
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:57
+msgid "And in the ABI header files:"
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:67
+msgid ""
+"The CMake fragment will generate a file in the "
+"``${CMAKE_CURRENT_BINARY_DIR}`` called ``somelib_export.h`` containing "
+"the macros ``SOMELIB_EXPORT``, ``SOMELIB_NO_EXPORT``, "
+"``SOMELIB_DEPRECATED``, ``SOMELIB_DEPRECATED_EXPORT`` and "
+"``SOMELIB_DEPRECATED_NO_EXPORT``. They will be followed by content taken "
+"from the variable specified by the ``CUSTOM_CONTENT_FROM_VARIABLE`` "
+"option, if any. The resulting file should be installed with other headers"
+" in the library."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:75
+msgid ""
+"The ``BASE_NAME`` argument can be used to override the file name and the "
+"names used for the macros:"
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:86
+msgid ""
+"Generates a file called ``other_name_export.h`` containing the macros "
+"``OTHER_NAME_EXPORT``, ``OTHER_NAME_NO_EXPORT`` and "
+"``OTHER_NAME_DEPRECATED`` etc."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:90
+msgid ""
+"The ``BASE_NAME`` may be overridden by specifying other options in the "
+"function.  For example:"
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:101
+msgid ""
+"creates the macro ``OTHER_NAME_EXPORT`` instead of ``SOMELIB_EXPORT``, "
+"but other macros and the generated file name is as default:"
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:112
+msgid "creates the macro ``KDE_DEPRECATED`` instead of ``SOMELIB_DEPRECATED``."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:114
+msgid ""
+"If ``LIBRARY_TARGET`` is a static library, macros are defined without "
+"values."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:117
+msgid ""
+"If the same sources are used to create both a shared and a static "
+"library, the uppercased symbol ``${BASE_NAME}_STATIC_DEFINE`` should be "
+"used when building the static library:"
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:129
+msgid ""
+"This will cause the export macros to expand to nothing when building the "
+"static library."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:132
+msgid ""
+"If ``DEFINE_NO_DEPRECATED`` is specified, then a macro "
+"``${BASE_NAME}_NO_DEPRECATED`` will be defined This macro can be used to "
+"remove deprecated code from preprocessor output:"
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:145
+msgid "And then in somelib:"
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:164
+msgid ""
+"If ``PREFIX_NAME`` is specified, the argument will be used as a prefix to"
+" all generated macros."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:167
+msgid "For example:"
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:173
+msgid "Generates the macros ``VTK_SOMELIB_EXPORT`` etc."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:175
+msgid "Library target can be an ``OBJECT`` library."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:178
+msgid "Added the ``CUSTOM_CONTENT_FROM_VARIABLE`` option."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:181
+msgid "Added the ``INCLUDE_GUARD_NAME`` option."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:188
+msgid ""
+"Set the target properties :prop_tgt:`CXX_VISIBILITY_PRESET "
+"<<LANG>_VISIBILITY_PRESET>` and :prop_tgt:`VISIBILITY_INLINES_HIDDEN` "
+"instead."
+msgstr ""
+
+#: ../../CMake/Modules/GenerateExportHeader.cmake:193
+msgid ""
+"The ``ADD_COMPILER_EXPORT_FLAGS`` function adds ``-fvisibility=hidden`` "
+"to :variable:`CMAKE_CXX_FLAGS <CMAKE_<LANG>_FLAGS>` if supported, and is "
+"a no-op on Windows which does not need extra compiler flags for exporting"
+" support. You may optionally pass a single argument to "
+"``ADD_COMPILER_EXPORT_FLAGS`` that will be populated with the "
+"``CXX_FLAGS`` required to enable visibility support for the "
+"compiler/architecture in use."
+msgstr ""
+

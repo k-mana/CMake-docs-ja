@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/SelectLibraryConfigurations.cmake:6
+msgid "SelectLibraryConfigurations"
+msgstr ""
+
+#: ../../CMake/Modules/SelectLibraryConfigurations.cmake:12
+msgid ""
+"This macro takes a library base name as an argument, and will choose good"
+" values for the variables"
+msgstr ""
+
+#: ../../CMake/Modules/SelectLibraryConfigurations.cmake:22
+msgid "depending on what has been found and set."
+msgstr ""
+
+#: ../../CMake/Modules/SelectLibraryConfigurations.cmake:24
+msgid ""
+"If only ``basename_LIBRARY_RELEASE`` is defined, ``basename_LIBRARY`` "
+"will be set to the release value, and ``basename_LIBRARY_DEBUG`` will be "
+"set to ``basename_LIBRARY_DEBUG-NOTFOUND``.  If only "
+"``basename_LIBRARY_DEBUG`` is defined, then ``basename_LIBRARY`` will "
+"take the debug value, and ``basename_LIBRARY_RELEASE`` will be set to "
+"``basename_LIBRARY_RELEASE-NOTFOUND``."
+msgstr ""
+
+#: ../../CMake/Modules/SelectLibraryConfigurations.cmake:30
+msgid ""
+"If the generator supports configuration types, then ``basename_LIBRARY`` "
+"and ``basename_LIBRARIES`` will be set with debug and optimized flags "
+"specifying the library to be used for the given configuration.  If no "
+"build type has been set or the generator in use does not support "
+"configuration types, then ``basename_LIBRARY`` and ``basename_LIBRARIES``"
+" will take only the release value, or the debug value if the release one "
+"is not set."
+msgstr ""
+

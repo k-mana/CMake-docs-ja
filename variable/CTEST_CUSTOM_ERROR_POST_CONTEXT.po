@@ -1,0 +1,36 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CTEST_CUSTOM_ERROR_POST_CONTEXT.rst:2
+msgid "CTEST_CUSTOM_ERROR_POST_CONTEXT"
+msgstr ""
+
+#: ../../CMake/Help/variable/CTEST_CUSTOM_ERROR_POST_CONTEXT.rst:4
+msgid ""
+"The number of lines to include as context which follow an error message "
+"by the :command:`ctest_test` command. The default is 10."
+msgstr ""
+
+#: ../../CMake/Help/variable/CTEST_CUSTOM_XXX.txt:1
+msgid ""
+"It is initialized by :manual:`ctest(1)`, but may be edited in a "
+"``CTestCustom`` file. See :command:`ctest_read_custom_files` "
+"documentation."
+msgstr ""
+

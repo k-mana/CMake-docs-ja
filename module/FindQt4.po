@@ -1,0 +1,379 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindQt4.cmake:6
+msgid "FindQt4"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:9
+msgid "Finding and Using Qt4"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:11
+msgid ""
+"This module can be used to find Qt4.  The most important issue is that "
+"the Qt4 qmake is available via the system path.  This qmake is then used "
+"to detect basically everything else.  This module defines a number of "
+":prop_tgt:`IMPORTED` targets, macros and variables."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:16
+msgid "Typical usage could be something like:"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:28
+msgid ""
+"When using :prop_tgt:`IMPORTED` targets, the qtmain.lib static library is"
+" automatically linked on Windows for :prop_tgt:`WIN32 <WIN32_EXECUTABLE>`"
+" executables. To disable that globally, set the ``QT4_NO_LINK_QTMAIN`` "
+"variable before finding Qt4. To disable that for a particular executable,"
+" set the ``QT4_NO_LINK_QTMAIN`` target property to ``TRUE`` on the "
+"executable."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:36
+msgid "Qt Build Tools"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:38
+msgid ""
+"Qt relies on some bundled tools for code generation, such as ``moc`` for "
+"meta-object code generation,``uic`` for widget layout and population, and"
+" ``rcc`` for virtual filesystem content generation.  These tools may be "
+"automatically invoked by :manual:`cmake(1)` if the appropriate conditions"
+" are met.  See :manual:`cmake-qt(7)` for more."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:45
+msgid "Qt Macros"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:47
+msgid ""
+"In some cases it can be necessary or useful to invoke the Qt build tools "
+"in a more-manual way. Several macros are available to add targets for "
+"such uses."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:207
+msgid "IMPORTED Targets"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:209
+msgid ""
+"A particular Qt library may be used by using the corresponding "
+":prop_tgt:`IMPORTED` target with the :command:`target_link_libraries` "
+"command:"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:217
+msgid ""
+"Using a target in this way causes :cmake(1)` to use the appropriate "
+"include directories and compile definitions for the target when compiling"
+" ``myexe``."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:220
+msgid ""
+"Targets are aware of their dependencies, so for example it is not "
+"necessary to list ``Qt4::QtCore`` if another Qt library is listed, and it"
+" is not necessary to list ``Qt4::QtGui`` if ``Qt4::QtDeclarative`` is "
+"listed. Targets may be tested for existence in the usual way with the "
+":command:`if(TARGET)` command."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:226
+msgid ""
+"The Qt toolkit may contain both debug and release libraries. "
+":manual:`cmake(1)` will choose the appropriate version based on the build"
+" configuration."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:230
+msgid "``Qt4::QtCore``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:231
+msgid "The QtCore target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:232
+msgid "``Qt4::QtGui``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:233
+msgid "The QtGui target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:234
+msgid "``Qt4::Qt3Support``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:235
+msgid "The Qt3Support target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:236
+msgid "``Qt4::QtAssistant``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:237
+msgid "The QtAssistant target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:238
+msgid "``Qt4::QtAssistantClient``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:239
+msgid "The QtAssistantClient target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:240
+msgid "``Qt4::QAxContainer``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:241
+msgid "The QAxContainer target (Windows only)"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:242
+msgid "``Qt4::QAxServer``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:243
+msgid "The QAxServer target (Windows only)"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:244
+msgid "``Qt4::QtDBus``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:245
+msgid "The QtDBus target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:246
+msgid "``Qt4::QtDeclarative``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:247
+msgid "The QtDeclarative target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:248
+msgid "``Qt4::QtDesigner``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:249
+msgid "The QtDesigner target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:250
+msgid "``Qt4::QtDesignerComponents``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:251
+msgid "The QtDesignerComponents target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:252
+msgid "``Qt4::QtHelp``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:253
+msgid "The QtHelp target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:254
+msgid "``Qt4::QtMotif``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:255
+msgid "The QtMotif target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:256
+msgid "``Qt4::QtMultimedia``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:257
+msgid "The QtMultimedia target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:258
+msgid "``Qt4::QtNetwork``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:259
+msgid "The QtNetwork target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:260
+msgid "``Qt4::QtNsPLugin``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:261
+msgid "The QtNsPLugin target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:262
+msgid "``Qt4::QtOpenGL``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:263
+msgid "The QtOpenGL target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:264
+msgid "``Qt4::QtScript``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:265
+msgid "The QtScript target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:266
+msgid "``Qt4::QtScriptTools``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:267
+msgid "The QtScriptTools target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:268
+msgid "``Qt4::QtSql``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:269
+msgid "The QtSql target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:270
+msgid "``Qt4::QtSvg``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:271
+msgid "The QtSvg target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:272
+msgid "``Qt4::QtTest``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:273
+msgid "The QtTest target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:274
+msgid "``Qt4::QtUiTools``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:275
+msgid "The QtUiTools target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:276
+msgid "``Qt4::QtWebKit``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:277
+msgid "The QtWebKit target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:278
+msgid "``Qt4::QtXml``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:279
+msgid "The QtXml target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:280
+msgid "``Qt4::QtXmlPatterns``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:281
+msgid "The QtXmlPatterns target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:283
+msgid "``Qt4::phonon``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:283
+msgid "The phonon target"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:286
+msgid "Result Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:288
+msgid "Below is a detailed list of variables that FindQt4.cmake sets."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:290
+msgid "``Qt4_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:291
+msgid "If false, don't try to use Qt 4."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:292
+msgid "``QT_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:293
+msgid "If false, don't try to use Qt. This variable is for compatibility only."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:294
+msgid "``QT4_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:295
+msgid "If false, don't try to use Qt 4. This variable is for compatibility only."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:296
+msgid "``QT_VERSION_MAJOR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:297
+msgid "The major version of Qt found."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:298
+msgid "``QT_VERSION_MINOR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:299
+msgid "The minor version of Qt found."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:1346
+msgid "``QT_VERSION_PATCH``"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt4.cmake:301
+msgid "The patch version of Qt found."
+msgstr ""
+

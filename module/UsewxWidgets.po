@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/UsewxWidgets.cmake:6
+msgid "UsewxWidgets"
+msgstr ""
+
+#: ../../CMake/Modules/UsewxWidgets.cmake:8
+msgid "Convenience include for using wxWidgets library."
+msgstr ""
+
+#: ../../CMake/Modules/UsewxWidgets.cmake:10
+msgid ""
+"Determines if wxWidgets was FOUND and sets the appropriate libs, incdirs,"
+" flags, etc.  INCLUDE_DIRECTORIES and LINK_DIRECTORIES are called."
+msgstr ""
+
+#: ../../CMake/Modules/UsewxWidgets.cmake:14
+msgid "USAGE"
+msgstr ""
+
+#: ../../CMake/Modules/UsewxWidgets.cmake:26
+msgid "DEPRECATED"
+msgstr ""
+
+#: ../../CMake/Modules/UsewxWidgets.cmake:34
+msgid "AUTHOR"
+msgstr ""
+

@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindQt.cmake:6
+msgid "FindQt"
+msgstr ""
+
+#: ../../CMake/Modules/FindQt.cmake:8
+msgid ""
+"This module is available only if policy :policy:`CMP0084` is not set to "
+"``NEW``."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt.cmake:11
+msgid "Searches for all installed versions of Qt3 or Qt4."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt.cmake:13
+msgid ""
+"This module cannot handle Qt5 or any later versions. For those, see "
+":manual:`cmake-qt(7)`."
+msgstr ""
+
+#: ../../CMake/Modules/FindQt.cmake:16
+msgid ""
+"This module should only be used if your project can work with multiple "
+"versions of Qt.  If not, you should just directly use FindQt4 or FindQt3."
+"  If multiple versions of Qt are found on the machine, then The user must"
+" set the option DESIRED_QT_VERSION to the version they want to use.  If "
+"only one version of qt is found on the machine, then the "
+"DESIRED_QT_VERSION is set to that version and the matching FindQt3 or "
+"FindQt4 module is included.  Once the user sets DESIRED_QT_VERSION, then "
+"the FindQt3 or FindQt4 module is included."
+msgstr ""
+

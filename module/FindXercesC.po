@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindXercesC.cmake:6
+msgid "FindXercesC"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:10
+msgid "Find the Apache Xerces-C++ validating XML parser headers and libraries."
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:13
+msgid "Imported targets"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:17
+msgid "This module defines the following :prop_tgt:`IMPORTED` targets:"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:20
+msgid "``XercesC::XercesC``"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:20
+msgid "The Xerces-C++ ``xerces-c`` library, if found."
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:23
+msgid "Result variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:25
+msgid "This module will set the following variables in your project:"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:27
+msgid "``XercesC_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:28
+msgid "true if the Xerces headers and libraries were found"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:29
+msgid "``XercesC_VERSION``"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:30
+msgid "Xerces release version"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:31
+msgid "``XercesC_INCLUDE_DIRS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:32
+#: ../../CMake/Modules/FindXercesC.cmake:42
+msgid "the directory containing the Xerces headers"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:34
+msgid "``XercesC_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:34
+msgid "Xerces libraries to be linked"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:37
+msgid "Cache variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:39
+msgid "The following cache variables may also be set:"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:41
+msgid "``XercesC_INCLUDE_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:44
+msgid "``XercesC_LIBRARY``"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:44
+msgid "the Xerces library"
+msgstr ""
+
+#: ../../CMake/Modules/FindXercesC.cmake:46
+msgid "Debug and Release variants are found separately."
+msgstr ""
+

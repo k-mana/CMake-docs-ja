@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/COMMON_LANGUAGE_RUNTIME.rst:2
+msgid "COMMON_LANGUAGE_RUNTIME"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/COMMON_LANGUAGE_RUNTIME.rst:6
+msgid ""
+"By setting this target property, the target is configured to build with "
+"``C++/CLI`` support."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/COMMON_LANGUAGE_RUNTIME.rst:9
+msgid ""
+"The Visual Studio generator defines the ``clr`` parameter depending on "
+"the value of ``COMMON_LANGUAGE_RUNTIME``:"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/COMMON_LANGUAGE_RUNTIME.rst:12
+msgid "property not set: native C++ (i.e. default)"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/COMMON_LANGUAGE_RUNTIME.rst:13
+msgid "property set but empty: mixed unmanaged/managed C++"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/COMMON_LANGUAGE_RUNTIME.rst:14
+msgid "property set to any non empty value: managed C++"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/COMMON_LANGUAGE_RUNTIME.rst:16
+msgid "Supported values: ``\"\"``, ``\"pure\"``, ``\"safe\"``"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/COMMON_LANGUAGE_RUNTIME.rst:18
+msgid ""
+"This property is only evaluated :ref:`Visual Studio Generators` for VS "
+"2010 and above."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/COMMON_LANGUAGE_RUNTIME.rst:21
+msgid ""
+"To be able to build managed C++ targets with VS 2017 and above the "
+"component ``C++/CLI support`` must be installed, which may not be done by"
+" default."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/COMMON_LANGUAGE_RUNTIME.rst:24
+msgid "See also :prop_tgt:`IMPORTED_COMMON_LANGUAGE_RUNTIME`"
+msgstr ""
+

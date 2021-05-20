@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_LANG_LINKER_WRAPPER_FLAG.rst:2
+msgid "CMAKE_<LANG>_LINKER_WRAPPER_FLAG"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_LINKER_WRAPPER_FLAG.rst:6
+msgid ""
+"Defines the syntax of compiler driver option to pass options to the "
+"linker tool. It will be used to translate the ``LINKER:`` prefix in the "
+"link options (see :command:`add_link_options` and "
+":command:`target_link_options`)."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_LINKER_WRAPPER_FLAG.rst:10
+msgid ""
+"This variable holds a :ref:`semicolon-separated list <CMake Language "
+"Lists>` of tokens. If a space (i.e. \" \") is specified as last token, "
+"flag and ``LINKER:`` arguments will be specified as separate arguments to"
+" the compiler driver. The "
+":variable:`CMAKE_<LANG>_LINKER_WRAPPER_FLAG_SEP` variable can be "
+"specified to manage concatenation of arguments."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_LINKER_WRAPPER_FLAG.rst:16
+msgid "For example, for ``Clang`` we have:"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_LINKER_WRAPPER_FLAG.rst:22
+msgid ""
+"Specifying ``\"LINKER:-z,defs\"`` will be transformed in ``-Xlinker -z "
+"-Xlinker defs``."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_LINKER_WRAPPER_FLAG.rst:25
+msgid "For ``GNU GCC``:"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_LINKER_WRAPPER_FLAG.rst:32
+msgid "Specifying ``\"LINKER:-z,defs\"`` will be transformed in ``-Wl,-z,defs``."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_LINKER_WRAPPER_FLAG.rst:34
+msgid "And for ``SunPro``:"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_LINKER_WRAPPER_FLAG.rst:41
+msgid ""
+"Specifying ``\"LINKER:-z,defs\"`` will be transformed in ``-Qoption ld "
+"-z,defs``."
+msgstr ""
+

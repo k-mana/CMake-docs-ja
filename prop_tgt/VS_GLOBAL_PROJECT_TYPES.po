@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/VS_GLOBAL_PROJECT_TYPES.rst:2
+msgid "VS_GLOBAL_PROJECT_TYPES"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_GLOBAL_PROJECT_TYPES.rst:4
+msgid "Visual Studio project type(s)."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_GLOBAL_PROJECT_TYPES.rst:6
+msgid ""
+"Can be set to one or more UUIDs recognized by Visual Studio to indicate "
+"the type of project.  This value is copied verbatim into the generated "
+"project file.  Example for a managed C++ unit testing project:"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/VS_GLOBAL_PROJECT_TYPES.rst:15
+msgid "UUIDs are semicolon-delimited."
+msgstr ""
+

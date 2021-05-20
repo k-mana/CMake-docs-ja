@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/ProcessorCount.cmake:6
+msgid "ProcessorCount"
+msgstr ""
+
+#: ../../CMake/Modules/ProcessorCount.cmake:8
+msgid "ProcessorCount(var)"
+msgstr ""
+
+#: ../../CMake/Modules/ProcessorCount.cmake:10
+msgid "Determine the number of processors/cores and save value in ${var}"
+msgstr ""
+
+#: ../../CMake/Modules/ProcessorCount.cmake:12
+msgid ""
+"Sets the variable named ${var} to the number of physical cores available "
+"on the machine if the information can be determined. Otherwise it is set "
+"to 0.  Currently this functionality is implemented for AIX, cygwin, "
+"FreeBSD, HPUX, Linux, macOS, QNX, Sun and Windows."
+msgstr ""
+
+#: ../../CMake/Modules/ProcessorCount.cmake:18
+msgid "On Linux, returns the container CPU count instead of the host CPU count."
+msgstr ""
+
+#: ../../CMake/Modules/ProcessorCount.cmake:21
+msgid ""
+"This function is guaranteed to return a positive integer (>=1) if it "
+"succeeds.  It returns 0 if there's a problem determining the processor "
+"count."
+msgstr ""
+
+#: ../../CMake/Modules/ProcessorCount.cmake:25
+msgid "Example use, in a ctest -S dashboard script:"
+msgstr ""
+
+#: ../../CMake/Modules/ProcessorCount.cmake:38
+msgid ""
+"This function is intended to offer an approximation of the value of the "
+"number of compute cores available on the current machine, such that you "
+"may use that value for parallel building and parallel testing.  It is "
+"meant to help utilize as much of the machine as seems reasonable.  Of "
+"course, knowledge of what else might be running on the machine "
+"simultaneously should be used when deciding whether to request a "
+"machine's full capacity all for yourself."
+msgstr ""
+

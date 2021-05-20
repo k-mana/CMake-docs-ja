@@ -1,0 +1,276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:2
+msgid "cmake_host_system_information"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:4
+msgid "Query host system specific information."
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:10
+msgid ""
+"Queries system information of the host system on which cmake runs. One or"
+" more ``<key>`` can be provided to select the information to be queried."
+"  The list of queried values is stored in ``<variable>``."
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:14
+msgid "``<key>`` can be one of the following values:"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:17
+#: ../../CMake/Help/command/cmake_host_system_information.rst:33
+msgid "Key"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:17
+#: ../../CMake/Help/command/cmake_host_system_information.rst:33
+msgid "Description"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:19
+msgid "``NUMBER_OF_LOGICAL_CORES``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:19
+msgid "Number of logical cores"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:20
+msgid "``NUMBER_OF_PHYSICAL_CORES``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:20
+msgid "Number of physical cores"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:21
+msgid "``HOSTNAME``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:21
+msgid "Hostname"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:22
+msgid "``FQDN``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:22
+msgid "Fully qualified domain name"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:23
+msgid "``TOTAL_VIRTUAL_MEMORY``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:23
+msgid "Total virtual memory in MiB [#mebibytes]_"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:24
+msgid "``AVAILABLE_VIRTUAL_MEMORY``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:24
+msgid "Available virtual memory in MiB [#mebibytes]_"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:25
+msgid "``TOTAL_PHYSICAL_MEMORY``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:25
+msgid "Total physical memory in MiB [#mebibytes]_"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:26
+msgid "``AVAILABLE_PHYSICAL_MEMORY``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:26
+msgid "Available physical memory in MiB [#mebibytes]_"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:29
+msgid "Additional ``<key>`` values are available:"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:35
+msgid "``IS_64BIT``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:35
+msgid "One if processor is 64Bit"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:36
+msgid "``HAS_FPU``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:36
+msgid "One if processor has floating point unit"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:37
+msgid "``HAS_MMX``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:37
+msgid "One if processor supports MMX instructions"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:38
+msgid "``HAS_MMX_PLUS``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:38
+msgid "One if processor supports Ext. MMX instructions"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:39
+msgid "``HAS_SSE``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:39
+msgid "One if processor supports SSE instructions"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:40
+msgid "``HAS_SSE2``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:40
+msgid "One if processor supports SSE2 instructions"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:41
+msgid "``HAS_SSE_FP``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:41
+msgid "One if processor supports SSE FP instructions"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:42
+msgid "``HAS_SSE_MMX``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:42
+msgid "One if processor supports SSE MMX instructions"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:43
+msgid "``HAS_AMD_3DNOW``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:43
+msgid "One if processor supports 3DNow instructions"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:44
+msgid "``HAS_AMD_3DNOW_PLUS``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:44
+msgid "One if processor supports 3DNow+ instructions"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:45
+msgid "``HAS_IA64``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:45
+msgid "One if IA64 processor emulating x86"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:46
+msgid "``HAS_SERIAL_NUMBER``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:46
+msgid "One if processor has serial number"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:47
+msgid "``PROCESSOR_SERIAL_NUMBER``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:47
+msgid "Processor serial number"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:48
+msgid "``PROCESSOR_NAME``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:48
+msgid "Human readable processor name"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:49
+msgid "``PROCESSOR_DESCRIPTION``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:49
+msgid "Human readable full processor description"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:50
+msgid "``OS_NAME``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:50
+msgid "See :variable:`CMAKE_HOST_SYSTEM_NAME`"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:51
+msgid "``OS_RELEASE``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:51
+msgid "The OS sub-type e.g. on Windows ``Professional``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:52
+msgid "``OS_VERSION``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:52
+msgid "The OS build ID"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:53
+msgid "``OS_PLATFORM``"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:53
+msgid "See :variable:`CMAKE_HOST_SYSTEM_PROCESSOR`"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:57
+msgid "Footnotes"
+msgstr ""
+
+#: ../../CMake/Help/command/cmake_host_system_information.rst:58
+msgid "One MiB (mebibyte) is equal to 1024x1024 bytes."
+msgstr ""
+

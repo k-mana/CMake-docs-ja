@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_gbl/TARGET_MESSAGES.rst:2
+msgid "TARGET_MESSAGES"
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/TARGET_MESSAGES.rst:6
+msgid "Specify whether to report the completion of each target."
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/TARGET_MESSAGES.rst:8
+msgid ""
+"This property specifies whether :ref:`Makefile Generators` should add a "
+"progress message describing that each target has been completed. If the "
+"property is not set the default is ``ON``.  Set the property to ``OFF`` "
+"to disable target completion messages."
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/TARGET_MESSAGES.rst:13
+msgid ""
+"This option is intended to reduce build output when little or no work "
+"needs to be done to bring the build tree up to date."
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/TARGET_MESSAGES.rst:16
+msgid ""
+"If a ``CMAKE_TARGET_MESSAGES`` cache entry exists its value initializes "
+"the value of this property."
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/TARGET_MESSAGES.rst:19
+msgid "Non-Makefile generators currently ignore this property."
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/TARGET_MESSAGES.rst:21
+msgid ""
+"See the counterpart property :prop_gbl:`RULE_MESSAGES` to disable "
+"everything except for target completion messages."
+msgstr ""
+

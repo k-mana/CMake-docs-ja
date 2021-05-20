@@ -1,0 +1,131 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindJPEG.cmake:6
+msgid "FindJPEG"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:8
+msgid "Find the Joint Photographic Experts Group (JPEG) library (``libjpeg``)"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:11
+msgid "Imported targets"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:15
+msgid "This module defines the following :prop_tgt:`IMPORTED` targets:"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:18
+msgid "``JPEG::JPEG``"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:18
+msgid "The JPEG library, if found."
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:21
+msgid "Result variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:23
+msgid "This module will set the following variables in your project:"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:25
+msgid "``JPEG_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:26
+msgid "If false, do not try to use JPEG."
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:27 ../../CMake/Modules/FindJPEG.cmake:40
+msgid "``JPEG_INCLUDE_DIRS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:28 ../../CMake/Modules/FindJPEG.cmake:41
+msgid "where to find jpeglib.h, etc."
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:29
+msgid "``JPEG_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:30
+msgid "the libraries needed to use JPEG."
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:33
+msgid "``JPEG_VERSION``"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:32
+msgid "the version of the JPEG library found"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:36
+msgid "Cache variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:38
+msgid "The following cache variables may also be set:"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:42
+msgid "``JPEG_LIBRARY_RELEASE``"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:43
+msgid "where to find the JPEG library (optimized)."
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:45
+msgid "``JPEG_LIBRARY_DEBUG``"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:45
+msgid "where to find the JPEG library (debug)."
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:47
+msgid "Debug and Release variand are found separately."
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:51
+msgid "Obsolete variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:53
+msgid "``JPEG_INCLUDE_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:54
+msgid "where to find jpeglib.h, etc. (same as JPEG_INCLUDE_DIRS)"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:142
+msgid "``JPEG_LIBRARY``"
+msgstr ""
+
+#: ../../CMake/Modules/FindJPEG.cmake:56
+msgid "where to find the JPEG library."
+msgstr ""
+

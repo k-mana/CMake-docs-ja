@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_SORT_DIRECTION.rst:2
+msgid "CMAKE_FIND_PACKAGE_SORT_DIRECTION"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_SORT_DIRECTION.rst:6
+msgid ""
+"The sorting direction used by :variable:`CMAKE_FIND_PACKAGE_SORT_ORDER`. "
+"It can assume one of the following values:"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_SORT_DIRECTION.rst:11
+msgid "``DEC``"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_SORT_DIRECTION.rst:10
+msgid ""
+"Default.  Ordering is done in descending mode. The highest folder found "
+"will be tested first."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_SORT_DIRECTION.rst:15
+msgid "``ASC``"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_SORT_DIRECTION.rst:14
+msgid ""
+"Ordering is done in ascending mode. The lowest folder found will be "
+"tested first."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_SORT_DIRECTION.rst:17
+msgid ""
+"If :variable:`CMAKE_FIND_PACKAGE_SORT_ORDER` is not set or is set to "
+"``NONE`` this variable has no effect."
+msgstr ""
+

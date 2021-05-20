@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindHg.cmake:6
+msgid "FindHg"
+msgstr ""
+
+#: ../../CMake/Modules/FindHg.cmake:8
+msgid "Extract information from a mercurial working copy."
+msgstr ""
+
+#: ../../CMake/Modules/FindHg.cmake:10
+msgid "The module defines the following variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindHg.cmake:18
+msgid ""
+"If the command line client executable is found the following macro is "
+"defined:"
+msgstr ""
+
+#: ../../CMake/Modules/FindHg.cmake:25
+msgid ""
+"Hg_WC_INFO extracts information of a mercurial working copy at a given "
+"location.  This macro defines the following variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindHg.cmake:33
+msgid "Example usage:"
+msgstr ""
+

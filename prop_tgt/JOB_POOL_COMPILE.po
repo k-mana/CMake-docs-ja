@@ -1,0 +1,44 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/JOB_POOL_COMPILE.rst:2
+msgid "JOB_POOL_COMPILE"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/JOB_POOL_COMPILE.rst:4
+msgid "Ninja only: Pool used for compiling."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/JOB_POOL_COMPILE.rst:6
+msgid ""
+"The number of parallel compile processes could be limited by defining "
+"pools with the global :prop_gbl:`JOB_POOLS` property and then specifying "
+"here the pool name."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/JOB_POOL_COMPILE.rst:10
+msgid "For instance:"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/JOB_POOL_COMPILE.rst:16
+msgid ""
+"This property is initialized by the value of "
+":variable:`CMAKE_JOB_POOL_COMPILE`."
+msgstr ""
+

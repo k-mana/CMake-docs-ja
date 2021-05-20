@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindIce.cmake:6
+msgid "FindIce"
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:10
+msgid ""
+"Find the ZeroC Internet Communication Engine (ICE) programs, libraries "
+"and datafiles."
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:13
+msgid ""
+"This module supports multiple components. Components can include any of: "
+"``Freeze``, ``Glacier2``, ``Ice``, ``IceBox``, ``IceDB``, "
+"``IceDiscovery``, ``IceGrid``, ``IceLocatorDiscovery``, ``IcePatch``, "
+"``IceSSL``, ``IceStorm``, ``IceUtil``, ``IceXML``, or ``Slice``."
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:19
+msgid ""
+"Ice 3.7 and later also include C++11-specific components: "
+"``Glacier2++11``, ``Ice++11``, ``IceBox++11``, ``IceDiscovery++11`` "
+"``IceGrid``, ``IceLocatorDiscovery++11``, ``IceSSL++11``, "
+"``IceStorm++11``"
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:24
+msgid "Note that the set of supported components is Ice version-specific."
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:26
+msgid "Imported targets for components and most ``EXECUTABLE`` variables."
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:29
+msgid "Debug and Release variants are found separately."
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:32
+msgid "Ice 3.7 support, including new components, programs and the Nuget package."
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:35
+msgid ""
+"This module reports information about the Ice installation in several "
+"variables.  General variables::"
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:45
+msgid "Imported targets::"
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:49
+msgid ""
+"Where ``<C>`` is the name of an Ice component, for example "
+"``Ice::Glacier2`` or ``Ice++11``."
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:52
+msgid "Ice slice programs are reported in::"
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:68
+msgid "Variables for ``slice2confluence`` and ``slice2matlab``."
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:71
+msgid "Ice programs are reported in::"
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:94
+msgid ""
+"Ice db programs (Windows only; standard system versions on all other "
+"platforms) are reported in::"
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:113
+msgid "Ice component libraries are reported in::"
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:118
+msgid "Note that ``<C>`` is the uppercased name of the component."
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:120
+msgid "This module reads hints about search results from::"
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:124
+msgid ""
+"The environment variable ``ICE_HOME`` may also be used; the Ice_HOME "
+"variable takes precedence."
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:128
+msgid ""
+"On Windows, Ice 3.7.0 and later provide libraries via the NuGet package "
+"manager.  Appropriate NuGet packages will be searched for using "
+"``CMAKE_PREFIX_PATH``, or alternatively ``Ice_HOME`` may be set to the "
+"location of a specific NuGet package to restrict the search."
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:134
+msgid "The following cache variables may also be set::"
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:144
+msgid ""
+"In most cases none of the above variables will require setting, unless "
+"multiple Ice versions are available and a specific version is required.  "
+"On Windows, the most recent version of Ice will be found through the "
+"registry.  On Unix, the programs, headers and libraries will usually be "
+"in standard locations, but Ice_SLICE_DIRS might not be automatically "
+"detected (commonly known locations are searched).  All the other "
+"variables are defaulted using Ice_HOME, if set.  It's possible to set "
+"Ice_HOME and selectively specify alternative locations for the other "
+"components; this might be required for e.g. newer versions of Visual "
+"Studio if the heuristics are not sufficient to identify the correct "
+"programs and libraries for the specific Visual Studio version."
+msgstr ""
+
+#: ../../CMake/Modules/FindIce.cmake:157
+msgid "Other variables one may set to control this module are::"
+msgstr ""
+

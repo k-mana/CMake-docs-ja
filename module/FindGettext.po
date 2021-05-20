@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindGettext.cmake:6
+msgid "FindGettext"
+msgstr ""
+
+#: ../../CMake/Modules/FindGettext.cmake:8
+msgid "Find GNU gettext tools"
+msgstr ""
+
+#: ../../CMake/Modules/FindGettext.cmake:10
+msgid ""
+"This module looks for the GNU gettext tools.  This module defines the "
+"following values:"
+msgstr ""
+
+#: ../../CMake/Modules/FindGettext.cmake:22
+msgid "Additionally it provides the following macros:"
+msgstr ""
+
+#: ../../CMake/Modules/FindGettext.cmake:24
+msgid "GETTEXT_CREATE_TRANSLATIONS ( outputFile [ALL] file1 ...  fileN )"
+msgstr ""
+
+#: ../../CMake/Modules/FindGettext.cmake:33
+msgid ""
+"GETTEXT_PROCESS_POT_FILE( <potfile> [ALL] [INSTALL_DESTINATION <destdir>]"
+" LANGUAGES <lang1> <lang2> ...  )"
+msgstr ""
+
+#: ../../CMake/Modules/FindGettext.cmake:45
+msgid ""
+"GETTEXT_PROCESS_PO_FILES( <lang> [ALL] [INSTALL_DESTINATION <dir>] "
+"PO_FILES <po1> <po2> ...  )"
+msgstr ""
+
+#: ../../CMake/Modules/FindGettext.cmake:57
+msgid "If you wish to use the Gettext library (libintl), use :module:`FindIntl`."
+msgstr ""
+

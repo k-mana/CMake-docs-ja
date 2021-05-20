@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_FIND_FRAMEWORK.rst:2
+msgid "CMAKE_FIND_FRAMEWORK"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_FRAMEWORK.rst:6
+msgid ""
+"This variable affects how ``find_*`` commands choose between macOS "
+"Frameworks and unix-style package components."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_FRAMEWORK.rst:9
+msgid ""
+"On Darwin or systems supporting macOS Frameworks, the "
+"``CMAKE_FIND_FRAMEWORK`` variable can be set to empty or one of the "
+"following:"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_FRAMEWORK.rst:15
+msgid "``FIRST``"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_FRAMEWORK.rst:14
+msgid ""
+"Try to find frameworks before standard libraries or headers. This is the "
+"default on Darwin."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_FRAMEWORK.rst:18
+msgid "``LAST``"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_FRAMEWORK.rst:18
+msgid "Try to find frameworks after standard libraries or headers."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_FRAMEWORK.rst:21
+msgid "``ONLY``"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_FRAMEWORK.rst:21
+msgid "Only try to find frameworks."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_FRAMEWORK.rst:23
+msgid "``NEVER``"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_FRAMEWORK.rst:24
+msgid "Never try to find frameworks."
+msgstr ""
+

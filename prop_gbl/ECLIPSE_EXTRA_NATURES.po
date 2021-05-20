@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_gbl/ECLIPSE_EXTRA_NATURES.rst:2
+msgid "ECLIPSE_EXTRA_NATURES"
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/ECLIPSE_EXTRA_NATURES.rst:4
+msgid "List of natures to add to the generated Eclipse project file."
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/ECLIPSE_EXTRA_NATURES.rst:6
+msgid ""
+"Eclipse projects specify language plugins by using natures. This property"
+" should be set to the unique identifier for a nature (which looks like a "
+"Java package name)."
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/ECLIPSE_EXTRA_NATURES.rst:10
+msgid "Also see the :prop_gbl:`ECLIPSE_EXTRA_CPROJECT_CONTENTS` property."
+msgstr ""
+

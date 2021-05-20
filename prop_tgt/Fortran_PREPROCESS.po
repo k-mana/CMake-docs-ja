@@ -1,0 +1,58 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/Fortran_PREPROCESS.rst:2
+msgid "Fortran_PREPROCESS"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/Fortran_PREPROCESS.rst:6
+msgid ""
+"Control whether the Fortran source file should be unconditionally "
+"preprocessed."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/Fortran_PREPROCESS.rst:9
+msgid ""
+"If unset or empty, rely on the compiler to determine whether the file "
+"should be preprocessed. If explicitly set to ``OFF`` then the file does "
+"not need to be preprocessed. If explicitly set to ``ON``, then the file "
+"does need to be preprocessed as part of the compilation step."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/Fortran_PREPROCESS.rst:14
+msgid ""
+"When using the :generator:`Ninja` generator, all source files are first "
+"preprocessed in order to generate module dependency information. Setting "
+"this property to ``OFF`` will make ``Ninja`` skip this step."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/Fortran_PREPROCESS.rst:19
+msgid ""
+"Use the source-specific :prop_sf:`Fortran_PREPROCESS` property if a "
+"single file needs to be preprocessed. If the variable "
+":variable:`CMAKE_Fortran_PREPROCESS` is set when a target is created its "
+"value is used to initialize this property."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/Fortran_PREPROCESS.rst:24
+msgid ""
+"For some compilers, ``NAG``, ``PGI`` and ``Solaris Studio``, setting this"
+" to ``OFF`` will have no effect."
+msgstr ""
+

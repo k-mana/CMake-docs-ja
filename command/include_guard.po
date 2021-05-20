@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/include_guard.rst:2
+msgid "include_guard"
+msgstr ""
+
+#: ../../CMake/Help/command/include_guard.rst:6
+msgid "Provides an include guard for the file currently being processed by CMake."
+msgstr ""
+
+#: ../../CMake/Help/command/include_guard.rst:12
+msgid ""
+"Sets up an include guard for the current CMake file (see the "
+":variable:`CMAKE_CURRENT_LIST_FILE` variable documentation)."
+msgstr ""
+
+#: ../../CMake/Help/command/include_guard.rst:15
+msgid ""
+"CMake will end its processing of the current file at the location of the "
+":command:`include_guard` command if the current file has already been "
+"processed for the applicable scope (see below). This provides "
+"functionality similar to the include guards commonly used in source "
+"headers or to the ``#pragma once`` directive. If the current file has "
+"been processed previously for the applicable scope, the effect is as "
+"though :command:`return` had been called. Do not call this command from "
+"inside a function being defined within the current file."
+msgstr ""
+
+#: ../../CMake/Help/command/include_guard.rst:24
+msgid ""
+"An optional argument specifying the scope of the guard may be provided. "
+"Possible values for the option are:"
+msgstr ""
+
+#: ../../CMake/Help/command/include_guard.rst:32
+msgid "``DIRECTORY``"
+msgstr ""
+
+#: ../../CMake/Help/command/include_guard.rst:28
+msgid ""
+"The include guard applies within the current directory and below. The "
+"file will only be included once within this directory scope, but may be "
+"included again by other files outside of this directory (i.e. a parent "
+"directory or another directory not pulled in by "
+":command:`add_subdirectory` or :command:`include` from the current file "
+"or its children)."
+msgstr ""
+
+#: ../../CMake/Help/command/include_guard.rst:36
+msgid "``GLOBAL``"
+msgstr ""
+
+#: ../../CMake/Help/command/include_guard.rst:35
+msgid ""
+"The include guard applies globally to the whole build. The current file "
+"will only be included once regardless of the scope."
+msgstr ""
+
+#: ../../CMake/Help/command/include_guard.rst:38
+msgid ""
+"If no arguments given, ``include_guard`` has the same scope as a "
+"variable, meaning that the include guard effect is isolated by the most "
+"recent function scope or current directory if no inner function scopes "
+"exist. In this case the command behavior is the same as:"
+msgstr ""
+

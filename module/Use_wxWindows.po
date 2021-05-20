@@ -1,0 +1,48 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/Use_wxWindows.cmake:6
+msgid "Use_wxWindows"
+msgstr ""
+
+#: ../../CMake/Modules/Use_wxWindows.cmake:10
+msgid ""
+"Use ``find_package(wxWidgets)`` and ``include(${wxWidgets_USE_FILE})`` "
+"instead."
+msgstr ""
+
+#: ../../CMake/Modules/Use_wxWindows.cmake:12
+msgid ""
+"This convenience include finds if wxWindows is installed and set the "
+"appropriate libs, incdirs, flags etc.  author Jan Woetzel <jw -at- "
+"mip.informatik.uni-kiel.de> (07/2003)"
+msgstr ""
+
+#: ../../CMake/Modules/Use_wxWindows.cmake:16
+msgid "USAGE:"
+msgstr ""
+
+#: ../../CMake/Modules/Use_wxWindows.cmake:23
+msgid "include( ${CMAKE_MODULE_PATH}/Use_wxWindows.cmake)"
+msgstr ""
+
+#: ../../CMake/Modules/Use_wxWindows.cmake:29
+msgid "set(WXWINDOWS_USE_GL 1)"
+msgstr ""
+

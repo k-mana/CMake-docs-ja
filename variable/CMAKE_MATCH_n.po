@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_MATCH_n.rst:2
+msgid "CMAKE_MATCH_<n>"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MATCH_n.rst:6
+msgid ""
+"Capture group ``<n>`` matched by the last regular expression, for groups "
+"0 through 9.  Group 0 is the entire match.  Groups 1 through 9 are the "
+"subexpressions captured by ``()`` syntax."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MATCH_n.rst:10
+msgid ""
+"When a regular expression match is used, CMake fills in "
+"``CMAKE_MATCH_<n>`` variables with the match contents.  The "
+":variable:`CMAKE_MATCH_COUNT` variable holds the number of match "
+"expressions when these are filled."
+msgstr ""
+

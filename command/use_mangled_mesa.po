@@ -1,0 +1,39 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/use_mangled_mesa.rst:2
+msgid "use_mangled_mesa"
+msgstr ""
+
+#: ../../CMake/Help/command/use_mangled_mesa.rst:4
+msgid "Disallowed since version 3.0.  See CMake Policy :policy:`CMP0030`."
+msgstr ""
+
+#: ../../CMake/Help/command/use_mangled_mesa.rst:6
+msgid "Copy mesa headers for use in combination with system GL."
+msgstr ""
+
+#: ../../CMake/Help/command/use_mangled_mesa.rst:12
+msgid ""
+"The path to mesa includes, should contain ``gl_mangle.h``.  The mesa "
+"headers are copied to the specified output directory.  This allows "
+"mangled mesa headers to override other GL headers by being added to the "
+"include directory path earlier."
+msgstr ""
+

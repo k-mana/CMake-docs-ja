@@ -1,0 +1,176 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindKDE3.cmake:6
+msgid "FindKDE3"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:8
+msgid ""
+"Find the KDE3 include and library dirs, KDE preprocessors and define a "
+"some macros"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:12
+msgid "This module defines the following variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:14
+msgid "``KDE3_DEFINITIONS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:15
+msgid "compiler definitions required for compiling KDE software"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:16
+msgid "``KDE3_INCLUDE_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:17
+msgid "the KDE include directory"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:18
+msgid "``KDE3_INCLUDE_DIRS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:19
+msgid "the KDE and the Qt include directory, for use with include_directories()"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:20
+msgid "``KDE3_LIB_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:21
+msgid ""
+"the directory where the KDE libraries are installed, for use with "
+"link_directories()"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:22
+msgid "``QT_AND_KDECORE_LIBS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:23
+msgid "this contains both the Qt and the kdecore library"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:24
+msgid "``KDE3_DCOPIDL_EXECUTABLE``"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:25
+msgid "the dcopidl executable"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:26
+msgid "``KDE3_DCOPIDL2CPP_EXECUTABLE``"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:27
+msgid "the dcopidl2cpp executable"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:28
+msgid "``KDE3_KCFGC_EXECUTABLE``"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:29
+msgid "the kconfig_compiler executable"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:31
+msgid "``KDE3_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:31
+msgid "set to TRUE if all of the above has been found"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:33
+msgid "The following user adjustable options are provided:"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:36
+msgid "``KDE3_BUILD_TESTS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:36
+msgid "enable this to build KDE testcases"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:38
+msgid ""
+"It also adds the following macros (from ``KDE3Macros.cmake``) "
+"``SRCS_VAR`` is always the variable which contains the list of source "
+"files for your application or library."
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:42
+msgid "KDE3_AUTOMOC(file1 ...  fileN)"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:54
+msgid "KDE3_ADD_MOC_FILES(SRCS_VAR file1 ...  fileN )"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:63
+msgid "KDE3_ADD_DCOP_SKELS(SRCS_VAR header1.h ...  headerN.h )"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:71
+msgid "KDE3_ADD_DCOP_STUBS(SRCS_VAR header1.h ...  headerN.h )"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:79
+msgid "KDE3_ADD_UI_FILES(SRCS_VAR file1.ui ...  fileN.ui )"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:87
+msgid "KDE3_ADD_KCFG_FILES(SRCS_VAR file1.kcfgc ...  fileN.kcfgc )"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:95
+msgid "KDE3_INSTALL_LIBTOOL_FILE(target)"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:103
+msgid "KDE3_ADD_EXECUTABLE(name file1 ...  fileN )"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:112
+msgid "KDE3_ADD_KPART(name [WITH_PREFIX] file1 ...  fileN )"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:123
+msgid "KDE3_ADD_KDEINIT_EXECUTABLE(name file1 ...  fileN )"
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:133
+msgid ""
+"The option KDE3_ENABLE_FINAL to enable all-in-one compilation is no "
+"longer supported."
+msgstr ""
+
+#: ../../CMake/Modules/FindKDE3.cmake:138
+msgid "Author: Alexander Neundorf <neundorf@kde.org>"
+msgstr ""
+

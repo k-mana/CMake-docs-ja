@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_test/REQUIRED_FILES.rst:2
+msgid "REQUIRED_FILES"
+msgstr ""
+
+#: ../../CMake/Help/prop_test/REQUIRED_FILES.rst:4
+msgid ""
+"List of files required to run the test.  The filenames are relative to "
+"the test :prop_test:`WORKING_DIRECTORY` unless an absolute path is "
+"specified."
+msgstr ""
+
+#: ../../CMake/Help/prop_test/REQUIRED_FILES.rst:7
+msgid ""
+"If set to a list of files, the test will not be run unless all of the "
+"files exist."
+msgstr ""
+
+#: ../../CMake/Help/prop_test/REQUIRED_FILES.rst:11
+msgid "Examples"
+msgstr ""
+
+#: ../../CMake/Help/prop_test/REQUIRED_FILES.rst:13
+msgid ""
+"Suppose that ``test.txt`` is created by test ``baseTest`` and "
+"``none.txt`` does not exist:"
+msgstr ""
+
+#: ../../CMake/Help/prop_test/REQUIRED_FILES.rst:36
+msgid ""
+"The above example demonstrates how ``REQUIRED_FILES`` works, but it is "
+"not the most robust way to implement test ordering with failure "
+"detection.  For that, test fixtures are a better alternative (see "
+":prop_test:`FIXTURES_REQUIRED`)."
+msgstr ""
+

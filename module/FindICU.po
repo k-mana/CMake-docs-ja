@@ -1,0 +1,98 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindICU.cmake:6
+msgid "FindICU"
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:10
+msgid ""
+"Find the International Components for Unicode (ICU) libraries and "
+"programs."
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:13
+msgid ""
+"This module supports multiple components. Components can include any of: "
+"``data``, ``i18n``, ``io``, ``le``, ``lx``, ``test``, ``tu`` and ``uc``."
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:17
+msgid ""
+"Note that on Windows ``data`` is named ``dt`` and ``i18n`` is named "
+"``in``; any of the names may be used, and the appropriate platform-"
+"specific library name will be automatically selected."
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:21
+msgid "Added support for static libraries on Windows."
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:24
+msgid ""
+"This module reports information about the ICU installation in several "
+"variables.  General variables::"
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:32
+msgid "Imported targets::"
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:36
+msgid ""
+"Where ``<C>`` is the name of an ICU component, for example ``ICU::i18n``;"
+" ``<C>`` is lower-case."
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:39
+msgid "ICU programs are reported in::"
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:58
+msgid "ICU component libraries are reported in::"
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:63
+msgid "ICU datafiles are reported in::"
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:68
+msgid "This module reads hints about search results from::"
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:72
+msgid ""
+"The environment variable ``ICU_ROOT`` may also be used; the ICU_ROOT "
+"variable takes precedence."
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:75
+msgid "The following cache variables may also be set::"
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:83
+msgid ""
+"In most cases none of the above variables will require setting, unless "
+"multiple ICU versions are available and a specific version is required."
+msgstr ""
+
+#: ../../CMake/Modules/FindICU.cmake:87
+msgid "Other variables one may set to control this module are::"
+msgstr ""
+

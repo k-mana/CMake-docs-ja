@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_EXPORT_COMPILE_COMMANDS.rst:2
+msgid "CMAKE_EXPORT_COMPILE_COMMANDS"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_EXPORT_COMPILE_COMMANDS.rst:6
+msgid "Enable/Disable output of compile commands during generation."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_EXPORT_COMPILE_COMMANDS.rst:8
+msgid ""
+"If enabled, generates a ``compile_commands.json`` file containing the "
+"exact compiler calls for all translation units of the project in machine-"
+"readable form.  The format of the JSON file looks like:"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_EXPORT_COMPILE_COMMANDS.rst:30
+msgid ""
+"This is initialized by the :envvar:`CMAKE_EXPORT_COMPILE_COMMANDS` "
+"environment variable, and initializes the "
+":prop_tgt:`EXPORT_COMPILE_COMMANDS` target property for all targets."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_EXPORT_COMPILE_COMMANDS.rst:35
+msgid ""
+"This option is implemented only by :ref:`Makefile Generators` and the "
+":generator:`Ninja`.  It is ignored on other generators."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_EXPORT_COMPILE_COMMANDS.rst:38
+msgid ""
+"This option currently does not work well in combination with the "
+":prop_tgt:`UNITY_BUILD` target property or the "
+":variable:`CMAKE_UNITY_BUILD` variable."
+msgstr ""
+

@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_TRY_COMPILE_TARGET_TYPE.rst:2
+msgid "CMAKE_TRY_COMPILE_TARGET_TYPE"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_TRY_COMPILE_TARGET_TYPE.rst:6
+msgid ""
+"Type of target generated for :command:`try_compile` calls using the "
+"source file signature.  Valid values are:"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_TRY_COMPILE_TARGET_TYPE.rst:11
+msgid "``EXECUTABLE``"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_TRY_COMPILE_TARGET_TYPE.rst:10
+msgid ""
+"Use :command:`add_executable` to name the source file in the generated "
+"project.  This is the default if no value is given."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_TRY_COMPILE_TARGET_TYPE.rst:16
+msgid "``STATIC_LIBRARY``"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_TRY_COMPILE_TARGET_TYPE.rst:14
+msgid ""
+"Use :command:`add_library` with the ``STATIC`` option to name the source "
+"file in the generated project.  This avoids running the linker and is "
+"intended for use with cross-compiling toolchains that cannot link without"
+" custom flags or linker scripts."
+msgstr ""
+

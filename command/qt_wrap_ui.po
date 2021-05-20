@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/qt_wrap_ui.rst:2
+msgid "qt_wrap_ui"
+msgstr ""
+
+#: ../../CMake/Help/command/qt_wrap_ui.rst:6
+msgid ""
+"This command was originally added to support Qt 3 before the "
+":command:`add_custom_command()` command was sufficiently mature.  The "
+":module:`FindQt4` module provides the ``qt4_wrap_ui()`` macro, which "
+"should be used instead for Qt 4 projects.  For projects using Qt 5 or "
+"later, use the equivalent macro provided by Qt itself (e.g. Qt 5 provides"
+" ``qt5_wrap_ui()``)."
+msgstr ""
+
+#: ../../CMake/Help/command/qt_wrap_ui.rst:13
+msgid "Manually create Qt user interfaces Wrappers."
+msgstr ""
+
+#: ../../CMake/Help/command/qt_wrap_ui.rst:20
+msgid ""
+"Produces .h and .cxx files for all the .ui files listed in the "
+"``SourceLists``.  The .h files will be added to the library using the "
+"``HeadersDestNamesource`` list.  The .cxx files will be added to the "
+"library using the ``SourcesDestNamesource`` list."
+msgstr ""
+
+#: ../../CMake/Help/command/qt_wrap_ui.rst:25
+msgid ""
+"Consider updating the project to use the :prop_tgt:`AUTOUIC` target "
+"property instead for a more automated way of invoking the ``uic`` tool."
+msgstr ""
+

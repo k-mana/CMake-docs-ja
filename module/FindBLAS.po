@@ -1,0 +1,330 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindBLAS.cmake:6
+msgid "FindBLAS"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:8
+msgid "Find Basic Linear Algebra Subprograms (BLAS) library"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:10
+msgid ""
+"This module finds an installed Fortran library that implements the BLAS "
+"linear-algebra interface (see http://www.netlib.org/blas/)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:13
+msgid ""
+"The approach follows that taken for the ``autoconf`` macro file, "
+"``acx_blas.m4`` (distributed at http://ac-archive.sourceforge.net/ac-"
+"archive/acx_blas.html)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:18
+msgid "Input Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:20
+msgid "The following variables may be set to influence this module's behavior:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:23
+msgid "``BLA_STATIC``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:23
+msgid "if ``ON`` use static linkage"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:80
+msgid "``BLA_VENDOR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:26
+msgid ""
+"If set, checks only the specified vendor, if not set checks all the "
+"possibilities.  List of vendors valid in this module:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:29
+msgid "``Goto``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:30
+msgid "``FlexiBLAS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:31
+msgid "``OpenBLAS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:32
+msgid "``FLAME``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:33
+msgid "``ATLAS PhiPACK``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:34
+msgid "``CXML``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:35
+msgid "``DXML``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:36
+msgid "``SunPerf``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:37
+msgid "``SCSL``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:38
+msgid "``SGIMATH``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:39
+msgid "``IBMESSL``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:40
+msgid "``Intel10_32`` (intel mkl v10 32 bit, threaded code)"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:41
+msgid "``Intel10_64lp`` (intel mkl v10+ 64 bit, threaded code, lp64 model)"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:42
+msgid "``Intel10_64lp_seq`` (intel mkl v10+ 64 bit, sequential code, lp64 model)"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:43
+msgid "``Intel10_64ilp`` (intel mkl v10+ 64 bit, threaded code, ilp64 model)"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:44
+msgid ""
+"``Intel10_64ilp_seq`` (intel mkl v10+ 64 bit, sequential code, ilp64 "
+"model)"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:45
+msgid "``Intel10_64_dyn`` (intel mkl v10+ 64 bit, single dynamic library)"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:46
+msgid "``Intel`` (obsolete versions of mkl 32 and 64 bit)"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:47
+msgid "``ACML``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:48
+msgid "``ACML_MP``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:49
+msgid "``ACML_GPU``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:50
+msgid "``Apple``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:51
+msgid "``NAS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:52
+msgid "``Arm``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:53
+msgid "``Arm_mp``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:54
+msgid "``Arm_ilp64``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:55
+msgid "``Arm_ilp64_mp``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:56
+msgid "``EML``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:57
+msgid "``EML_mt``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:58
+msgid "``Generic``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:60
+msgid "``OpenBLAS`` support."
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:63
+msgid "``FLAME`` support."
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:66
+msgid "Added ILP64 MKL variants (``Intel10_64ilp``, ``Intel10_64ilp_seq``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:69
+msgid "Added single dynamic library MKL variant (``Intel10_64_dyn``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:72
+msgid ""
+"Arm Performance Libraries support (``Arm``, ``Arm_mp``, ``Arm_ilp64``, "
+"``Arm_ilp64_mp``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:76
+msgid "``FlexiBLAS`` support."
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:79
+msgid "Elbrus Math Library support (``EML``, ``EML_mt``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:83
+msgid "``BLA_F95``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:83
+msgid "if ``ON`` tries to find the BLAS95 interfaces"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:89
+msgid "``BLA_PREFER_PKGCONFIG``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:88
+msgid ""
+"if set ``pkg-config`` will be used to search for a BLAS library first and"
+" if one is found that is preferred"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:92
+msgid "Imported targets"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:96
+msgid "This module defines the following :prop_tgt:`IMPORTED` target:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:100
+msgid "``BLAS::BLAS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:99
+msgid "The libraries to use for BLAS, if found."
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:103
+msgid "Result Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:105
+msgid "This module defines the following variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:107
+msgid "``BLAS_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:108
+msgid "library implementing the BLAS interface is found"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:109
+msgid "``BLAS_LINKER_FLAGS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:110
+msgid "uncached list of required linker flags (excluding ``-l`` and ``-L``)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:112
+msgid "``BLAS_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:112
+msgid ""
+"uncached list of libraries (using full path name) to link against to use "
+"BLAS (may be empty if compiler implicitly links BLAS)"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:115
+msgid "``BLAS95_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:115
+msgid ""
+"uncached list of libraries (using full path name) to link against to use "
+"BLAS95 interface"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:118
+msgid "``BLAS95_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:118
+msgid "library implementing the BLAS95 interface is found"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:122
+msgid ""
+"C, CXX or Fortran must be enabled to detect a BLAS library. C or CXX must"
+" be enabled to use Intel Math Kernel Library (MKL)."
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:125
+msgid "For example, to use Intel MKL libraries and/or Intel compiler:"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:133
+msgid "Hints"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:1057
+msgid "``MKLROOT``"
+msgstr ""
+
+#: ../../CMake/Modules/FindBLAS.cmake:138
+msgid ""
+"Set this environment variable to a directory that contains an MKL "
+"installation, or add the directory to the dynamic library loader "
+"environment variable for your platform (``LIB``, ``DYLD_LIBRARY_PATH`` or"
+" ``LD_LIBRARY_PATH``)."
+msgstr ""
+

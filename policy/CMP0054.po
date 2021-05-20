@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/policy/CMP0054.rst:2
+msgid "CMP0054"
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0054.rst:6
+msgid ""
+"Only interpret :command:`if` arguments as variables or keywords when "
+"unquoted."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0054.rst:8
+msgid ""
+"CMake 3.1 and above no longer implicitly dereference variables or "
+"interpret keywords in an :command:`if` command argument when it is a "
+":ref:`Quoted Argument` or a :ref:`Bracket Argument`."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0054.rst:12
+msgid ""
+"The ``OLD`` behavior for this policy is to dereference variables and "
+"interpret keywords even if they are quoted or bracketed. The ``NEW`` "
+"behavior is to not dereference variables or interpret keywords that have "
+"been quoted or bracketed."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0054.rst:17
+msgid "Given the following partial example:"
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0054.rst:30
+msgid "After explicit expansion of variables this gives:"
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0054.rst:36
+msgid ""
+"With the policy set to ``OLD`` implicit expansion reduces this "
+"semantically to:"
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0054.rst:42
+msgid ""
+"With the policy set to ``NEW`` the quoted arguments will not be further "
+"dereferenced:"
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0054.rst:49
+msgid ""
+"This policy was introduced in CMake version 3.1. CMake version |release| "
+"warns when the policy is not set and uses ``OLD`` behavior.  Use the "
+":command:`cmake_policy` command to set it to ``OLD`` or ``NEW`` "
+"explicitly."
+msgstr ""
+
+#: ../../CMake/Help/policy/DEPRECATED.txt:2
+msgid ""
+"The ``OLD`` behavior of a policy is :manual:`deprecated by definition "
+"<cmake-policies(7)>` and may be removed in a future version of CMake."
+msgstr ""
+

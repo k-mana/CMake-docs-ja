@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindFreetype.cmake:6
+msgid "FindFreetype"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:8
+msgid "Find the FreeType font renderer includes and library."
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:11
+msgid "Imported Targets"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:15
+msgid "This module defines the following :prop_tgt:`IMPORTED` target:"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:18
+msgid "``Freetype::Freetype``"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:18
+msgid "The Freetype ``freetype`` library, if found"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:21
+msgid "Result Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:23
+msgid "This module will set the following variables in your project:"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:25
+msgid "``FREETYPE_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:26
+msgid "true if the Freetype headers and libraries were found"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:33
+msgid "``FREETYPE_INCLUDE_DIRS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:28
+msgid ""
+"directories containing the Freetype headers. This is the concatenation of"
+" the variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:31
+msgid "``FREETYPE_INCLUDE_DIR_ft2build``"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:32
+msgid "directory holding the main Freetype API configuration header"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:33
+msgid "``FREETYPE_INCLUDE_DIR_freetype2``"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:34
+msgid "directory holding Freetype public headers"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:35
+msgid "``FREETYPE_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:36
+msgid "the library to link against"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:38
+msgid "``FREETYPE_VERSION_STRING``"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:38
+msgid "the version of freetype found"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:40
+msgid "Debug and Release variants are found separately."
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:44
+msgid "Hints"
+msgstr ""
+
+#: ../../CMake/Modules/FindFreetype.cmake:46
+msgid ""
+"The user may set the environment variable ``FREETYPE_DIR`` to the root "
+"directory of a Freetype installation."
+msgstr ""
+

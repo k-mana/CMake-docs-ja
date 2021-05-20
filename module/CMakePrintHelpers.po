@@ -1,0 +1,52 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/CMakePrintHelpers.cmake:6
+msgid "CMakePrintHelpers"
+msgstr ""
+
+#: ../../CMake/Modules/CMakePrintHelpers.cmake:8
+msgid ""
+"Convenience functions for printing properties and variables, useful e.g. "
+"for debugging."
+msgstr ""
+
+#: ../../CMake/Modules/CMakePrintHelpers.cmake:20
+msgid ""
+"This function prints the values of the properties of the given targets, "
+"source files, directories, tests or cache entries.  Exactly one of the "
+"scope keywords must be used.  Example::"
+msgstr ""
+
+#: ../../CMake/Modules/CMakePrintHelpers.cmake:27
+msgid ""
+"This will print the LOCATION and INTERFACE_INCLUDE_DIRECTORIES properties"
+" for both targets foo and bar."
+msgstr ""
+
+#: ../../CMake/Modules/CMakePrintHelpers.cmake:34
+msgid ""
+"This function will print the name of each variable followed by its value."
+" Example::"
+msgstr ""
+
+#: ../../CMake/Modules/CMakePrintHelpers.cmake:39
+msgid "Gives::"
+msgstr ""
+

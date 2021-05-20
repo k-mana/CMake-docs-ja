@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/set_tests_properties.rst:2
+msgid "set_tests_properties"
+msgstr ""
+
+#: ../../CMake/Help/command/set_tests_properties.rst:4
+msgid "Set a property of the tests."
+msgstr ""
+
+#: ../../CMake/Help/command/set_tests_properties.rst:10
+msgid ""
+"Sets a property for the tests.  If the test is not found, CMake will "
+"report an error. :manual:`Generator expressions <cmake-generator-"
+"expressions(7)>` will be expanded the same as supported by the test's "
+":command:`add_test` call."
+msgstr ""
+
+#: ../../CMake/Help/command/set_tests_properties.rst:15
+msgid "See also the :command:`set_property(TEST)` command."
+msgstr ""
+
+#: ../../CMake/Help/command/set_tests_properties.rst:17
+msgid "See :ref:`Test Properties` for the list of properties known to CMake."
+msgstr ""
+

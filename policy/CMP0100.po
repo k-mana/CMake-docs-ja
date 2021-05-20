@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/policy/CMP0100.rst:2
+msgid "CMP0100"
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0100.rst:6
+msgid ""
+"Let :prop_tgt:`AUTOMOC` and :prop_tgt:`AUTOUIC` process header files that"
+" end with a ``.hh`` extension."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0100.rst:9
+msgid ""
+"Since version 3.17, CMake processes header files that end with a ``.hh`` "
+"extension in :prop_tgt:`AUTOMOC` and :prop_tgt:`AUTOUIC`. In earlier "
+"CMake versions, these header files were ignored by :prop_tgt:`AUTOMOC` "
+"and :prop_tgt:`AUTOUIC`."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0100.rst:14
+msgid ""
+"This policy affects how header files that end with a ``.hh`` extension "
+"get treated in :prop_tgt:`AUTOMOC` and :prop_tgt:`AUTOUIC`."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0100.rst:17
+msgid ""
+"The ``OLD`` behavior for this policy is to ignore ``.hh`` header files in"
+" :prop_tgt:`AUTOMOC` and :prop_tgt:`AUTOUIC`."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0100.rst:20
+msgid ""
+"The ``NEW`` behavior for this policy is to process ``.hh`` header files "
+"in :prop_tgt:`AUTOMOC` and :prop_tgt:`AUTOUIC` just like other header "
+"files."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0100.rst:25
+msgid ""
+"To silence the ``CMP0100`` warning source files can be excluded from "
+":prop_tgt:`AUTOMOC` and :prop_tgt:`AUTOUIC` processing by setting the "
+"source file properties :prop_sf:`SKIP_AUTOMOC`, :prop_sf:`SKIP_AUTOUIC` "
+"or :prop_sf:`SKIP_AUTOGEN`."
+msgstr ""
+
+#: ../../CMake/Help/policy/CMP0100.rst:37
+msgid ""
+"This policy was introduced in CMake version 3.17.0.  CMake version "
+"|release| warns when the policy is not set and uses ``OLD`` behavior. Use"
+" the :command:`cmake_policy` command to set it to ``OLD`` or ``NEW`` "
+"explicitly."
+msgstr ""
+
+#: ../../CMake/Help/policy/DEPRECATED.txt:2
+msgid ""
+"The ``OLD`` behavior of a policy is :manual:`deprecated by definition "
+"<cmake-policies(7)>` and may be removed in a future version of CMake."
+msgstr ""
+

@@ -1,0 +1,76 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindXCTest.cmake:6
+msgid "FindXCTest"
+msgstr ""
+
+#: ../../CMake/Modules/FindXCTest.cmake:10
+msgid "Functions to help creating and executing XCTest bundles."
+msgstr ""
+
+#: ../../CMake/Modules/FindXCTest.cmake:12
+msgid ""
+"An XCTest bundle is a CFBundle with a special product-type and bundle "
+"extension. The Mac Developer Library provides more information in the "
+"`Testing with Xcode`_ document."
+msgstr ""
+
+#: ../../CMake/Modules/FindXCTest.cmake:19
+msgid "Module Functions"
+msgstr ""
+
+#: ../../CMake/Modules/FindXCTest.cmake:23
+msgid ""
+"The ``xctest_add_bundle`` function creates a XCTest bundle named <target>"
+" which will test the target <testee>. Supported target types for testee "
+"are Frameworks and App Bundles::"
+msgstr ""
+
+#: ../../CMake/Modules/FindXCTest.cmake:34
+msgid ""
+"The ``xctest_add_test`` function adds an XCTest bundle to the project to "
+"be run by :manual:`ctest(1)`. The test will be named <name> and tests "
+"<bundle>::"
+msgstr ""
+
+#: ../../CMake/Modules/FindXCTest.cmake:44
+msgid "Module Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindXCTest.cmake:46
+msgid "The following variables are set by including this module:"
+msgstr ""
+
+#: ../../CMake/Modules/FindXCTest.cmake:50
+msgid "True if the XCTest Framework and executable were found."
+msgstr ""
+
+#: ../../CMake/Modules/FindXCTest.cmake:54
+msgid "The path to the xctest command line tool used to execute XCTest bundles."
+msgstr ""
+
+#: ../../CMake/Modules/FindXCTest.cmake:58
+msgid "The directory containing the XCTest Framework headers."
+msgstr ""
+
+#: ../../CMake/Modules/FindXCTest.cmake:62
+msgid "The location of the XCTest Framework."
+msgstr ""
+

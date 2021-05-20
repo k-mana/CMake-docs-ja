@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:6
+msgid "FindPostgreSQL"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:8
+msgid "Find the PostgreSQL installation."
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:11
+msgid "IMPORTED Targets"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:15
+msgid ""
+"This module defines :prop_tgt:`IMPORTED` target "
+"``PostgreSQL::PostgreSQL`` if PostgreSQL has been found."
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:19
+msgid "Result Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:21
+msgid "This module will set the following variables in your project:"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:23
+msgid "``PostgreSQL_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:24
+msgid "True if PostgreSQL is found."
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:25
+msgid "``PostgreSQL_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:26
+msgid "the PostgreSQL libraries needed for linking"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:27
+msgid "``PostgreSQL_INCLUDE_DIRS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:28
+msgid "the directories of the PostgreSQL headers"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:29
+msgid "``PostgreSQL_LIBRARY_DIRS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:30
+msgid "the link directories for PostgreSQL libraries"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:31
+msgid "``PostgreSQL_VERSION_STRING``"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:32
+msgid "the version of PostgreSQL found"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:34
+msgid "``PostgreSQL_TYPE_INCLUDE_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:34
+msgid "the directories of the PostgreSQL server headers"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:37
+msgid "Components"
+msgstr ""
+
+#: ../../CMake/Modules/FindPostgreSQL.cmake:39
+msgid ""
+"This module contains additional ``Server`` component, that forcibly "
+"checks for the presence of server headers. Note that "
+"``PostgreSQL_TYPE_INCLUDE_DIR`` is set regardless of the presence of the "
+"``Server`` component in find_package call."
+msgstr ""
+

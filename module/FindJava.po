@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindJava.cmake:6
+msgid "FindJava"
+msgstr ""
+
+#: ../../CMake/Modules/FindJava.cmake:8
+msgid "Find Java"
+msgstr ""
+
+#: ../../CMake/Modules/FindJava.cmake:10
+msgid ""
+"This module finds if Java is installed and determines where the include "
+"files and libraries are.  The caller may set variable ``JAVA_HOME`` to "
+"specify a Java installation prefix explicitly."
+msgstr ""
+
+#: ../../CMake/Modules/FindJava.cmake:14
+msgid "See also the :module:`FindJNI` module to find Java Native Interface (JNI)."
+msgstr ""
+
+#: ../../CMake/Modules/FindJava.cmake:16
+msgid "Added support for Java 9+ version parsing."
+msgstr ""
+
+#: ../../CMake/Modules/FindJava.cmake:19
+msgid ""
+"Specify one or more of the following components as you call this find "
+"module. See example below."
+msgstr ""
+
+#: ../../CMake/Modules/FindJava.cmake:29
+msgid "This module sets the following result variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindJava.cmake:47
+msgid ""
+"Added the ``Java_IDLJ_EXECUTABLE`` and ``Java_JARSIGNER_EXECUTABLE`` "
+"variables."
+msgstr ""
+
+#: ../../CMake/Modules/FindJava.cmake:51
+msgid ""
+"The minimum required version of Java can be specified using the "
+":command:`find_package` syntax, e.g."
+msgstr ""
+
+#: ../../CMake/Modules/FindJava.cmake:58
+msgid ""
+"NOTE: ``${Java_VERSION}`` and ``${Java_VERSION_STRING}`` are not "
+"guaranteed to be identical.  For example some java version may return: "
+"``Java_VERSION_STRING = 1.8.0_17`` and ``Java_VERSION = 1.8.0.17``"
+msgstr ""
+
+#: ../../CMake/Modules/FindJava.cmake:62
+msgid ""
+"another example is the Java OEM, with: ``Java_VERSION_STRING = "
+"1.8.0-oem`` and ``Java_VERSION = 1.8.0``"
+msgstr ""
+
+#: ../../CMake/Modules/FindJava.cmake:65
+msgid "For these components the following variables are set:"
+msgstr ""
+
+#: ../../CMake/Modules/FindJava.cmake:74
+msgid "Example Usages:"
+msgstr ""
+

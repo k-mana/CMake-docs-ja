@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindosgTerrain.cmake:6
+msgid "FindosgTerrain"
+msgstr ""
+
+#: ../../CMake/Modules/FindosgTerrain.cmake:10
+msgid ""
+"This is part of the Findosg* suite used to find OpenSceneGraph "
+"components.  Each component is separate and you must opt in to each "
+"module.  You must also opt into OpenGL and OpenThreads (and Producer if "
+"needed) as these modules won't do it for you.  This is to allow you "
+"control over your own system piece by piece in case you need to opt out "
+"of certain components or change the Find behavior for a particular module"
+" (perhaps because the default FindOpenGL.cmake module doesn't work with "
+"your system as an example).  If you want to use a more convenient module "
+"that includes everything, use the FindOpenSceneGraph.cmake instead of the"
+" Findosg*.cmake modules."
+msgstr ""
+
+#: ../../CMake/Modules/FindosgTerrain.cmake:21
+msgid "Locate osgTerrain This module defines"
+msgstr ""
+
+#: ../../CMake/Modules/FindosgTerrain.cmake:23
+msgid ""
+"OSGTERRAIN_FOUND - Was osgTerrain found? OSGTERRAIN_INCLUDE_DIR - Where "
+"to find the headers OSGTERRAIN_LIBRARIES - The libraries to link for "
+"osgTerrain (use this)"
+msgstr ""
+
+#: ../../CMake/Modules/FindosgTerrain.cmake:27
+msgid ""
+"OSGTERRAIN_LIBRARY - The osgTerrain library OSGTERRAIN_LIBRARY_DEBUG - "
+"The osgTerrain debug library"
+msgstr ""
+
+#: ../../CMake/Modules/FindosgTerrain.cmake:30
+msgid ""
+"$OSGDIR is an environment variable that would correspond to the "
+"./configure --prefix=$OSGDIR used in building osg."
+msgstr ""
+
+#: ../../CMake/Modules/FindosgTerrain.cmake:33
+msgid "Created by Eric Wing."
+msgstr ""
+

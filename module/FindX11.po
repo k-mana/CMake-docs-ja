@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindX11.cmake:6
+msgid "FindX11"
+msgstr ""
+
+#: ../../CMake/Modules/FindX11.cmake:8
+msgid "Find X11 installation"
+msgstr ""
+
+#: ../../CMake/Modules/FindX11.cmake:10
+msgid "Try to find X11 on UNIX systems. The following values are defined"
+msgstr ""
+
+#: ../../CMake/Modules/FindX11.cmake:18
+msgid "and also the following more fine grained variables and targets:"
+msgstr ""
+
+#: ../../CMake/Modules/FindX11.cmake:20
+msgid "Imported targets."
+msgstr ""
+
+#: ../../CMake/Modules/FindX11.cmake:69
+msgid ""
+"Renamed ``Xxf86misc``, ``X11_Xxf86misc``, ``X11_Xxf86vm``, "
+"``X11_xkbfile``, ``X11_Xtst``, and ``X11_Xss`` libraries to match their "
+"file names. Deprecated the ``X11_Xinput`` library.  Old names are still "
+"available for compatibility."
+msgstr ""
+
+#: ../../CMake/Modules/FindX11.cmake:75
+msgid "Added the ``X11_Xext_INCLUDE_PATH`` variable."
+msgstr ""
+
+#: ../../CMake/Modules/FindX11.cmake:78
+msgid ""
+"Added the ``xcb``, ``X11-xcb``, ``xcb-icccm``, ``xcb-xkb``, "
+"``xkbcommon``, and ``xkbcommon-X11`` libraries."
+msgstr ""
+
+#: ../../CMake/Modules/FindX11.cmake:82
+msgid "Added the ``Xaw``, ``xcb_util``, and ``xcb_xfixes`` libraries."
+msgstr ""
+

@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindPythonInterp.cmake:6
+msgid "FindPythonInterp"
+msgstr ""
+
+#: ../../CMake/Modules/FindPythonInterp.cmake:10
+msgid ""
+"Use :module:`FindPython3`, :module:`FindPython2` or :module:`FindPython` "
+"instead."
+msgstr ""
+
+#: ../../CMake/Modules/FindPythonInterp.cmake:12
+msgid "Find python interpreter"
+msgstr ""
+
+#: ../../CMake/Modules/FindPythonInterp.cmake:14
+msgid ""
+"This module finds if Python interpreter is installed and determines where"
+" the executables are.  This code sets the following variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindPythonInterp.cmake:33
+msgid ""
+"The Python_ADDITIONAL_VERSIONS variable can be used to specify a list of "
+"version numbers that should be taken into account when searching for "
+"Python.  You need to set this variable before calling "
+"find_package(PythonInterp)."
+msgstr ""
+
+#: ../../CMake/Modules/FindPythonInterp.cmake:38
+msgid ""
+"If calling both ``find_package(PythonInterp)`` and "
+"``find_package(PythonLibs)``, call ``find_package(PythonInterp)`` first "
+"to get the currently active Python version by default with a consistent "
+"version of PYTHON_LIBRARIES."
+msgstr ""
+
+#: ../../CMake/Modules/FindPythonInterp.cmake:45
+msgid ""
+"A call to ``find_package(PythonInterp ${V})`` for python version ``V`` "
+"may find a ``python`` executable with no version suffix.  In this case no"
+" attempt is made to avoid python executables from other versions. Use "
+":module:`FindPython3`, :module:`FindPython2` or :module:`FindPython` "
+"instead."
+msgstr ""
+

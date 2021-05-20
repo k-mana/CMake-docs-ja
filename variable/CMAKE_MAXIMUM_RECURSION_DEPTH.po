@@ -1,0 +1,80 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_MAXIMUM_RECURSION_DEPTH.rst:2
+msgid "CMAKE_MAXIMUM_RECURSION_DEPTH"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MAXIMUM_RECURSION_DEPTH.rst:6
+msgid ""
+"Maximum recursion depth for CMake scripts. It is intended to be set on "
+"the command line with ``-DCMAKE_MAXIMUM_RECURSION_DEPTH=<x>``, or within "
+"``CMakeLists.txt`` by projects that require a large recursion depth. "
+"Projects that set this variable should provide the user with a way to "
+"override it. For example:"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MAXIMUM_RECURSION_DEPTH.rst:19
+msgid ""
+"If it is not set, or is set to a non-integer value, a sensible default "
+"limit is used. If the recursion limit is reached, the script terminates "
+"immediately with a fatal error."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MAXIMUM_RECURSION_DEPTH.rst:23
+msgid "Calling any of the following commands increases the recursion depth:"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MAXIMUM_RECURSION_DEPTH.rst:25
+msgid ":command:`include`"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MAXIMUM_RECURSION_DEPTH.rst:26
+msgid ":command:`find_package`"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MAXIMUM_RECURSION_DEPTH.rst:27
+msgid ":command:`add_subdirectory`"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MAXIMUM_RECURSION_DEPTH.rst:28
+msgid ":command:`try_compile`"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MAXIMUM_RECURSION_DEPTH.rst:29
+msgid ":command:`ctest_read_custom_files`"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MAXIMUM_RECURSION_DEPTH.rst:30
+msgid ":command:`ctest_run_script` (unless ``NEW_PROCESS`` is specified)"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MAXIMUM_RECURSION_DEPTH.rst:31
+msgid ""
+"User-defined :command:`function`'s and :command:`macro`'s (note that "
+":command:`function` and :command:`macro` themselves don't increase "
+"recursion depth)"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_MAXIMUM_RECURSION_DEPTH.rst:34
+msgid ""
+"Reading or writing variables that are being watched by a "
+":command:`variable_watch`"
+msgstr ""
+

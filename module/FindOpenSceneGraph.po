@@ -1,0 +1,91 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:6
+msgid "FindOpenSceneGraph"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:8
+msgid "Find OpenSceneGraph (3D graphics application programming interface)"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:10
+msgid ""
+"This module searches for the OpenSceneGraph core \"osg\" library as well "
+"as :module:`FindOpenThreads`, and whatever additional ``COMPONENTS`` "
+"(nodekits) that you specify."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:20
+msgid ""
+"NOTE: To use this module effectively you must either require ``CMake >= "
+"2.6.3`` with  :command:`cmake_minimum_required(VERSION 2.6.3)` or "
+"download and place :module:`FindOpenThreads`, :module:`Findosg` "
+"functions, :module:`Findosg` and ``Find<etc>.cmake`` files into your "
+":variable:`CMAKE_MODULE_PATH`."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:28
+msgid "This module accepts the following variables (note mixed case)"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:43
+msgid ""
+"The following environment variables are also respected for finding the "
+"OSG and it's various components.  :variable:`CMAKE_PREFIX_PATH` can also "
+"be used for this (see :command:`find_library` CMake documentation)."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:48
+msgid "``<MODULE>_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:48
+msgid ""
+"(where ``MODULE`` is of the form \"OSGVOLUME\" and there is a "
+":module:`FindosgVolume`.cmake` file)"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:50
+msgid "``OSG_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:52
+msgid "``OSGDIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:56
+msgid "``OSG_ROOT``"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:58
+msgid ""
+"[CMake 2.8.10]: The CMake variable ``OSG_DIR`` can now be used as well to"
+" influence detection, instead of needing to specify an environment "
+"variable."
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:62
+msgid "This module defines the following output variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindOpenSceneGraph.cmake:88
+msgid "================================== Example Usage:"
+msgstr ""
+

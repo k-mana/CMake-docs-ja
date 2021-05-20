@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/get_filename_component.rst:2
+msgid "get_filename_component"
+msgstr ""
+
+#: ../../CMake/Help/command/get_filename_component.rst:4
+msgid "Get a specific component of a full filename."
+msgstr ""
+
+#: ../../CMake/Help/command/get_filename_component.rst:6
+msgid ""
+"This command been superseded by :command:`cmake_path` command, except "
+"``REALPATH`` now offered by :ref:`file(REAL_PATH) <REAL_PATH>` command "
+"and ``PROGRAM`` now available in :command:`separate_arguments(PROGRAM)` "
+"command."
+msgstr ""
+
+#: ../../CMake/Help/command/get_filename_component.rst:15
+msgid ""
+"Sets ``<var>`` to a component of ``<FileName>``, where ``<mode>`` is one "
+"of:"
+msgstr ""
+
+#: ../../CMake/Help/command/get_filename_component.rst:27
+msgid "Added the ``LAST_EXT`` and ``NAME_WLE`` modes."
+msgstr ""
+
+#: ../../CMake/Help/command/get_filename_component.rst:30
+msgid ""
+"Paths are returned with forward slashes and have no trailing slashes. If "
+"the optional ``CACHE`` argument is specified, the result variable is "
+"added to the cache."
+msgstr ""
+
+#: ../../CMake/Help/command/get_filename_component.rst:40
+msgid ""
+"Sets ``<var>`` to the absolute path of ``<FileName>``, where ``<mode>`` "
+"is one of:"
+msgstr ""
+
+#: ../../CMake/Help/command/get_filename_component.rst:48
+msgid ""
+"If the provided ``<FileName>`` is a relative path, it is evaluated "
+"relative to the given base directory ``<dir>``.  If no base directory is "
+"provided, the default base directory will be "
+":variable:`CMAKE_CURRENT_SOURCE_DIR`."
+msgstr ""
+
+#: ../../CMake/Help/command/get_filename_component.rst:53
+msgid ""
+"Paths are returned with forward slashes and have no trailing slashes.  If"
+" the optional ``CACHE`` argument is specified, the result variable is "
+"added to the cache."
+msgstr ""
+
+#: ../../CMake/Help/command/get_filename_component.rst:61
+msgid ""
+"The program in ``<FileName>`` will be found in the system search path or "
+"left as a full path.  If ``PROGRAM_ARGS`` is present with ``PROGRAM``, "
+"then any command-line arguments present in the ``<FileName>`` string are "
+"split from the program name and stored in ``<arg_var>``.  This is used to"
+" separate a program name from its arguments in a command line string."
+msgstr ""
+

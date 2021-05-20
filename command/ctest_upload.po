@@ -1,0 +1,62 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/ctest_upload.rst:2
+msgid "ctest_upload"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_upload.rst:4
+msgid "Upload files to a dashboard server as a :ref:`Dashboard Client`."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_upload.rst:10
+msgid "The options are:"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_upload.rst:14
+msgid "``FILES <file>...``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_upload.rst:13
+msgid ""
+"Specify a list of files to be sent along with the build results to the "
+"dashboard server."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_upload.rst:20
+msgid "``QUIET``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_upload.rst:19
+msgid ""
+"Suppress any CTest-specific non-error output that would have been printed"
+" to the console otherwise."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_upload.rst:25
+msgid "``CAPTURE_CMAKE_ERROR <result-var>``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_upload.rst:25
+msgid ""
+"Store in the ``<result-var>`` variable -1 if there are any errors running"
+" the command and prevent ctest from returning non-zero if an error "
+"occurs."
+msgstr ""
+

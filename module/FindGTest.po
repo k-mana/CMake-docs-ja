@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindGTest.cmake:6
+msgid "FindGTest"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:8
+msgid "Locate the Google C++ Testing Framework."
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:10
+msgid "Upstream ``GTestConfig.cmake`` is used if possible."
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:14
+msgid "Imported targets"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:16
+msgid "This module defines the following :prop_tgt:`IMPORTED` targets:"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:20
+msgid "``GTest::gtest``"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:20
+#: ../../CMake/Modules/FindGTest.cmake:30
+msgid ""
+"The Google Test ``gtest`` library, if found; adds Thread::Thread "
+"automatically"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:23
+msgid "``GTest::gtest_main``"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:23
+#: ../../CMake/Modules/FindGTest.cmake:33
+msgid "The Google Test ``gtest_main`` library, if found"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:25
+msgid ""
+"For backwards compatibility, this module defines additionally the "
+"following deprecated :prop_tgt:`IMPORTED` targets (available since 3.5):"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:30
+msgid "``GTest::GTest``"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:34
+msgid "``GTest::Main``"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:37
+msgid "Result variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:39
+msgid "This module will set the following variables in your project:"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:41
+msgid "``GTest_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:42
+msgid "Found the Google Testing framework"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:44
+msgid "``GTEST_INCLUDE_DIRS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:44
+msgid "the directory containing the Google Test headers"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:46
+msgid ""
+"The library variables below are set as normal variables.  These contain "
+"debug/optimized keywords when a debugging library is found."
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:50
+msgid "``GTEST_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:50
+msgid ""
+"The Google Test ``gtest`` library; note it also requires linking with an "
+"appropriate thread library"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:52
+msgid "``GTEST_MAIN_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:53
+msgid "The Google Test ``gtest_main`` library"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:55
+msgid "``GTEST_BOTH_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:55
+msgid "Both ``gtest`` and ``gtest_main``"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:58
+msgid "Cache variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:60
+msgid "The following cache variables may also be set:"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:63
+msgid "``GTEST_ROOT``"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:63
+msgid ""
+"The root directory of the Google Test installation (may also be set as an"
+" environment variable)"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:68
+msgid "``GTEST_MSVC_SEARCH``"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:66
+msgid ""
+"If compiling with MSVC, this variable can be set to ``MT`` or ``MD`` (the"
+" default) to enable searching a GTest build tree"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:71
+msgid "Example usage"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:85
+msgid "Deeper integration with CTest"
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:87
+msgid ""
+"See :module:`GoogleTest` for information on the "
+":command:`gtest_add_tests` and :command:`gtest_discover_tests` commands."
+msgstr ""
+
+#: ../../CMake/Modules/FindGTest.cmake:90
+msgid ""
+"Previous CMake versions defined :command:`gtest_add_tests` macro in this "
+"module."
+msgstr ""
+

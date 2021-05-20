@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/CUDA_RUNTIME_LIBRARY.rst:2
+msgid "CUDA_RUNTIME_LIBRARY"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RUNTIME_LIBRARY.rst:6
+msgid ""
+"Select the CUDA runtime library for use by compilers targeting the CUDA "
+"language."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RUNTIME_LIBRARY.rst:8
+msgid "The allowed case insensitive values are:"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RUNTIME_LIBRARY-VALUES.txt:2
+msgid "``None``"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RUNTIME_LIBRARY-VALUES.txt:2
+msgid ""
+"Link with ``-cudart=none`` or equivalent flag(s) to use no CUDA runtime "
+"library."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RUNTIME_LIBRARY-VALUES.txt:5
+msgid "``Shared``"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RUNTIME_LIBRARY-VALUES.txt:5
+msgid ""
+"Link with ``-cudart=shared`` or equivalent flag(s) to use a dynamically-"
+"linked CUDA runtime library."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RUNTIME_LIBRARY-VALUES.txt:9
+msgid "``Static``"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RUNTIME_LIBRARY-VALUES.txt:8
+msgid ""
+"Link with ``-cudart=static`` or equivalent flag(s) to use a statically-"
+"linked CUDA runtime library."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RUNTIME_LIBRARY.rst:12
+msgid ""
+"Contents of ``CUDA_RUNTIME_LIBRARY`` may use :manual:`generator "
+"expressions <cmake-generator-expressions(7)>`."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RUNTIME_LIBRARY.rst:15
+msgid ""
+"If that property is not set then CMake uses an appropriate default value "
+"based on the compiler to select the CUDA runtime library."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/CUDA_RUNTIME_LIBRARY.rst:20
+msgid ""
+"This property has effect only when the ``CUDA`` language is enabled. To "
+"control the CUDA runtime linking when only using the CUDA SDK with the "
+"``C`` or ``C++`` language we recommend using the "
+":module:`FindCUDAToolkit` module."
+msgstr ""
+

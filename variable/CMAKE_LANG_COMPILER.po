@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_LANG_COMPILER.rst:2
+msgid "CMAKE_<LANG>_COMPILER"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_COMPILER.rst:4
+msgid "The full path to the compiler for ``LANG``."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_COMPILER.rst:6
+msgid ""
+"This is the command that will be used as the ``<LANG>`` compiler.  Once "
+"set, you can not change this variable."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_COMPILER.rst:10
+msgid "Usage"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_COMPILER.rst:12
+msgid ""
+"This variable can be set by the user during the first time a build tree "
+"is configured."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_COMPILER.rst:14
+msgid ""
+"If a non-full path value is supplied then CMake will resolve the full "
+"path of the compiler."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_COMPILER.rst:17
+msgid ""
+"The variable could be set in a user supplied toolchain file or via `-D` "
+"on the command line."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_COMPILER.rst:20
+msgid ""
+"Options that are required to make the compiler work correctly can be "
+"included as items in a list; they can not be changed."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_LANG_COMPILER.rst:28
+msgid "or"
+msgstr ""
+

@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_gbl/ALLOW_DUPLICATE_CUSTOM_TARGETS.rst:2
+msgid "ALLOW_DUPLICATE_CUSTOM_TARGETS"
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/ALLOW_DUPLICATE_CUSTOM_TARGETS.rst:4
+msgid "Allow duplicate custom targets to be created."
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/ALLOW_DUPLICATE_CUSTOM_TARGETS.rst:6
+msgid ""
+"Normally CMake requires that all targets built in a project have globally"
+" unique logical names (see policy :policy:`CMP0002`). This is necessary "
+"to generate meaningful project file names in :generator:`Xcode` and "
+":ref:`Visual Studio Generators` IDE generators.  It also allows the "
+"target names to be referenced unambiguously."
+msgstr ""
+
+#: ../../CMake/Help/prop_gbl/ALLOW_DUPLICATE_CUSTOM_TARGETS.rst:13
+msgid ""
+"Makefile generators are capable of supporting duplicate "
+":command:`add_custom_target` names.  For projects that care only about "
+":ref:`Makefile Generators` and do not wish to support :generator:`Xcode` "
+"or :ref:`Visual Studio Generators` IDE generators, one may set this "
+"property to ``True`` to allow duplicate custom targets.  The property "
+"allows multiple :command:`add_custom_target` command calls in different "
+"directories to specify the same target name.  However, setting this "
+"property will cause non-Makefile generators to produce an error and "
+"refuse to generate the project."
+msgstr ""
+

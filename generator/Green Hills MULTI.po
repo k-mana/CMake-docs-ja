@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:2
+msgid "Green Hills MULTI"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:6
+msgid "Linux support."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:9
+msgid ""
+"Generates Green Hills MULTI project files (experimental, work-in-"
+"progress)."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:11
+msgid "Customizations are available through the following cache variables:"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:13
+msgid "``GHS_CUSTOMIZATION``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:14
+msgid "``GHS_GPJ_MACROS``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:16
+msgid ""
+"The buildsystem has predetermined build-configuration settings that can "
+"be controlled via the :variable:`CMAKE_BUILD_TYPE` variable."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:21
+msgid "Toolset and Platform Selection"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:25
+msgid "Customizations that are used to pick toolset and target system:"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:27
+msgid ""
+"The ``-A <arch>`` can be supplied for setting the target architecture. "
+"``<arch>`` usually is one of ``arm``, ``ppc``, ``86``, etcetera. If the "
+"target architecture is not specified then the default architecture of "
+"``arm`` will be used."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:32
+msgid ""
+"The ``-T <toolset>`` option can be used to set the directory location of "
+"the toolset. Both absolute and relative paths are valid. Relative paths "
+"use ``GHS_TOOLSET_ROOT`` as the root. If the toolset is not specified "
+"then the latest toolset found in ``GHS_TOOLSET_ROOT`` will be used."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:37
+msgid "Cache variables that are used for toolset and target system customization:"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:39
+msgid "``GHS_TARGET_PLATFORM``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst
+msgid "Defaults to ``integrity``."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst
+msgid ""
+"Usual values are ``integrity``, ``threadx``, ``uvelosity``, ``velosity``,"
+" ``vxworks``, ``standalone``."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:45
+msgid "``GHS_PRIMARY_TARGET``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst
+msgid "Sets ``primaryTarget`` entry in project file."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst
+msgid "Defaults to ``<arch>_<GHS_TARGET_PLATFORM>.tgt``."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:50
+msgid "``GHS_TOOLSET_ROOT``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst
+msgid "Root path for ``toolset`` searches."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst
+msgid "Defaults to ``C:/ghs`` in Windows or ``/usr/ghs`` in Linux."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:55
+msgid "``GHS_OS_ROOT``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst
+msgid "Root path for RTOS searches."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:60
+msgid "``GHS_OS_DIR`` and ``GHS_OS_DIR_OPTION``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst
+msgid "Sets ``-os_dir`` entry in project file."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst
+msgid ""
+"Defaults to latest platform OS installation at ``GHS_OS_ROOT``.  Set this"
+" value if a specific RTOS is to be used."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst
+msgid "``GHS_OS_DIR_OPTION`` default value is ``-os_dir``."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:67
+msgid "The ``GHS_OS_DIR_OPTION`` variable."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:70
+msgid "``GHS_BSP_NAME``"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst
+msgid "Sets ``-bsp`` entry in project file."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst
+msgid "Defaults to ``sim<arch>`` for ``integrity`` platforms."
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:76
+msgid "Target Properties"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:80
+msgid "The following properties are available:"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:82
+msgid ":prop_tgt:`GHS_INTEGRITY_APP`"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:83
+msgid ":prop_tgt:`GHS_NO_SOURCE_GROUP_FILE`"
+msgstr ""
+
+#: ../../CMake/Help/generator/Green Hills MULTI.rst:86
+msgid ""
+"This generator is deemed experimental as of CMake |release| and is still "
+"a work in progress.  Future versions of CMake may make breaking changes "
+"as the generator matures."
+msgstr ""
+

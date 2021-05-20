@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/LINK_WHAT_YOU_USE.rst:2
+msgid "LINK_WHAT_YOU_USE"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/LINK_WHAT_YOU_USE.rst:6
+msgid ""
+"This is a boolean option that when set to ``TRUE`` will automatically run"
+" ``ldd -r -u`` on the target after it is linked. In addition, the linker "
+"flag ``-Wl,--no-as-needed`` will be passed to the target with the link "
+"command so that all libraries specified on the command line will be "
+"linked into the target. This will result in the link producing a list of "
+"libraries that provide no symbols used by this target but are being "
+"linked to it. This is only applicable to executable and shared library "
+"targets and will only work when ld and ldd accept the flags used."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/LINK_WHAT_YOU_USE.rst:15
+msgid ""
+"This property is initialized by the value of the "
+":variable:`CMAKE_LINK_WHAT_YOU_USE` variable if it is set when a target "
+"is created."
+msgstr ""
+

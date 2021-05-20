@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindCxxTest.cmake:6
+msgid "FindCxxTest"
+msgstr ""
+
+#: ../../CMake/Modules/FindCxxTest.cmake:8
+msgid "Find CxxTest unit testing framework."
+msgstr ""
+
+#: ../../CMake/Modules/FindCxxTest.cmake:10
+msgid ""
+"Find the CxxTest suite and declare a helper macro for creating unit tests"
+" and integrating them with CTest.  For more details on CxxTest see "
+"http://cxxtest.tigris.org"
+msgstr ""
+
+#: ../../CMake/Modules/FindCxxTest.cmake:14
+msgid "INPUT Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindCxxTest.cmake:45
+msgid "OUTPUT Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindCxxTest.cmake:66
+msgid "MACROS for optional use by CMake users:"
+msgstr ""
+

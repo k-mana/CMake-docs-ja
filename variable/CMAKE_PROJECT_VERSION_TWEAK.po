@@ -1,0 +1,35 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_PROJECT_VERSION_TWEAK.rst:2
+msgid "CMAKE_PROJECT_VERSION_TWEAK"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_PROJECT_VERSION_TWEAK.rst:6
+msgid "The tweak version of the top level project."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_PROJECT_VERSION_TWEAK.rst:8
+msgid ""
+"This variable holds the tweak version of the project as specified in the "
+"top level CMakeLists.txt file by a :command:`project` command. Please see"
+" :variable:`CMAKE_PROJECT_VERSION` documentation for the behavior when "
+"multiple :command:`project` commands are used in the sources."
+msgstr ""
+

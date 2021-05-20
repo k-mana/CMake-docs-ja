@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/load_command.rst:2
+msgid "load_command"
+msgstr ""
+
+#: ../../CMake/Help/command/load_command.rst:4
+msgid "Disallowed since version 3.0.  See CMake Policy :policy:`CMP0031`."
+msgstr ""
+
+#: ../../CMake/Help/command/load_command.rst:6
+msgid "Load a command into a running CMake."
+msgstr ""
+
+#: ../../CMake/Help/command/load_command.rst:12
+msgid ""
+"The given locations are searched for a library whose name is "
+"cmCOMMAND_NAME.  If found, it is loaded as a module and the command is "
+"added to the set of available CMake commands.  Usually, "
+":command:`try_compile` is used before this command to compile the module."
+"  If the command is successfully loaded a variable named"
+msgstr ""
+
+#: ../../CMake/Help/command/load_command.rst:22
+msgid ""
+"will be set to the full path of the module that was loaded.  Otherwise "
+"the variable will not be set."
+msgstr ""
+

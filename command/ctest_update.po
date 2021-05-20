@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/command/ctest_update.rst:2
+msgid "ctest_update"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_update.rst:4
+msgid "Perform the :ref:`CTest Update Step` as a :ref:`Dashboard Client`."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_update.rst:13
+msgid ""
+"Update the source tree from version control and record results in "
+"``Update.xml`` for submission with the :command:`ctest_submit` command."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_update.rst:16
+msgid "The options are:"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_update.rst:20
+msgid "``SOURCE <source-dir>``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_update.rst:19
+msgid ""
+"Specify the source directory.  If not given, the "
+":variable:`CTEST_SOURCE_DIRECTORY` variable is used."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_update.rst:24
+msgid "``RETURN_VALUE <result-var>``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_update.rst:23
+msgid ""
+"Store in the ``<result-var>`` variable the number of files updated or "
+"``-1`` on error."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_update.rst:30
+msgid "``CAPTURE_CMAKE_ERROR <result-var>``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_update.rst:29
+msgid ""
+"Store in the ``<result-var>`` variable -1 if there are any errors running"
+" the command and prevent ctest from returning non-zero if an error "
+"occurs."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_update.rst:38
+msgid "``QUIET``"
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_update.rst:35
+msgid ""
+"Tell CTest to suppress most non-error messages that it would have "
+"otherwise printed to the console.  CTest will still report the new "
+"revision of the repository and any conflicting files that were found."
+msgstr ""
+
+#: ../../CMake/Help/command/ctest_update.rst:40
+msgid ""
+"The update always follows the version control branch currently checked "
+"out in the source directory.  See the :ref:`CTest Update Step` "
+"documentation for information about variables that change the behavior of"
+" ``ctest_update()``."
+msgstr ""
+

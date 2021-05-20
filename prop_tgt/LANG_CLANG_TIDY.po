@@ -1,0 +1,45 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/LANG_CLANG_TIDY.rst:2
+msgid "<LANG>_CLANG_TIDY"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/LANG_CLANG_TIDY.rst:6
+msgid ""
+"This property is implemented only when ``<LANG>`` is ``C``, ``CXX``, "
+"``OBJC`` or ``OBJCXX``."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/LANG_CLANG_TIDY.rst:8
+msgid ""
+"Specify a :ref:`semicolon-separated list <CMake Language Lists>` "
+"containing a command line for the ``clang-tidy`` tool.  The "
+":ref:`Makefile Generators` and the :generator:`Ninja` generator will run "
+"this tool along with the compiler and report a warning if the tool "
+"reports any problems."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/LANG_CLANG_TIDY.rst:13
+msgid ""
+"This property is initialized by the value of the "
+":variable:`CMAKE_<LANG>_CLANG_TIDY` variable if it is set when a target "
+"is created."
+msgstr ""
+

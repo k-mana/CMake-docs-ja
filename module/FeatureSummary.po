@@ -1,0 +1,371 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FeatureSummary.cmake:6
+msgid "FeatureSummary"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:8
+msgid "Functions for generating a summary of enabled/disabled features."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:10
+msgid ""
+"These functions can be used to generate a summary of enabled and disabled"
+" packages and/or feature for a build tree such as::"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:25
+msgid "Global Properties"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:29
+msgid ""
+"The global property :variable:`FeatureSummary_PKG_TYPES` defines the type"
+" of packages used by `FeatureSummary`."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:32
+msgid ""
+"The order in this list is important, the first package type in the list "
+"is the least important, the last is the most important. the of a package "
+"can only be changed to higher types."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:36
+msgid ""
+"The default package types are , ``RUNTIME``, ``OPTIONAL``, "
+"``RECOMMENDED`` and ``REQUIRED``, and their importance is ``RUNTIME < "
+"OPTIONAL < RECOMMENDED < REQUIRED``."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:43
+msgid ""
+"The global property :variable:`FeatureSummary_REQUIRED_PKG_TYPES` defines"
+" which package types are required."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:46
+msgid ""
+"If one or more package in this categories has not been found, CMake will "
+"abort when calling :command:`feature_summary` with the "
+"'FATAL_ON_MISSING_REQUIRED_PACKAGES' option enabled."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:50
+msgid "The default value for this global property is ``REQUIRED``."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:55
+msgid ""
+"The global property :variable:`FeatureSummary_DEFAULT_PKG_TYPE` defines "
+"which package type is the default one. When calling "
+":command:`feature_summary`, if the user did not set the package type "
+"explicitly, the package will be assigned to this category."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:60
+msgid ""
+"This value must be one of the types defined in the "
+":variable:`FeatureSummary_PKG_TYPES` global property unless the package "
+"type is set for all the packages."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:64
+msgid "The default value for this global property is ``OPTIONAL``."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:71
+msgid ""
+"The global property :variable:`FeatureSummary_<TYPE>_DESCRIPTION` can be "
+"defined for each type to replace the type name with the specified string "
+"whenever the package type is used in an output string."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:75
+msgid "If not set, the string \"``<TYPE>`` packages\" is used."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:98
+msgid "Functions"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:217
+msgid ""
+"The ``feature_summary()`` macro can be used to print information about "
+"enabled or disabled packages or features of a project.  By default, only "
+"the names of the features/packages will be printed and their required "
+"version when one was specified.  Use ``set_package_properties()`` to add "
+"more useful information, like e.g.  a download URL for the respective "
+"package or their purpose in the project."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:224
+msgid ""
+"The ``WHAT`` option is the only mandatory option.  Here you specify what "
+"information will be printed:"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:227
+msgid "``ALL``"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:228
+msgid "print everything"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:229
+msgid "``ENABLED_FEATURES``"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:230
+msgid "the list of all features which are enabled"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:231
+msgid "``DISABLED_FEATURES``"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:232
+msgid "the list of all features which are disabled"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:233
+msgid "``PACKAGES_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:234
+msgid "the list of all packages which have been found"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:236
+msgid "``PACKAGES_NOT_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:236
+msgid "the list of all packages which have not been found"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:238
+msgid ""
+"For each package type ``<TYPE>`` defined by the "
+":variable:`FeatureSummary_PKG_TYPES` global property, the following "
+"information can also be used:"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:242
+msgid "``<TYPE>_PACKAGES_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:243
+msgid "only those packages which have been found which have the type <TYPE>"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:245
+msgid "``<TYPE>_PACKAGES_NOT_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:245
+msgid "only those packages which have not been found which have the type <TYPE>"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:247
+msgid ""
+"With the exception of the ``ALL`` value, these values can be combined in "
+"order to customize the output. For example:"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:255
+msgid ""
+"If a ``FILENAME`` is given, the information is printed into this file.  "
+"If ``APPEND`` is used, it is appended to this file, otherwise the file is"
+" overwritten if it already existed.  If the VAR option is used, the "
+"information is \"printed\" into the specified variable.  If ``FILENAME`` "
+"is not used, the information is printed to the terminal.  Using the "
+"``DESCRIPTION`` option a description or headline can be set which will be"
+" printed above the actual content.  If only one type of package was "
+"requested, no title is printed, unless it is explicitly set using either "
+"``DESCRIPTION`` to use a custom string, or ``DEFAULT_DESCRIPTION`` to use"
+" a default title for the requested type. If ``INCLUDE_QUIET_PACKAGES`` is"
+" given, packages which have been searched with ``find_package(... "
+"QUIET)`` will also be listed. By default they are skipped. If "
+"``FATAL_ON_MISSING_REQUIRED_PACKAGES`` is given, CMake will abort if a "
+"package which is marked as one of the package types listed in the "
+":variable:`FeatureSummary_REQUIRED_PKG_TYPES` global property has not "
+"been found. The default value for the "
+":variable:`FeatureSummary_REQUIRED_PKG_TYPES` global property is "
+"``REQUIRED``."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:274
+msgid "The ``DEFAULT_DESCRIPTION`` option."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:277
+msgid ""
+"The :variable:`FeatureSummary_DEFAULT_PKG_TYPE` global property can be "
+"modified to change the default package type assigned when not explicitly "
+"assigned by the user."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:281
+msgid ""
+"If the ``QUIET_ON_EMPTY`` option is used, if only one type of package was"
+" requested, and no packages belonging to that category were found, then "
+"no output (including the ``DESCRIPTION``) is printed or added to the "
+"``VAR`` variable."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:287
+msgid "Example 1, append everything to a file:"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:295
+msgid ""
+"Example 2, print the enabled features into the variable "
+"enabledFeaturesText, including QUIET packages:"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:307
+msgid ""
+"Example 3, change default package types and print only the categories "
+"that are not empty:"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:481
+msgid ""
+"Use this macro to set up information about the named package, which can "
+"then be displayed via FEATURE_SUMMARY().  This can be done either "
+"directly in the Find-module or in the project which uses the module after"
+" the find_package() call.  The features for which information can be set "
+"are added automatically by the find_package() command."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:489
+msgid "``URL <url>``"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:488
+msgid ""
+"This should be the homepage of the package, or something similar. Ideally"
+" this is set already directly in the Find-module."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:493
+msgid "``DESCRIPTION <description>``"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:492
+msgid ""
+"A short description what that package is, at most one sentence. Ideally "
+"this is set already directly in the Find-module."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:514
+msgid "``TYPE <type>``"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:496
+msgid ""
+"What type of dependency has the using project on that package. Default is"
+" ``OPTIONAL``.  In this case it is a package which can be used by the "
+"project when available at buildtime, but it also work without. "
+"``RECOMMENDED`` is similar to ``OPTIONAL``, i.e.  the project will build "
+"if the package is not present, but the functionality of the resulting "
+"binaries will be severely limited.  If a ``REQUIRED`` package is not "
+"available at buildtime, the project may not even build.  This can be "
+"combined with the ``FATAL_ON_MISSING_REQUIRED_PACKAGES`` argument for "
+"``feature_summary()``.  Last, a ``RUNTIME`` package is a package which is"
+" actually not used at all during the build, but which is required for "
+"actually running the resulting binaries.  So if such a package is "
+"missing, the project can still be built, but it may not work later on. If"
+" ``set_package_properties()`` is called multiple times for the same "
+"package with different TYPEs, the ``TYPE`` is only changed to higher "
+"TYPEs (``RUNTIME < OPTIONAL < RECOMMENDED < REQUIRED``), lower TYPEs are "
+"ignored.  The ``TYPE`` property is project-specific, so it cannot be set "
+"by the Find-module, but must be set in the project. Type accepted can be "
+"changed by setting the :variable:`FeatureSummary_PKG_TYPES` global "
+"property."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:523
+msgid "``PURPOSE <purpose>``"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:517
+msgid ""
+"This describes which features this package enables in the project, i.e.  "
+"it tells the user what functionality he gets in the resulting binaries.  "
+"If set_package_properties() is called multiple times for a package, all "
+"PURPOSE properties are appended to a list of purposes of the package in "
+"the project.  As the TYPE property, also the PURPOSE property is project-"
+"specific, so it cannot be set by the Find-module, but must be set in the "
+"project."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:525
+msgid "Example for setting the info for a package:"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:620
+msgid ""
+"Use this macro to add information about a feature with the given "
+"``<name>``. ``<enabled>`` contains whether this feature is enabled or "
+"not. It can be a variable or a list of conditions. ``<description>`` is a"
+" text describing the feature.  The information can be displayed using "
+"``feature_summary()`` for ``ENABLED_FEATURES`` and ``DISABLED_FEATURES`` "
+"respectively."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:627
+msgid "``<enabled>`` can be a list of conditions."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:630
+msgid "Example for setting the info for a feature:"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:661
+msgid "Legacy Macros"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:663
+msgid ""
+"The following macros are provided for compatibility with previous CMake "
+"versions:"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:672
+msgid ""
+"Use this macro to set up information about the named package, which can "
+"then be displayed via ``feature_summary()``.  This can be done either "
+"directly in the Find-module or in the project which uses the module after"
+" the :command:`find_package` call.  The features for which information "
+"can be set are added automatically by the ``find_package()`` command."
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:704
+msgid "Does the same as::"
+msgstr ""
+
+#: ../../CMake/Modules/FeatureSummary.cmake:720
+#: ../../CMake/Modules/FeatureSummary.cmake:739
+msgid "Does the same as"
+msgstr ""
+

@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindPackageMessage.cmake:6
+msgid "FindPackageMessage"
+msgstr ""
+
+#: ../../CMake/Modules/FindPackageMessage.cmake:12
+msgid ""
+"This function is intended to be used in FindXXX.cmake modules files. It "
+"will print a message once for each unique find result.  This is useful "
+"for telling the user where a package was found.  The first argument "
+"specifies the name (XXX) of the package.  The second argument specifies "
+"the message to display.  The third argument lists details about the find "
+"result so that if they change the message will be displayed again.  The "
+"macro also obeys the QUIET argument to the find_package command."
+msgstr ""
+
+#: ../../CMake/Modules/FindPackageMessage.cmake:21
+msgid "Example:"
+msgstr ""
+

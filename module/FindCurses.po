@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/FindCurses.cmake:6
+msgid "FindCurses"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:8
+msgid "Find the curses or ncurses include file and library."
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:11
+msgid "Result Variables"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:13
+msgid "This module defines the following variables:"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:15
+msgid "``CURSES_FOUND``"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:16
+msgid "True if Curses is found."
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:17
+msgid "``CURSES_INCLUDE_DIRS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:18
+msgid "The include directories needed to use Curses."
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:19
+msgid "``CURSES_LIBRARIES``"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:20
+msgid "The libraries needed to use Curses."
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:23
+msgid "``CURSES_CFLAGS``"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:24
+msgid "Parameters which ought be given to C/C++ compilers when using Curses."
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:25
+msgid "``CURSES_HAVE_CURSES_H``"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:26
+msgid "True if curses.h is available."
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:27
+msgid "``CURSES_HAVE_NCURSES_H``"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:28
+msgid "True if ncurses.h is available."
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:29
+msgid "``CURSES_HAVE_NCURSES_NCURSES_H``"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:30
+msgid "True if ``ncurses/ncurses.h`` is available."
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:32
+msgid "``CURSES_HAVE_NCURSES_CURSES_H``"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:32
+msgid "True if ``ncurses/curses.h`` is available."
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:34
+msgid ""
+"Set ``CURSES_NEED_NCURSES`` to ``TRUE`` before the "
+"``find_package(Curses)`` call if NCurses functionality is required."
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:37
+msgid ""
+"Set ``CURSES_NEED_WIDE`` to ``TRUE`` before the ``find_package(Curses)`` "
+"call if unicode functionality is required."
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:42
+msgid "Backward Compatibility"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:44
+msgid "The following variable are provided for backward compatibility:"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:46
+msgid "``CURSES_INCLUDE_DIR``"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:47
+msgid "Path to Curses include.  Use ``CURSES_INCLUDE_DIRS`` instead."
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:276
+msgid "``CURSES_LIBRARY``"
+msgstr ""
+
+#: ../../CMake/Modules/FindCurses.cmake:49
+msgid "Path to Curses library.  Use ``CURSES_LIBRARIES`` instead."
+msgstr ""
+

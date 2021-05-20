@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Modules/CMakeAddFortranSubdirectory.cmake:6
+msgid "CMakeAddFortranSubdirectory"
+msgstr ""
+
+#: ../../CMake/Modules/CMakeAddFortranSubdirectory.cmake:8
+msgid "Add a fortran-only subdirectory, find a fortran compiler, and build."
+msgstr ""
+
+#: ../../CMake/Modules/CMakeAddFortranSubdirectory.cmake:10
+msgid ""
+"The ``cmake_add_fortran_subdirectory`` function adds a subdirectory to a "
+"project that contains a fortran-only subproject.  The module will check "
+"the current compiler and see if it can support fortran.  If no fortran "
+"compiler is found and the compiler is MSVC, then this module will find "
+"the MinGW gfortran.  It will then use an external project to build with "
+"the MinGW tools.  It will also create imported targets for the libraries "
+"created.  This will only work if the fortran code is built into a dll, so"
+" :variable:`BUILD_SHARED_LIBS` is turned on in the project.  In addition "
+"the :variable:`CMAKE_GNUtoMS` option is set to on, so that Microsoft "
+"``.lib`` files are created.  Usage is as follows:"
+msgstr ""
+
+#: ../../CMake/Modules/CMakeAddFortranSubdirectory.cmake:35
+msgid ""
+"Relative paths in ``ARCHIVE_DIR`` and ``RUNTIME_DIR`` are interpreted "
+"with respect to the build directory corresponding to the source directory"
+" in which the function is invoked."
+msgstr ""
+
+#: ../../CMake/Modules/CMakeAddFortranSubdirectory.cmake:39
+msgid "Limitations:"
+msgstr ""
+
+#: ../../CMake/Modules/CMakeAddFortranSubdirectory.cmake:41
+msgid ""
+"``NO_EXTERNAL_INSTALL`` is required for forward compatibility with a "
+"future version that supports installation of the external project "
+"binaries during ``make install``."
+msgstr ""
+

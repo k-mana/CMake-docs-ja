@@ -1,0 +1,78 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MACRO_NAMES.rst:2
+msgid "AUTOMOC_MACRO_NAMES"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MACRO_NAMES.rst:6
+msgid ""
+"A :ref:`semicolon-separated list <CMake Language Lists>` list of macro "
+"names used by :prop_tgt:`AUTOMOC` to determine if a C++ file needs to be "
+"processed by ``moc``."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MACRO_NAMES.rst:9
+msgid ""
+"This property is only used if the :prop_tgt:`AUTOMOC` property is ``ON`` "
+"for this target."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MACRO_NAMES.rst:12
+msgid ""
+"When running :prop_tgt:`AUTOMOC`, CMake searches for the strings listed "
+"in :prop_tgt:`AUTOMOC_MACRO_NAMES` in C++ source and header files. If any"
+" of the strings is found"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MACRO_NAMES.rst:16
+msgid "as the first non space string on a new line or"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MACRO_NAMES.rst:17
+msgid "as the first non space string after a ``{`` on a new line,"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MACRO_NAMES.rst:19
+msgid "then the file will be processed by ``moc``."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MACRO_NAMES.rst:21
+msgid ""
+"By default :prop_tgt:`AUTOMOC_MACRO_NAMES` is initialized from "
+":variable:`CMAKE_AUTOMOC_MACRO_NAMES`."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MACRO_NAMES.rst:24
+msgid ""
+"See the :manual:`cmake-qt(7)` manual for more information on using CMake "
+"with Qt."
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MACRO_NAMES.rst:28
+msgid "Example"
+msgstr ""
+
+#: ../../CMake/Help/prop_tgt/AUTOMOC_MACRO_NAMES.rst:30
+msgid ""
+"In this case the ``Q_OBJECT`` macro is hidden inside another macro called"
+" ``CUSTOM_MACRO``.  To let CMake know that source files that contain "
+"``CUSTOM_MACRO`` need to be ``moc`` processed, we call::"
+msgstr ""
+

@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2000-2021 Kitware, Inc. and Contributors
+# This file is distributed under the same license as the CMake package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CMake 3.20.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-19 02:30+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_PREFER_CONFIG.rst:2
+msgid "CMAKE_FIND_PACKAGE_PREFER_CONFIG"
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_PREFER_CONFIG.rst:6
+msgid ""
+"Tell :command:`find_package` to try \"Config\" mode before \"Module\" "
+"mode if no mode was specified."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_PREFER_CONFIG.rst:9
+msgid ""
+"The command :command:`find_package` operates without an explicit mode "
+"when the reduced signature is used without the ``MODULE`` option. In this"
+" case, by default, CMake first tries Module mode by searching for a "
+"``Find<pkg>.cmake`` module.  If it fails, CMake then searches for the "
+"package using Config mode."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_PREFER_CONFIG.rst:15
+msgid ""
+"Set ``CMAKE_FIND_PACKAGE_PREFER_CONFIG`` to ``TRUE`` to tell "
+":command:`find_package` to first search using Config mode before falling "
+"back to Module mode."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_PREFER_CONFIG.rst:19
+msgid ""
+"This variable may be useful when a developer has compiled a custom "
+"version of a common library and wishes to link it to a dependent project."
+"  If this variable is set to ``TRUE``, it would prevent a dependent "
+"project's call to :command:`find_package` from selecting the default "
+"library located by the system's ``Find<pkg>.cmake`` module before finding"
+" the developer's custom built library."
+msgstr ""
+
+#: ../../CMake/Help/variable/CMAKE_FIND_PACKAGE_PREFER_CONFIG.rst:26
+msgid ""
+"Once this variable is set, it is the responsibility of the exported "
+"``<pkg>Config.cmake`` files to provide the same result variables as the "
+"``Find<pkg>.cmake`` modules so that dependent projects can use them "
+"interchangeably."
+msgstr ""
+
